@@ -30,7 +30,10 @@ class Solution(object):
         lastNum = nums1[0] - 1
         for num in nums1:
             if lastNum != num:
-                if self.binarySearch(nums2, num) != -1:
+                tmp = self.binarySearch(nums2, num)
+                if tmp != -1:
+                    self.low = tmp
                     result.append(num)
                 lastNum = num
         return result
+        
