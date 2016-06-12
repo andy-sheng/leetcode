@@ -1,11 +1,14 @@
 class Solution(object):
+    def __init__(self):
+        self.low = 0
+        self.length = 0
+        
     def binarySearch(self, arr, target):
-        low = 0
-        high = len(arr) - 1
-        while low <= high:
-            mid = low + (high - low) / 2
+        high = self.length
+        while self.low <= high:
+            mid = self.low + (high - self.low) / 2
             if arr[mid] < target:
-                low = mid + 1
+                self.low = mid + 1
             elif arr[mid] > target:
                 high = mid - 1
             else:
@@ -21,6 +24,8 @@ class Solution(object):
         
         nums1.sort()
         nums2.sort()
+
+        self.length = len(nums2) - 1
         
         lastNum = nums1[0] - 1
         for num in nums1:
