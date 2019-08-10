@@ -7,13 +7,8 @@
 //
 
 #include <iostream>
-#include "1025. Divisor Game.h"
+
 int main(int argc, const char * argv[]) {
-    
-    DivisorGame::Solution solution = DivisorGame::Solution();
-    std::cout << solution.divisorGame(5) << std::endl;
-    
-    
     
     return 0;
 }

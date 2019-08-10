@@ -27,6 +27,7 @@
 		A169987122FEBF6200F640E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A169987A22FEC07C00F640E5 /* 1025. Divisor Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
 		A169987B22FEC18700F640E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A169987F22FECD1900F640E5 /* 746. Min Cost Climbing Stairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "746. Min Cost Climbing Stairs.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A169987E22FECD1900F640E5 /* 746. Min Cost Climbing Stairs */,
 				A169987922FEC05000F640E5 /* 1025.Divisor Game */,
 			);
 			path = alog;
@@ -81,6 +83,15 @@
 			);
 			name = "1025.Divisor Game";
 			path = "../../1025.Divisor Game";
+			sourceTree = "<group>";
+		};
+		A169987E22FECD1900F640E5 /* 746. Min Cost Climbing Stairs */ = {
+			isa = PBXGroup;
+			children = (
+				A169987F22FECD1900F640E5 /* 746. Min Cost Climbing Stairs.h */,
+			);
+			name = "746. Min Cost Climbing Stairs";
+			path = "../../746. Min Cost Climbing Stairs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
