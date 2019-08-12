@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A12C28932301BC2600A4554E /* 877. Stone Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "877. Stone Game.h"; sourceTree = "<group>"; };
 		A169986E22FEBF6200F640E5 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169987122FEBF6200F640E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A169987A22FEC07C00F640E5 /* 1025. Divisor Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
@@ -41,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A12C28922301BC0200A4554E /* 877. Stone Game */ = {
+			isa = PBXGroup;
+			children = (
+				A12C28932301BC2600A4554E /* 877. Stone Game.h */,
+			);
+			path = "877. Stone Game";
+			sourceTree = "<group>";
+		};
 		A169986522FEBF6200F640E5 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +78,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A12C28922301BC0200A4554E /* 877. Stone Game */,
 				A169987E22FECD1900F640E5 /* 746. Min Cost Climbing Stairs */,
 				A169987922FEC05000F640E5 /* 1025.Divisor Game */,
 			);
