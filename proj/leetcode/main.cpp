@@ -7,8 +7,11 @@
 //
 
 #include <iostream>
-
+#include "2. Add Two Numbers.h"
 int main(int argc, const char * argv[]) {
+    
+    AddTwoNumber::Solution solution = AddTwoNumber::Solution();
+    
     
     return 0;
 }
