@@ -3,14 +3,15 @@
 //  leetcode
 //
 //  Created by andysheng on 2019/8/10.
-//  Copyright © 2019 盛旭辉. All rights reserved.
+//  Copyright © 2019 Andy. All rights reserved.
 //
 
 #include <iostream>
-#include "2. Add Two Numbers.h"
+#include "1108. Defanging an IP Address.h"
+
 int main(int argc, const char * argv[]) {
+    std::cout << DefangingAnIPAddr::Solution().defangIPaddr("192.168.1.1") << std::endl;
     
-    AddTwoNumber::Solution solution = AddTwoNumber::Solution();
     
     
     return 0;

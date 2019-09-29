@@ -3,7 +3,7 @@
 //  leetcode
 //
 //  Created by andysheng on 2019/8/10.
-//  Copyright © 2019 盛旭辉. All rights reserved.
+//  Copyright © 2019 Andy. All rights reserved.
 //
 
 #ifndef _46__Min_Cost_Climbing_Stairs_h

@@ -3,7 +3,7 @@
 //  leetcode
 //
 //  Created by andysheng on 2019/8/12.
-//  Copyright © 2019 盛旭辉. All rights reserved.
+//  Copyright © 2019 Andy. All rights reserved.
 //
 
 #ifndef _77__Stone_Game_h
