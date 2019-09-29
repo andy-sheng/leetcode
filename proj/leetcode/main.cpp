@@ -7,10 +7,10 @@
 //
 
 #include <iostream>
-#include "1108. Defanging an IP Address.h"
+#include "938. Range Sum of BST.h"
 
 int main(int argc, const char * argv[]) {
-    std::cout << DefangingAnIPAddr::Solution().defangIPaddr("192.168.1.1") << std::endl;
+    RangeSumOfBST::Solution();
     
     
     

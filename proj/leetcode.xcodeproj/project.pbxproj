@@ -26,6 +26,8 @@
 		A12C28932301BC2600A4554E /* 877. Stone Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "877. Stone Game.h"; sourceTree = "<group>"; };
 		A12C289523095F3D00A4554E /* 2. Add Two Numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2. Add Two Numbers.h"; sourceTree = "<group>"; };
 		A12C8ADA23411E6B000036C8 /* 1108. Defanging an IP Address.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1108. Defanging an IP Address.h"; sourceTree = "<group>"; };
+		A12C8ADC23412343000036C8 /* 938. Range Sum of BST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "938. Range Sum of BST.h"; sourceTree = "<group>"; };
+		A12C8ADD234124DC000036C8 /* DataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructures.h; sourceTree = "<group>"; };
 		A169986E22FEBF6200F640E5 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169987122FEBF6200F640E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A169987A22FEC07C00F640E5 /* 1025. Divisor Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 			path = "1108. Defanging an IP Address";
 			sourceTree = "<group>";
 		};
+		A12C8ADB23412336000036C8 /* 938. Range Sum of BST */ = {
+			isa = PBXGroup;
+			children = (
+				A12C8ADC23412343000036C8 /* 938. Range Sum of BST.h */,
+			);
+			path = "938. Range Sum of BST";
+			sourceTree = "<group>";
+		};
 		A169986522FEBF6200F640E5 = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +106,13 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A12C8ADB23412336000036C8 /* 938. Range Sum of BST */,
 				A12C8AD923411E4C000036C8 /* 1108. Defanging an IP Address */,
 				A12C289423095F1100A4554E /* 2. Add Two Numbers */,
 				A12C28922301BC0200A4554E /* 877. Stone Game */,
 				A169987E22FECD1900F640E5 /* 746. Min Cost Climbing Stairs */,
 				A169987922FEC05000F640E5 /* 1025.Divisor Game */,
+				A12C8ADD234124DC000036C8 /* DataStructures.h */,
 			);
 			path = alog;
 			sourceTree = "<group>";
@@ -151,7 +163,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1030;
-				ORGANIZATIONNAME = "Andy";
+				ORGANIZATIONNAME = Andy;
 				TargetAttributes = {
 					A169986D22FEBF6200F640E5 = {
 						CreatedOnToolsVersion = 10.3;
