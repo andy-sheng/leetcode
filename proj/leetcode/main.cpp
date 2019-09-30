@@ -7,11 +7,11 @@
 //
 
 #include <iostream>
-#include "938. Range Sum of BST.h"
+#include "709. To Lower Case.h"
 
 int main(int argc, const char * argv[]) {
-    RangeSumOfBST::Solution();
     
+    std::cout << ToLowerCase::Solution().toLowerCase("aAAbbbb") << std::endl;
     
     
     return 0;

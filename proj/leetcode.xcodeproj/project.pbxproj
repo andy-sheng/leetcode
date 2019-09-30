@@ -28,6 +28,8 @@
 		A12C8ADA23411E6B000036C8 /* 1108. Defanging an IP Address.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1108. Defanging an IP Address.h"; sourceTree = "<group>"; };
 		A12C8ADC23412343000036C8 /* 938. Range Sum of BST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "938. Range Sum of BST.h"; sourceTree = "<group>"; };
 		A12C8ADD234124DC000036C8 /* DataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructures.h; sourceTree = "<group>"; };
+		A12C8AE223426EC5000036C8 /* 771. Jewels and Stones.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "771. Jewels and Stones.h"; sourceTree = "<group>"; };
+		A12C8AE4234271E5000036C8 /* 709. To Lower Case.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "709. To Lower Case.h"; sourceTree = "<group>"; };
 		A169986E22FEBF6200F640E5 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169987122FEBF6200F640E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A169987A22FEC07C00F640E5 /* 1025. Divisor Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
@@ -78,6 +80,22 @@
 			path = "938. Range Sum of BST";
 			sourceTree = "<group>";
 		};
+		A12C8AE123426EB7000036C8 /* 771. Jewels and Stones */ = {
+			isa = PBXGroup;
+			children = (
+				A12C8AE223426EC5000036C8 /* 771. Jewels and Stones.h */,
+			);
+			path = "771. Jewels and Stones";
+			sourceTree = "<group>";
+		};
+		A12C8AE3234271DB000036C8 /* 709. To Lower Case */ = {
+			isa = PBXGroup;
+			children = (
+				A12C8AE4234271E5000036C8 /* 709. To Lower Case.h */,
+			);
+			path = "709. To Lower Case";
+			sourceTree = "<group>";
+		};
 		A169986522FEBF6200F640E5 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +124,8 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A12C8AE3234271DB000036C8 /* 709. To Lower Case */,
+				A12C8AE123426EB7000036C8 /* 771. Jewels and Stones */,
 				A12C8ADB23412336000036C8 /* 938. Range Sum of BST */,
 				A12C8AD923411E4C000036C8 /* 1108. Defanging an IP Address */,
 				A12C289423095F1100A4554E /* 2. Add Two Numbers */,
