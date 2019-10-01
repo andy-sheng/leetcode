@@ -7,13 +7,9 @@
 //
 
 #include <iostream>
-#include "665. Non-decreasing Array.h"
-#include <vector>
 
 int main(int argc, const char * argv[]) {
-    std::vector<int> values {4,2,3};
     
-    std::cout << NonDecreasingArray::Solution().checkPossibility(values) << std::endl;
     
     
     return 0;
