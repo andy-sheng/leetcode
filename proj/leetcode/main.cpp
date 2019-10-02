@@ -7,17 +7,11 @@
 //
 
 #include <iostream>
-#include "707. Design Linked List.h"
+#include "859. Buddy Strings.h"
 
 int main(int argc, const char * argv[]) {
     
-    DesignLinkedList::MyLinkedList myLinkedList();
-    myLinkedList().addAtHead(1);
-    myLinkedList().addAtTail(3);
-    myLinkedList().addAtIndex(1, 2);
-    std::cout << myLinkedList().get(1) << std::endl;
-    myLinkedList().deleteAtIndex(0);
-    myLinkedList().get(0);
+    std::cout << BuddyStrings::Solution().buddyStrings("aa", "aa") << std::endl;
     
     return 0;
 }

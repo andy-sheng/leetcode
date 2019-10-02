@@ -32,6 +32,7 @@
 		A12C8AE4234271E5000036C8 /* 709. To Lower Case.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "709. To Lower Case.h"; sourceTree = "<group>"; };
 		A12C8AE623427645000036C8 /* 665. Non-decreasing Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "665. Non-decreasing Array.h"; sourceTree = "<group>"; };
 		A12C8AE82344F6E7000036C8 /* 707. Design Linked List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "707. Design Linked List.h"; sourceTree = "<group>"; };
+		A12C8AEA234503CA000036C8 /* 859. Buddy Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "859. Buddy Strings.h"; sourceTree = "<group>"; };
 		A169986E22FEBF6200F640E5 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169987122FEBF6200F640E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A169987A22FEC07C00F640E5 /* 1025. Divisor Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
@@ -114,6 +115,14 @@
 			path = "707. Design Linked List";
 			sourceTree = "<group>";
 		};
+		A12C8AE9234503BC000036C8 /* 859. Buddy Strings */ = {
+			isa = PBXGroup;
+			children = (
+				A12C8AEA234503CA000036C8 /* 859. Buddy Strings.h */,
+			);
+			path = "859. Buddy Strings";
+			sourceTree = "<group>";
+		};
 		A169986522FEBF6200F640E5 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +151,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A12C8AE9234503BC000036C8 /* 859. Buddy Strings */,
 				A12C8AE72344F6C9000036C8 /* 707. Design Linked List */,
 				A12C8AE523427639000036C8 /* 665. Non-decreasing Array */,
 				A12C8AE3234271DB000036C8 /* 709. To Lower Case */,
