@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "532. K-diff Pairs in an Array.h"
+#include "605. Can Place Flowers.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> input {3,1,4,1,5};
-    std::cout << KDiffPairsInAnArray::Solution().findPairs(input, 0) << std::endl;
+    vector<int> input {1,0,0,0,1,0,0};
+    std::cout << CanPlaceFlowers::Solution().canPlaceFlowers(input, 1) << std::endl;
     
     return 0;
 }
