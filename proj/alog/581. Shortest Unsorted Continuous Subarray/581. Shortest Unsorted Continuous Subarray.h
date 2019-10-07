@@ -17,10 +17,8 @@ namespace ShortestUnsortedContinuousSubarray {
     class Solution {
     public:
         int findUnsortedSubarray(vector<int>& nums) {
-            int ret = 0;
-            
             int lowBoundary  = -1;
-            int highBoundary = -2;
+            int highBoundary = -2; // just for ascending input case. (-2 - -1 + 1 = 0)
             
             // find left boundary
             for (int i = 0; i < nums.size() - 1; ++i) {
