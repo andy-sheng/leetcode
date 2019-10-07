@@ -7,12 +7,11 @@
 //
 
 #include <iostream>
-#include "581. Shortest Unsorted Continuous Subarray.h"
+#include "686. Repeated String Match.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> input {2,1};
-    std::cout << ShortestUnsortedContinuousSubarray::Solution().findUnsortedSubarray(input) << std::endl;
+    std::cout << RepeatedStringMatch::Solution().repeatedStringMatch("aaaaaaaaaaab", "ba") << std::endl;
     
     return 0;
 }
