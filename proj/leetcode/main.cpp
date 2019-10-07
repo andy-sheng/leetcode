@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "605. Can Place Flowers.h"
+#include "581. Shortest Unsorted Continuous Subarray.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> input {1,0,0,0,1,0,0};
-    std::cout << CanPlaceFlowers::Solution().canPlaceFlowers(input, 1) << std::endl;
+    vector<int> input {2,1};
+    std::cout << ShortestUnsortedContinuousSubarray::Solution().findUnsortedSubarray(input) << std::endl;
     
     return 0;
 }
