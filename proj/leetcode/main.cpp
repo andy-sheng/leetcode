@@ -7,11 +7,22 @@
 //
 
 #include <iostream>
-#include "686. Repeated String Match.h"
+#include "69. Sqrt(x).h"
+#include <math.h>
 
 int main(int argc, const char * argv[]) {
     
-    std::cout << RepeatedStringMatch::Solution().repeatedStringMatch("aaaaaaaaaaab", "ba") << std::endl;
+    for (int i = 0; i < 10000; ++i) {
+        int a = Sqrt::Solution().mySqrt(i);
+        int b = sqrt(i);
+        if (a != b) {
+            std::cout << "i:"<<i<<" a:" <<a<<" b:"<<b  << std::endl;
+        }
+    }
+    
+//    std::cout << Sqrt::Solution().mySqrt(1) << std::endl;
+    
+    
     
     return 0;
 }
