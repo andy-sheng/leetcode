@@ -7,20 +7,14 @@
 //
 
 #include <iostream>
-#include "69. Sqrt(x).h"
+#include "633. Sum of Square Numbers.h"
 #include <math.h>
 
 int main(int argc, const char * argv[]) {
     
-    for (int i = 0; i < 10000; ++i) {
-        int a = Sqrt::Solution().mySqrt(i);
-        int b = sqrt(i);
-        if (a != b) {
-            std::cout << "i:"<<i<<" a:" <<a<<" b:"<<b  << std::endl;
-        }
-    }
+
     
-//    std::cout << Sqrt::Solution().mySqrt(1) << std::endl;
+    std::cout << SumOfSquareNumbers::Solution().judgeSquareSum(6) << std::endl;
     
     
     
