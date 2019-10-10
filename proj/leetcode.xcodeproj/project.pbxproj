@@ -44,6 +44,8 @@
 		A169987F22FECD1900F640E5 /* 746. Min Cost Climbing Stairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "746. Min Cost Climbing Stairs.h"; sourceTree = "<group>"; };
 		A1DD7195234CEC5B003E8052 /* 69. Sqrt(x).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "69. Sqrt(x).h"; sourceTree = "<group>"; };
 		A1DD7197234CF61E003E8052 /* 633. Sum of Square Numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "633. Sum of Square Numbers.h"; sourceTree = "<group>"; };
+		A1DD7199234CFBF2003E8052 /* 874. Walking Robot Simulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "874. Walking Robot Simulation.h"; sourceTree = "<group>"; };
+		A1DD71BB234F9780003E8052 /* 807. Max Increase to Keep City Skyline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "807. Max Increase to Keep City Skyline.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,8 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1DD71BA234F9778003E8052 /* 807. Max Increase to Keep City Skyline */,
+				A1DD7198234CFBEA003E8052 /* 874. Walking Robot Simulation */,
 				A1DD7196234CF613003E8052 /* 633. Sum of Square Numbers */,
 				A1DD7194234CEC50003E8052 /* 69. Sqrt(x) */,
 				A12C8AF3234BA0F6000036C8 /* 686. Repeated String Match */,
@@ -244,6 +248,22 @@
 				A1DD7197234CF61E003E8052 /* 633. Sum of Square Numbers.h */,
 			);
 			path = "633. Sum of Square Numbers";
+			sourceTree = "<group>";
+		};
+		A1DD7198234CFBEA003E8052 /* 874. Walking Robot Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD7199234CFBF2003E8052 /* 874. Walking Robot Simulation.h */,
+			);
+			path = "874. Walking Robot Simulation";
+			sourceTree = "<group>";
+		};
+		A1DD71BA234F9778003E8052 /* 807. Max Increase to Keep City Skyline */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD71BB234F9780003E8052 /* 807. Max Increase to Keep City Skyline.h */,
+			);
+			path = "807. Max Increase to Keep City Skyline";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
