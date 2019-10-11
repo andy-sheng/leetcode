@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "807. Max Increase to Keep City Skyline.h"
+#include "1038. Binary Search Tree to Greater Sum Tree.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<vector<int>> grid {{3, 0, 8, 4},{2, 4, 5, 7},{9, 2, 6, 3},{0, 3, 1, 0}};
-    cout << MaxIncreaseToKeepCitySkyline::Solution().maxIncreaseKeepingSkyline(grid) << endl;
+    
+    std::cout << BinarySearchTreeToGreatSumTree::Solution().bstToGst(NULL) << std::endl;
     
     
     
