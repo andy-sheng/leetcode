@@ -47,6 +47,7 @@
 		A1DD7199234CFBF2003E8052 /* 874. Walking Robot Simulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "874. Walking Robot Simulation.h"; sourceTree = "<group>"; };
 		A1DD71BB234F9780003E8052 /* 807. Max Increase to Keep City Skyline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "807. Max Increase to Keep City Skyline.h"; sourceTree = "<group>"; };
 		A1DD71BD2350E8CA003E8052 /* 1038. Binary Search Tree to Greater Sum Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1038. Binary Search Tree to Greater Sum Tree.h"; sourceTree = "<group>"; };
+		A1DD71BF23523B75003E8052 /* 535. Encode and Decode TinyURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "535. Encode and Decode TinyURL.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +193,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1DD71BE23523B6B003E8052 /* 535. Encode and Decode TinyURL */,
 				A1DD71BC2350E8BA003E8052 /* 1038. Binary Search Tree to Greater Sum Tree */,
 				A1DD71BA234F9778003E8052 /* 807. Max Increase to Keep City Skyline */,
 				A1DD7198234CFBEA003E8052 /* 874. Walking Robot Simulation */,
@@ -274,6 +276,14 @@
 				A1DD71BD2350E8CA003E8052 /* 1038. Binary Search Tree to Greater Sum Tree.h */,
 			);
 			path = "1038. Binary Search Tree to Greater Sum Tree";
+			sourceTree = "<group>";
+		};
+		A1DD71BE23523B6B003E8052 /* 535. Encode and Decode TinyURL */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD71BF23523B75003E8052 /* 535. Encode and Decode TinyURL.h */,
+			);
+			path = "535. Encode and Decode TinyURL";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

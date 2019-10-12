@@ -7,12 +7,20 @@
 //
 
 #include <iostream>
-#include "1038. Binary Search Tree to Greater Sum Tree.h"
+#include "535. Encode and Decode TinyURL.h"
 
 int main(int argc, const char * argv[]) {
     
+    EncodeAndDecodeTinyURL::Solution solution;
+    for (int i = 0; i < 10000; ++i) {
+        string longUrl = solution.transformInt2String(i);
+        string shortUrl = solution.encode(longUrl);
+        string decodeUrl = solution.decode(shortUrl);
+        std::cout << longUrl << std::endl <<  shortUrl << std::endl << decodeUrl << std::endl;
+        
+    }
     
-    std::cout << BinarySearchTreeToGreatSumTree::Solution().bstToGst(NULL) << std::endl;
+    
     
     
     
