@@ -7,18 +7,11 @@
 //
 
 #include <iostream>
-#include "535. Encode and Decode TinyURL.h"
+#include "701. Insert into a Binary Search Tree.h"
 
 int main(int argc, const char * argv[]) {
     
-    EncodeAndDecodeTinyURL::Solution solution;
-    for (int i = 0; i < 10000; ++i) {
-        string longUrl = solution.transformInt2String(i);
-        string shortUrl = solution.encode(longUrl);
-        string decodeUrl = solution.decode(shortUrl);
-        std::cout << longUrl << std::endl <<  shortUrl << std::endl << decodeUrl << std::endl;
-        
-    }
+    
     
     
     
