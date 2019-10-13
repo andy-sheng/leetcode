@@ -50,6 +50,8 @@
 		A1DD71BF23523B75003E8052 /* 535. Encode and Decode TinyURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "535. Encode and Decode TinyURL.h"; sourceTree = "<group>"; };
 		A1DD71C12352478F003E8052 /* 701. Insert into a Binary Search Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "701. Insert into a Binary Search Tree.h"; sourceTree = "<group>"; };
 		A1DD71C223524823003E8052 /* 701. Insert into a Binary Search Tree.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "701. Insert into a Binary Search Tree.txt"; sourceTree = "<group>"; };
+		A1DD71C423524B6F003E8052 /* 654. Maximum Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "654. Maximum Binary Tree.h"; sourceTree = "<group>"; };
+		A1DD71C52352F745003E8052 /* 654. Maximum Binary Tree.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "654. Maximum Binary Tree.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1DD71C323524B61003E8052 /* 654. Maximum Binary Tree */,
 				A1DD71C023524787003E8052 /* 701. Insert into a Binary Search Tree */,
 				A1DD71BE23523B6B003E8052 /* 535. Encode and Decode TinyURL */,
 				A1DD71BC2350E8BA003E8052 /* 1038. Binary Search Tree to Greater Sum Tree */,
@@ -296,6 +299,15 @@
 				A1DD71C223524823003E8052 /* 701. Insert into a Binary Search Tree.txt */,
 			);
 			path = "701. Insert into a Binary Search Tree";
+			sourceTree = "<group>";
+		};
+		A1DD71C323524B61003E8052 /* 654. Maximum Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD71C423524B6F003E8052 /* 654. Maximum Binary Tree.h */,
+				A1DD71C52352F745003E8052 /* 654. Maximum Binary Tree.txt */,
+			);
+			path = "654. Maximum Binary Tree";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
