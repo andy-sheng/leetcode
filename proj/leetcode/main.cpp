@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "654. Maximum Binary Tree.h"
+#include "1079. Letter Tile Possibilities.h"
 
 int main(int argc, const char * argv[]) {
     
     
-    
+    std::cout << LetterTilePossibilities::Solution().numTilePossibilities("AAABBC") << std::endl;
     
     return 0;
 }
