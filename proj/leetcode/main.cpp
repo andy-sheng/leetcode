@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "1079. Letter Tile Possibilities.h"
+#include "1008. Construct Binary Search Tree from Preorder Traversal.h"
 
 int main(int argc, const char * argv[]) {
     
-    
-    std::cout << LetterTilePossibilities::Solution().numTilePossibilities("AAABBC") << std::endl;
-    
+    vector<int> input {4,2};
+    ConstructBinarySearchTreeFromPreorderTraversal::Solution().bstFromPreorder(input);
+ 
     return 0;
 }

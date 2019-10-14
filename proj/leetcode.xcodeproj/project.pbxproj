@@ -54,6 +54,7 @@
 		A1DD71C52352F745003E8052 /* 654. Maximum Binary Tree.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "654. Maximum Binary Tree.txt"; sourceTree = "<group>"; };
 		A1DD71C7235381D1003E8052 /* 1079. Letter Tile Possibilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1079. Letter Tile Possibilities.h"; sourceTree = "<group>"; };
 		A1DD71C823538C5F003E8052 /* 1079. Letter Tile Possibilities.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1079. Letter Tile Possibilities.txt"; sourceTree = "<group>"; };
+		A1DD71CA2354DA5E003E8052 /* 1008. Construct Binary Search Tree from Preorder Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1008. Construct Binary Search Tree from Preorder Traversal.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +200,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1DD71C92354DA52003E8052 /* 1008. Construct Binary Search Tree from Preorder Traversal */,
 				A1DD71C6235381C6003E8052 /* 1079. Letter Tile Possibilities */,
 				A1DD71C323524B61003E8052 /* 654. Maximum Binary Tree */,
 				A1DD71C023524787003E8052 /* 701. Insert into a Binary Search Tree */,
@@ -320,6 +322,14 @@
 				A1DD71C823538C5F003E8052 /* 1079. Letter Tile Possibilities.txt */,
 			);
 			path = "1079. Letter Tile Possibilities";
+			sourceTree = "<group>";
+		};
+		A1DD71C92354DA52003E8052 /* 1008. Construct Binary Search Tree from Preorder Traversal */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD71CA2354DA5E003E8052 /* 1008. Construct Binary Search Tree from Preorder Traversal.h */,
+			);
+			path = "1008. Construct Binary Search Tree from Preorder Traversal";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
