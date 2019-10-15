@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "950. Reveal Cards In Increasing Order.h"
+#include "763. Partition Labels.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> input {17,13,11,2,3,5,7};
-    for (int i : RevealCardsInIncreasingOrder::Solution().deckRevealedIncreasing(input)) {
+    
+    for (int i : PartitionLabels::Solution().partitionLabels("caedbdedda")) {
         cout << i <<endl;
     }
  

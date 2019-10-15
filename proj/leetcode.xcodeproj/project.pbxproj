@@ -56,6 +56,7 @@
 		A1DD71C823538C5F003E8052 /* 1079. Letter Tile Possibilities.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1079. Letter Tile Possibilities.txt"; sourceTree = "<group>"; };
 		A1DD71CA2354DA5E003E8052 /* 1008. Construct Binary Search Tree from Preorder Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1008. Construct Binary Search Tree from Preorder Traversal.h"; sourceTree = "<group>"; };
 		A1DD71CC23561DA4003E8052 /* 950. Reveal Cards In Increasing Order.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "950. Reveal Cards In Increasing Order.h"; sourceTree = "<group>"; };
+		A1DD71CE23562D6E003E8052 /* 763. Partition Labels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "763. Partition Labels.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +202,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1DD71CD23562D67003E8052 /* 763. Partition Labels */,
 				A1DD71CB23561D9A003E8052 /* 950. Reveal Cards In Increasing Order */,
 				A1DD71C92354DA52003E8052 /* 1008. Construct Binary Search Tree from Preorder Traversal */,
 				A1DD71C6235381C6003E8052 /* 1079. Letter Tile Possibilities */,
@@ -340,6 +342,14 @@
 				A1DD71CC23561DA4003E8052 /* 950. Reveal Cards In Increasing Order.h */,
 			);
 			path = "950. Reveal Cards In Increasing Order";
+			sourceTree = "<group>";
+		};
+		A1DD71CD23562D67003E8052 /* 763. Partition Labels */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD71CE23562D6E003E8052 /* 763. Partition Labels.h */,
+			);
+			path = "763. Partition Labels";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
