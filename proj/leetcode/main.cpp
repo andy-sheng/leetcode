@@ -7,14 +7,12 @@
 //
 
 #include <iostream>
-#include "763. Partition Labels.h"
+#include "814. Binary Tree Pruning.h"
 
 int main(int argc, const char * argv[]) {
     
     
-    for (int i : PartitionLabels::Solution().partitionLabels("caedbdedda")) {
-        cout << i <<endl;
-    }
+    
  
     return 0;
 }
