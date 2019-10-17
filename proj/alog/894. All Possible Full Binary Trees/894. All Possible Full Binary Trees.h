@@ -10,15 +10,25 @@
 #define _94__All_Possible_Full_Binary_Trees_h
 
 #include <vector>
+#include <unordered_map>
 #include "DataStructures.h"
 using namespace std;
 namespace AllPossibleFullBinaryTrees {
     class Solution {
+    private:
+        unordered_map<int, vector<TreeNode *>> cache;
     public:
-        vector<TreeNode*> allPossibleFBT(int N) {
+        vector<TreeNode *> allPossibleFBT(int N) {
             if (N % 2 == 0) return vector<TreeNode *>();
 
-            if (N == 1) return vector<TreeNode *> {new TreeNode(0)};
+            if (cache.find(N) != cache.end()) return cache[N];
+            
+            if (N == 1) {
+                cache[1] = vector<TreeNode *> {new TreeNode(0)};
+                return vector<TreeNode *> {new TreeNode(0)};
+            }
+            
+            
 
             vector<TreeNode *> ret;
 
@@ -37,6 +47,9 @@ namespace AllPossibleFullBinaryTrees {
                         ret.push_back(newRoot);
                     }
                 }
+            }
+            if (cache.find(N) == cache.end()) {
+                cache[N] = ret;
             }
 
             return ret;
