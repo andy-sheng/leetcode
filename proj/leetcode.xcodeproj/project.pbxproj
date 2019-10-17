@@ -59,6 +59,7 @@
 		A1DD71CE23562D6E003E8052 /* 763. Partition Labels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "763. Partition Labels.h"; sourceTree = "<group>"; };
 		A1DD71D02357781B003E8052 /* 814. Binary Tree Pruning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "814. Binary Tree Pruning.h"; sourceTree = "<group>"; };
 		A1DD71D223577CC5003E8052 /* 797. All Paths From Source to Target.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "797. All Paths From Source to Target.h"; sourceTree = "<group>"; };
+		A1DD71D42358C59C003E8052 /* 890. Find and Replace Pattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "890. Find and Replace Pattern.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +205,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1DD71D32358C594003E8052 /* 890. Find and Replace Pattern */,
 				A1DD71D123577CBD003E8052 /* 797. All Paths From Source to Target */,
 				A1DD71CF23577810003E8052 /* 814. Binary Tree Pruning */,
 				A1DD71CD23562D67003E8052 /* 763. Partition Labels */,
@@ -370,6 +372,14 @@
 				A1DD71D223577CC5003E8052 /* 797. All Paths From Source to Target.h */,
 			);
 			path = "797. All Paths From Source to Target";
+			sourceTree = "<group>";
+		};
+		A1DD71D32358C594003E8052 /* 890. Find and Replace Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD71D42358C59C003E8052 /* 890. Find and Replace Pattern.h */,
+			);
+			path = "890. Find and Replace Pattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

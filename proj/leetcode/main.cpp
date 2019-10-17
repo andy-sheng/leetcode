@@ -7,11 +7,16 @@
 //
 
 #include <iostream>
-#include "797. All Paths From Source to Target.h"
+#include "890. Find and Replace Pattern.h"
 
 int main(int argc, const char * argv[]) {
     
+    vector<string> input {"abc","deq","mee","aqq","dkd","ccc"};
     
+    for (string word: FindAndReplacePattern::Solution().findAndReplacePattern(input, "abb")) {
+        cout << word << endl;
+    }
+    FindAndReplacePattern::Solution();
     
  
     return 0;
