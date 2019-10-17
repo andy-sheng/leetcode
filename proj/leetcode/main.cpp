@@ -7,16 +7,13 @@
 //
 
 #include <iostream>
-#include "890. Find and Replace Pattern.h"
+#include "894. All Possible Full Binary Trees.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<string> input {"abc","deq","mee","aqq","dkd","ccc"};
-    
-    for (string word: FindAndReplacePattern::Solution().findAndReplacePattern(input, "abb")) {
-        cout << word << endl;
-    }
-    FindAndReplacePattern::Solution();
+
+    cout << AllPossibleFullBinaryTrees::Solution().allPossibleFBT(7).size() << endl;
+   
     
  
     return 0;
