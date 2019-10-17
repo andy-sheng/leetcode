@@ -31,26 +31,15 @@ namespace AllPossibleFullBinaryTrees {
 
                 for (TreeNode *left: leftTrees) {
                     for (TreeNode *right: rightTrees) {
-                        TreeNode *copiedLeft = copyTree(left);
-                        TreeNode *copiedRight = copyTree(right);
                         TreeNode *newRoot = new TreeNode(0);
-                        newRoot->left = copiedLeft;
-                        newRoot->right = copiedRight;
+                        newRoot->left = left;
+                        newRoot->right = right;
                         ret.push_back(newRoot);
                     }
                 }
             }
 
             return ret;
-        }
-
-
-        TreeNode *copyTree(TreeNode *root) {
-            if (!root) return NULL;
-            TreeNode *newNode = new TreeNode(root->val);
-            newNode->left = copyTree(root->left);
-            newNode->right = copyTree(root->right);
-            return newNode;
         }
     };
 }
