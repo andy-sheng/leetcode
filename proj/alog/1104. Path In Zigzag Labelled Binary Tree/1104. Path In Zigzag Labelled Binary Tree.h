@@ -32,6 +32,7 @@ namespace PathInZigzagLabelledBinaryTree {
             }
             int node = nodeInLayer(layer + 1, cnt + curLayerNodeCnt, target, ret);
             
+            // 父子之间的公式 
             int nodeInThisLayer = (curLayerNodeCnt + cnt) - (node - (curLayerNodeCnt + cnt) - 1) / 2;
             
             ret.push_front(nodeInThisLayer);
