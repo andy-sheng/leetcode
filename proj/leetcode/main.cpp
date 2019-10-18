@@ -7,21 +7,14 @@
 //
 
 #include <iostream>
-#include "1161. Maximum Level Sum of a Binary Tree.h"
+#include "1104. Path In Zigzag Labelled Binary Tree.h"
 
 int main(int argc, const char * argv[]) {
     
-
-    TreeNode *root = new TreeNode(1);
+    for (int node: PathInZigzagLabelledBinaryTree::Solution().pathInZigZagTree(26)) {
+        cout << node << endl;
+    }
     
-    root->left = new TreeNode(7);
-    root->left->left = new TreeNode(7);
-    root->left->right = new TreeNode(-8);
-    
-    root->right = new TreeNode(0);
-    
-    
-    cout << MaximumLevelSumOfABinaryTree::Solution().maxLevelSum(root) << endl;
     
  
     return 0;

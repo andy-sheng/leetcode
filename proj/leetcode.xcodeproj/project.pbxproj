@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
+		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
 		A12C28932301BC2600A4554E /* 877. Stone Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "877. Stone Game.h"; sourceTree = "<group>"; };
 		A12C289523095F3D00A4554E /* 2. Add Two Numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2. Add Two Numbers.h"; sourceTree = "<group>"; };
 		A12C8ADA23411E6B000036C8 /* 1108. Defanging an IP Address.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1108. Defanging an IP Address.h"; sourceTree = "<group>"; };
@@ -81,6 +82,14 @@
 				A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */,
 			);
 			path = "1161. Maximum Level Sum of a Binary Tree";
+			sourceTree = "<group>";
+		};
+		A11B547E235A2AFF00A04D02 /* 1104. Path In Zigzag Labelled Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */,
+			);
+			path = "1104. Path In Zigzag Labelled Binary Tree";
 			sourceTree = "<group>";
 		};
 		A12C28922301BC0200A4554E /* 877. Stone Game */ = {
@@ -215,6 +224,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A11B547E235A2AFF00A04D02 /* 1104. Path In Zigzag Labelled Binary Tree */,
 				A11B547C235A23F800A04D02 /* 1161. Maximum Level Sum of a Binary Tree */,
 				A1DD71D52358CD81003E8052 /* 894. All Possible Full Binary Trees */,
 				A1DD71D32358C594003E8052 /* 890. Find and Replace Pattern */,
