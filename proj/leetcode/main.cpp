@@ -7,13 +7,21 @@
 //
 
 #include <iostream>
-#include "894. All Possible Full Binary Trees.h"
+#include "1161. Maximum Level Sum of a Binary Tree.h"
 
 int main(int argc, const char * argv[]) {
     
 
-    cout << AllPossibleFullBinaryTrees::Solution().allPossibleFBT(7).size() << endl;
-   
+    TreeNode *root = new TreeNode(1);
+    
+    root->left = new TreeNode(7);
+    root->left->left = new TreeNode(7);
+    root->left->right = new TreeNode(-8);
+    
+    root->right = new TreeNode(0);
+    
+    
+    cout << MaximumLevelSumOfABinaryTree::Solution().maxLevelSum(root) << endl;
     
  
     return 0;
