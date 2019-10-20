@@ -7,13 +7,11 @@
 //
 
 #include <iostream>
-#include "1104. Path In Zigzag Labelled Binary Tree.h"
+#include "921. Minimum Add to Make Parentheses Valid.h"
 
 int main(int argc, const char * argv[]) {
     
-    for (int node: PathInZigzagLabelledBinaryTree::Solution().pathInZigZagTree(26)) {
-        cout << node << endl;
-    }
+    cout << MinimumAddToMakeParenthesesValid::Solution().minAddToMakeValid("())")<<endl;
     
     
  

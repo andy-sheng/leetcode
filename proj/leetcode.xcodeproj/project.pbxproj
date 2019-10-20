@@ -39,6 +39,7 @@
 		A12C8AEE234A55CC000036C8 /* 605. Can Place Flowers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "605. Can Place Flowers.h"; sourceTree = "<group>"; };
 		A12C8AF0234B927F000036C8 /* 581. Shortest Unsorted Continuous Subarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "581. Shortest Unsorted Continuous Subarray.h"; sourceTree = "<group>"; };
 		A12C8AF4234BA0FF000036C8 /* 686. Repeated String Match.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "686. Repeated String Match.h"; sourceTree = "<group>"; };
+		A141CB82235C47B1006E38C4 /* 921. Minimum Add to Make Parentheses Valid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "921. Minimum Add to Make Parentheses Valid.h"; sourceTree = "<group>"; };
 		A169986E22FEBF6200F640E5 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169987122FEBF6200F640E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A169987A22FEC07C00F640E5 /* 1025. Divisor Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
@@ -196,6 +197,14 @@
 			path = "686. Repeated String Match";
 			sourceTree = "<group>";
 		};
+		A141CB81235C47A6006E38C4 /* 921. Minimum Add to Make Parentheses Valid */ = {
+			isa = PBXGroup;
+			children = (
+				A141CB82235C47B1006E38C4 /* 921. Minimum Add to Make Parentheses Valid.h */,
+			);
+			path = "921. Minimum Add to Make Parentheses Valid";
+			sourceTree = "<group>";
+		};
 		A169986522FEBF6200F640E5 = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +233,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A141CB81235C47A6006E38C4 /* 921. Minimum Add to Make Parentheses Valid */,
 				A11B547E235A2AFF00A04D02 /* 1104. Path In Zigzag Labelled Binary Tree */,
 				A11B547C235A23F800A04D02 /* 1161. Maximum Level Sum of a Binary Tree */,
 				A1DD71D52358CD81003E8052 /* 894. All Possible Full Binary Trees */,
