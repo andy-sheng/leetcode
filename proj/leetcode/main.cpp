@@ -7,13 +7,11 @@
 //
 
 #include <iostream>
-#include "861. Score After Flipping Matrix.h"
+#include "1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<vector<int>> input {{0,0,1,1},{1,0,1,0},{1,1,0,0}};
-    
-    cout << ScoreAfterFlippingMatrix::Solution().matrixScore(input) << endl;
+  
     
     return 0;
 }
