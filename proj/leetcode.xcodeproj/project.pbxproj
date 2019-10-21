@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
+		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
 		A12C28932301BC2600A4554E /* 877. Stone Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "877. Stone Game.h"; sourceTree = "<group>"; };
 		A12C289523095F3D00A4554E /* 2. Add Two Numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2. Add Two Numbers.h"; sourceTree = "<group>"; };
 		A12C8ADA23411E6B000036C8 /* 1108. Defanging an IP Address.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1108. Defanging an IP Address.h"; sourceTree = "<group>"; };
@@ -93,6 +94,14 @@
 				A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */,
 			);
 			path = "1104. Path In Zigzag Labelled Binary Tree";
+			sourceTree = "<group>";
+		};
+		A128B8B3235E09F5008674AD /* 1222. Queens That Can Attack the King */ = {
+			isa = PBXGroup;
+			children = (
+				A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */,
+			);
+			path = "1222. Queens That Can Attack the King";
 			sourceTree = "<group>";
 		};
 		A12C28922301BC0200A4554E /* 877. Stone Game */ = {
@@ -235,6 +244,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A128B8B3235E09F5008674AD /* 1222. Queens That Can Attack the King */,
 				A1C05EA5235CA1D90077F738 /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings */,
 				A1C05EA3235C91570077F738 /* 861. Score After Flipping Matrix */,
 				A141CB81235C47A6006E38C4 /* 921. Minimum Add to Make Parentheses Valid */,
