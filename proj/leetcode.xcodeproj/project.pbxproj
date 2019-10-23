@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
+		A122FEDD2360C78B004A8299 /* 746. Min Cost Climbing Stairs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "746. Min Cost Climbing Stairs"; sourceTree = "<group>"; };
+		A122FEDE2360C78C004A8299 /* 1025.Divisor Game */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1025.Divisor Game"; sourceTree = "<group>"; };
 		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
 		A128B8B6235E1F5F008674AD /* 979. Distribute Coins in Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "979. Distribute Coins in Binary Tree.h"; sourceTree = "<group>"; };
 		A12C28932301BC2600A4554E /* 877. Stone Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "877. Stone Game.h"; sourceTree = "<group>"; };
@@ -271,6 +273,8 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A122FEDD2360C78B004A8299 /* 746. Min Cost Climbing Stairs */,
+				A122FEDE2360C78C004A8299 /* 1025.Divisor Game */,
 				A1607856235F6B6000BF651E /* 537. Complex Number Multiplication */,
 				A1607854235F6ADF00BF651E /* 885. Spiral Matrix III */,
 				A128B8B5235E1F58008674AD /* 979. Distribute Coins in Binary Tree */,
