@@ -7,15 +7,13 @@
 //
 
 #include <iostream>
-#include "1222. Queens That Can Attack the King.h"
+#include "537. Complex Number Multiplication.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<vector<int>> queens {{0,1},{1,0},{4,0},{0,4},{3,3},{2,4}};
-    vector<int> king {0,0};
-    for (vector<int> queen : QueensThatCanAttackTheKing::Solution().queensAttacktheKing(queens, king)) {
-        cout << queen[0] << " " << queen[1] << endl;
-    }
+  
+    
+    cout << ComplexNumberMultiplication::Solution().complexNumberMultiply("1+-1i", "1+-1i") <<endl;
     
     return 0;
 }
