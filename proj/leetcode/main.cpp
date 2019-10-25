@@ -7,13 +7,17 @@
 //
 
 #include <iostream>
-#include "537. Complex Number Multiplication.h"
+#include "1123. Lowest Common Ancestor of Deepest Leaves.h"
 
 int main(int argc, const char * argv[]) {
     
-  
+    TreeNode *root = new TreeNode(1);
+    root->left = new TreeNode(2);
+    root->right = new TreeNode(3);
+//    root->left->left = new TreeNode(4);
+    cout << LowestCommonAncestorOfDeepestLeaves::Solution().lcaDeepestLeaves(root)->val << endl;
     
-    cout << ComplexNumberMultiplication::Solution().complexNumberMultiply("1+-1i", "1+-1i") <<endl;
+    
     
     return 0;
 }
