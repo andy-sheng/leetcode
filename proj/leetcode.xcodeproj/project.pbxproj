@@ -25,8 +25,6 @@
 /* Begin PBXFileReference section */
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
-		A122FEDD2360C78B004A8299 /* 746. Min Cost Climbing Stairs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "746. Min Cost Climbing Stairs"; sourceTree = "<group>"; };
-		A122FEDE2360C78C004A8299 /* 1025.Divisor Game */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "1025.Divisor Game"; sourceTree = "<group>"; };
 		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
 		A128B8B6235E1F5F008674AD /* 979. Distribute Coins in Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "979. Distribute Coins in Binary Tree.h"; sourceTree = "<group>"; };
 		A12C28932301BC2600A4554E /* 877. Stone Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "877. Stone Game.h"; sourceTree = "<group>"; };
@@ -51,6 +49,9 @@
 		A169987A22FEC07C00F640E5 /* 1025. Divisor Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
 		A169987B22FEC18700F640E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A169987F22FECD1900F640E5 /* 746. Min Cost Climbing Stairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "746. Min Cost Climbing Stairs.h"; sourceTree = "<group>"; };
+		A171BAA32363552900B5061F /* 746. Min Cost Climbing Stairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "746. Min Cost Climbing Stairs.h"; sourceTree = "<group>"; };
+		A171BAA42363553400B5061F /* 1025. Divisor Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
+		A171BAA52363553B00B5061F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A1C05EA4235C91630077F738 /* 861. Score After Flipping Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "861. Score After Flipping Matrix.h"; sourceTree = "<group>"; };
 		A1C05EA6235CA1E10077F738 /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h"; sourceTree = "<group>"; };
 		A1DD7195234CEC5B003E8052 /* 69. Sqrt(x).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "69. Sqrt(x).h"; sourceTree = "<group>"; };
@@ -273,8 +274,8 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
-				A122FEDD2360C78B004A8299 /* 746. Min Cost Climbing Stairs */,
-				A122FEDE2360C78C004A8299 /* 1025.Divisor Game */,
+				A171BAA22363550C00B5061F /* 1025.Divisor Game */,
+				A171BAA1236354FA00B5061F /* 746. Min Cost Climbing Stairs */,
 				A1607856235F6B6000BF651E /* 537. Complex Number Multiplication */,
 				A1607854235F6ADF00BF651E /* 885. Spiral Matrix III */,
 				A128B8B5235E1F58008674AD /* 979. Distribute Coins in Binary Tree */,
@@ -337,6 +338,23 @@
 			);
 			name = "746. Min Cost Climbing Stairs";
 			path = "../../746. Min Cost Climbing Stairs";
+			sourceTree = "<group>";
+		};
+		A171BAA1236354FA00B5061F /* 746. Min Cost Climbing Stairs */ = {
+			isa = PBXGroup;
+			children = (
+				A171BAA32363552900B5061F /* 746. Min Cost Climbing Stairs.h */,
+			);
+			path = "746. Min Cost Climbing Stairs";
+			sourceTree = "<group>";
+		};
+		A171BAA22363550C00B5061F /* 1025.Divisor Game */ = {
+			isa = PBXGroup;
+			children = (
+				A171BAA42363553400B5061F /* 1025. Divisor Game.h */,
+				A171BAA52363553B00B5061F /* README.md */,
+			);
+			path = "1025.Divisor Game";
 			sourceTree = "<group>";
 		};
 		A1C05EA3235C91570077F738 /* 861. Score After Flipping Matrix */ = {
