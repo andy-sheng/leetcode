@@ -7,21 +7,15 @@
 //
 
 #include <iostream>
-#include "1110. Delete Nodes And Return Forest.h"
+#include "986. Interval List Intersections.h"
 
 int main(int argc, const char * argv[]) {
     
-    TreeNode *root = new TreeNode(1);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(3);
-    root->left->left = new TreeNode(4);
-    root->left->right = new TreeNode(5);
-    root->right->left = new TreeNode(6);
-    root->right->right = new TreeNode(7);
+    vector<vector<int>> A {{14,16}};
+    vector<vector<int>> B {{7,13},{16,20}};
     
-    vector<int> input {3,5};
-    for (TreeNode *node : DeleteNodesAndReturnForest::Solution().delNodes(root, input)) {
-        cout << node->val << endl;
+    for (vector<int> ret : IntervalListIntersections::Solution().intervalIntersection(A, B)) {
+        cout << ret[0] << " " << ret[1] << endl;
     }
     
     return 0;

@@ -42,6 +42,7 @@
 		A12C8AF0234B927F000036C8 /* 581. Shortest Unsorted Continuous Subarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "581. Shortest Unsorted Continuous Subarray.h"; sourceTree = "<group>"; };
 		A12C8AF4234BA0FF000036C8 /* 686. Repeated String Match.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "686. Repeated String Match.h"; sourceTree = "<group>"; };
 		A141CB82235C47B1006E38C4 /* 921. Minimum Add to Make Parentheses Valid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "921. Minimum Add to Make Parentheses Valid.h"; sourceTree = "<group>"; };
+		A15842392365F74C00AA3F4A /* 986. Interval List Intersections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "986. Interval List Intersections.h"; sourceTree = "<group>"; };
 		A1607855235F6AE900BF651E /* 885. Spiral Matrix III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "885. Spiral Matrix III.h"; sourceTree = "<group>"; };
 		A1607857235F6B6600BF651E /* 537. Complex Number Multiplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "537. Complex Number Multiplication.h"; sourceTree = "<group>"; };
 		A169986E22FEBF6200F640E5 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,6 +234,14 @@
 			path = "921. Minimum Add to Make Parentheses Valid";
 			sourceTree = "<group>";
 		};
+		A15842382365F74500AA3F4A /* 986. Interval List Intersections */ = {
+			isa = PBXGroup;
+			children = (
+				A15842392365F74C00AA3F4A /* 986. Interval List Intersections.h */,
+			);
+			path = "986. Interval List Intersections";
+			sourceTree = "<group>";
+		};
 		A1607854235F6ADF00BF651E /* 885. Spiral Matrix III */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +286,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A15842382365F74500AA3F4A /* 986. Interval List Intersections */,
 				A1B71FEA2365913000EB34CC /* 1110. Delete Nodes And Return Forest */,
 				A171BAA823635ADD00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves */,
 				A171BAA62363564300B5061F /* 951. Flip Equivalent Binary Trees */,
