@@ -54,6 +54,7 @@
 		A171BAA52363553B00B5061F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A171BAA72363565900B5061F /* 951. Flip Equivalent Binary Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "951. Flip Equivalent Binary Trees.h"; sourceTree = "<group>"; };
 		A171BAA923635AEE00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1123. Lowest Common Ancestor of Deepest Leaves.h"; sourceTree = "<group>"; };
+		A1B71FEB2365913700EB34CC /* 1110. Delete Nodes And Return Forest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1110. Delete Nodes And Return Forest.h"; sourceTree = "<group>"; };
 		A1C05EA4235C91630077F738 /* 861. Score After Flipping Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "861. Score After Flipping Matrix.h"; sourceTree = "<group>"; };
 		A1C05EA6235CA1E10077F738 /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h"; sourceTree = "<group>"; };
 		A1DD7195234CEC5B003E8052 /* 69. Sqrt(x).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "69. Sqrt(x).h"; sourceTree = "<group>"; };
@@ -276,6 +277,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1B71FEA2365913000EB34CC /* 1110. Delete Nodes And Return Forest */,
 				A171BAA823635ADD00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves */,
 				A171BAA62363564300B5061F /* 951. Flip Equivalent Binary Trees */,
 				A171BAA22363550C00B5061F /* 1025.Divisor Game */,
@@ -375,6 +377,14 @@
 				A171BAA923635AEE00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves.h */,
 			);
 			path = "1123. Lowest Common Ancestor of Deepest Leaves";
+			sourceTree = "<group>";
+		};
+		A1B71FEA2365913000EB34CC /* 1110. Delete Nodes And Return Forest */ = {
+			isa = PBXGroup;
+			children = (
+				A1B71FEB2365913700EB34CC /* 1110. Delete Nodes And Return Forest.h */,
+			);
+			path = "1110. Delete Nodes And Return Forest";
 			sourceTree = "<group>";
 		};
 		A1C05EA3235C91570077F738 /* 861. Score After Flipping Matrix */ = {
