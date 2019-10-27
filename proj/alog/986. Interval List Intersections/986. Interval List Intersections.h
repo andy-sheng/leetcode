@@ -18,39 +18,16 @@ namespace IntervalListIntersections {
     public:
         vector<vector<int>> intervalIntersection(vector<vector<int>>& A, vector<vector<int>>& B) {
             vector<vector<int>> ret;
-            
             for (int i = 0, j = 0; i < A.size() && j < B.size();) {
-                if (A[i][0] > B[j][1]) {
-                    ++j;
-                } else if (A[i][1] < B[j][0]) {
-                    ++i;
-                } else if (A[i][0] >= B[j][0] && A[i][0] <= B[j][1]) {
-                    if (A[i][1] < B[j][1]) {
-                        ret.push_back(vector<int> {A[i][0], A[i][1]});
-                        ++i;
-                    } else if (A[i][1] > B[j][1]) {
-                        ret.push_back(vector<int> {A[i][0], B[j][1]});
-                        ++j;
-                    } else {
-                        ret.push_back(vector<int> {A[i][0], A[i][1]});
-                        ++i;
-                        ++j;
-                    }
-                } else if (A[i][0] <= B[j][0] && A[i][1] >= B[j][0]) {
-                    if (A[i][1] > B[j][1]) {
-                        ret.push_back(vector<int> {B[j][0], B[j][1]});
-                        ++j;
-                    } else if (A[i][1] < B[j][1]) {
-                        ret.push_back(vector<int> {B[j][0], A[i][1]});
-                        ++i;
-                    } else {
-                        ret.push_back(vector<int> {B[j][0], B[j][1]});
-                        ++i;
-                        ++j;
-                    }
+                if ((A[i][0] >= B[j][0] && A[i][0] <= B[j][1])
+                    || (B[j][0] >= A[i][0] && B[j][0] <= A[i][1])) {
+                    ret.push_back(vector<int>{max(A[i][0], B[j][0]), min(A[i][1], B[j][1])});
                 }
+                int newI = i + (A[i][1] <= B[j][1]);
+                int newJ = j + (A[i][1] >= B[j][1]);
+                i = newI;
+                j = newJ;
             }
-            
             return ret;
         }
     };
