@@ -7,16 +7,12 @@
 //
 
 #include <iostream>
-#include "986. Interval List Intersections.h"
+#include "959. Regions Cut By Slashes.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<vector<int>> A {{14,16}};
-    vector<vector<int>> B {{7,13},{16,20}};
-    
-    for (vector<int> ret : IntervalListIntersections::Solution().intervalIntersection(A, B)) {
-        cout << ret[0] << " " << ret[1] << endl;
-    }
+    vector<string> grid {"\\/\\ "," /\\/"," \\/ ","/ / "};
+    std::cout << RegionsCutBySlashes::Solution().regionsBySlashes(grid) << std::endl;
     
     return 0;
 }
