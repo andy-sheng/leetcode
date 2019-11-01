@@ -78,6 +78,9 @@
 		A1DD71D42358C59C003E8052 /* 890. Find and Replace Pattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "890. Find and Replace Pattern.h"; sourceTree = "<group>"; };
 		A1DD71D62358CD89003E8052 /* 894. All Possible Full Binary Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "894. All Possible Full Binary Trees.h"; sourceTree = "<group>"; };
 		A1EA24912369F182009BAE43 /* 959. Regions Cut By Slashes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "959. Regions Cut By Slashes.h"; sourceTree = "<group>"; };
+		A1EA2493236B43AE009BAE43 /* 791. Custom Sort String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "791. Custom Sort String.h"; sourceTree = "<group>"; };
+		A1EA2495236C9DC6009BAE43 /* 912. Sort an Array .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "912. Sort an Array .h"; sourceTree = "<group>"; };
+		A1EA2497236C9DFA009BAE43 /* 1043. Partition Array for Maximum Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1043. Partition Array for Maximum Sum.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +290,9 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1EA2496236C9DF2009BAE43 /* 1043. Partition Array for Maximum Sum */,
+				A1EA2494236C9DBE009BAE43 /* 912. Sort an Array  */,
+				A1EA2492236B43A3009BAE43 /* 791. Custom Sort String */,
 				A1EA24902369F17A009BAE43 /* 959. Regions Cut By Slashes */,
 				A15842382365F74500AA3F4A /* 986. Interval List Intersections */,
 				A1B71FEA2365913000EB34CC /* 1110. Delete Nodes And Return Forest */,
@@ -552,6 +558,30 @@
 				A1EA24912369F182009BAE43 /* 959. Regions Cut By Slashes.h */,
 			);
 			path = "959. Regions Cut By Slashes";
+			sourceTree = "<group>";
+		};
+		A1EA2492236B43A3009BAE43 /* 791. Custom Sort String */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA2493236B43AE009BAE43 /* 791. Custom Sort String.h */,
+			);
+			path = "791. Custom Sort String";
+			sourceTree = "<group>";
+		};
+		A1EA2494236C9DBE009BAE43 /* 912. Sort an Array  */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA2495236C9DC6009BAE43 /* 912. Sort an Array .h */,
+			);
+			path = "912. Sort an Array ";
+			sourceTree = "<group>";
+		};
+		A1EA2496236C9DF2009BAE43 /* 1043. Partition Array for Maximum Sum */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA2497236C9DFA009BAE43 /* 1043. Partition Array for Maximum Sum.h */,
+			);
+			path = "1043. Partition Array for Maximum Sum";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "959. Regions Cut By Slashes.h"
+#include "1043. Partition Array for Maximum Sum.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<string> grid {"\\/\\ "," /\\/"," \\/ ","/ / "};
-    std::cout << RegionsCutBySlashes::Solution().regionsBySlashes(grid) << std::endl;
+    vector<int> input {1,15,7,9,2,5,10};
+    cout << PartitionArrayForMaximumSum::Solution().maxSumAfterPartitioning(input, 3) << endl;
     
     return 0;
 }
