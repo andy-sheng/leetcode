@@ -7,12 +7,14 @@
 //
 
 #include <iostream>
-#include "1043. Partition Array for Maximum Sum.h"
+#include "969. Pancake Sorting.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> input {1,15,7,9,2,5,10};
-    cout << PartitionArrayForMaximumSum::Solution().maxSumAfterPartitioning(input, 3) << endl;
+    vector<int> input {3,2,4,1};
+    for (int i : PanCakeSorting::Solution().pancakeSort(input)) {
+        cout << i << endl;
+    }
     
     return 0;
 }

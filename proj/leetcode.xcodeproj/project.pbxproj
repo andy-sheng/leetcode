@@ -81,6 +81,7 @@
 		A1EA2493236B43AE009BAE43 /* 791. Custom Sort String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "791. Custom Sort String.h"; sourceTree = "<group>"; };
 		A1EA2495236C9DC6009BAE43 /* 912. Sort an Array .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "912. Sort an Array .h"; sourceTree = "<group>"; };
 		A1EA2497236C9DFA009BAE43 /* 1043. Partition Array for Maximum Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1043. Partition Array for Maximum Sum.h"; sourceTree = "<group>"; };
+		A1EA2499236DEEF2009BAE43 /* 969. Pancake Sorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "969. Pancake Sorting.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +291,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1EA2498236DEEEB009BAE43 /* 969. Pancake Sorting */,
 				A1EA2496236C9DF2009BAE43 /* 1043. Partition Array for Maximum Sum */,
 				A1EA2494236C9DBE009BAE43 /* 912. Sort an Array  */,
 				A1EA2492236B43A3009BAE43 /* 791. Custom Sort String */,
@@ -582,6 +584,14 @@
 				A1EA2497236C9DFA009BAE43 /* 1043. Partition Array for Maximum Sum.h */,
 			);
 			path = "1043. Partition Array for Maximum Sum";
+			sourceTree = "<group>";
+		};
+		A1EA2498236DEEEB009BAE43 /* 969. Pancake Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA2499236DEEF2009BAE43 /* 969. Pancake Sorting.h */,
+			);
+			path = "969. Pancake Sorting";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
