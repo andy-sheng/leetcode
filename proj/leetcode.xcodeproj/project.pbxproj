@@ -83,6 +83,8 @@
 		A1EA2497236C9DFA009BAE43 /* 1043. Partition Array for Maximum Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1043. Partition Array for Maximum Sum.h"; sourceTree = "<group>"; };
 		A1EA2499236DEEF2009BAE43 /* 969. Pancake Sorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "969. Pancake Sorting.h"; sourceTree = "<group>"; };
 		A1EA249B236DF909009BAE43 /* 889. Construct Binary Tree from Preorder and Postorder Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "889. Construct Binary Tree from Preorder and Postorder Traversal.h"; sourceTree = "<group>"; };
+		A1EA249D236EB26A009BAE43 /* 1130. Minimum Cost Tree From Leaf Values.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1130. Minimum Cost Tree From Leaf Values.h"; sourceTree = "<group>"; };
+		A1EA249F236EB2A6009BAE43 /* 1026. Maximum Difference Between Node and Ancestor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1026. Maximum Difference Between Node and Ancestor.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +294,8 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1EA249E236EB29A009BAE43 /* 1026. Maximum Difference Between Node and Ancestor */,
+				A1EA249C236EB264009BAE43 /* 1130. Minimum Cost Tree From Leaf Values */,
 				A1EA249A236DF902009BAE43 /* 889. Construct Binary Tree from Preorder and Postorder Traversal */,
 				A1EA2498236DEEEB009BAE43 /* 969. Pancake Sorting */,
 				A1EA2496236C9DF2009BAE43 /* 1043. Partition Array for Maximum Sum */,
@@ -602,6 +606,22 @@
 				A1EA249B236DF909009BAE43 /* 889. Construct Binary Tree from Preorder and Postorder Traversal.h */,
 			);
 			path = "889. Construct Binary Tree from Preorder and Postorder Traversal";
+			sourceTree = "<group>";
+		};
+		A1EA249C236EB264009BAE43 /* 1130. Minimum Cost Tree From Leaf Values */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA249D236EB26A009BAE43 /* 1130. Minimum Cost Tree From Leaf Values.h */,
+			);
+			path = "1130. Minimum Cost Tree From Leaf Values";
+			sourceTree = "<group>";
+		};
+		A1EA249E236EB29A009BAE43 /* 1026. Maximum Difference Between Node and Ancestor */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA249F236EB2A6009BAE43 /* 1026. Maximum Difference Between Node and Ancestor.h */,
+			);
+			path = "1026. Maximum Difference Between Node and Ancestor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
