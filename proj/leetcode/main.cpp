@@ -7,10 +7,10 @@
 //
 
 #include <iostream>
-#include "1026. Maximum Difference Between Node and Ancestor.h"
+#include "841. Keys and Rooms .h"
 
 int main(int argc, const char * argv[]) {
-
-    
+    vector<vector<int>> input {{1},{2},{3}};
+    cout << KeysAndRooms::Solution().canVisitAllRooms(input)<<endl;
     return 0;
 }

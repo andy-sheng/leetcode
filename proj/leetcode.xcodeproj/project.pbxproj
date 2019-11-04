@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A1141FCD2370863A003E7E4B /* 841. Keys and Rooms .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "841. Keys and Rooms .h"; sourceTree = "<group>"; };
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
 		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
@@ -98,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1141FCC2370862D003E7E4B /* 841. Keys and Rooms  */ = {
+			isa = PBXGroup;
+			children = (
+				A1141FCD2370863A003E7E4B /* 841. Keys and Rooms .h */,
+			);
+			path = "841. Keys and Rooms ";
+			sourceTree = "<group>";
+		};
 		A11B547C235A23F800A04D02 /* 1161. Maximum Level Sum of a Binary Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +303,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1141FCC2370862D003E7E4B /* 841. Keys and Rooms  */,
 				A1EA249E236EB29A009BAE43 /* 1026. Maximum Difference Between Node and Ancestor */,
 				A1EA249C236EB264009BAE43 /* 1130. Minimum Cost Tree From Leaf Values */,
 				A1EA249A236DF902009BAE43 /* 889. Construct Binary Tree from Preorder and Postorder Traversal */,
