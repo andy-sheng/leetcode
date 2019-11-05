@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		A1141FCD2370863A003E7E4B /* 841. Keys and Rooms .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "841. Keys and Rooms .h"; sourceTree = "<group>"; };
 		A1141FCF23709262003E7E4B /* 973. K Closest Points to Origin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "973. K Closest Points to Origin.h"; sourceTree = "<group>"; };
+		A1141FD12371D8AB003E7E4B /* 998. Maximum Binary Tree II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "998. Maximum Binary Tree II.h"; sourceTree = "<group>"; };
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
 		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
@@ -114,6 +115,14 @@
 				A1141FCF23709262003E7E4B /* 973. K Closest Points to Origin.h */,
 			);
 			path = "973. K Closest Points to Origin";
+			sourceTree = "<group>";
+		};
+		A1141FD02371D8A4003E7E4B /* 998. Maximum Binary Tree II */ = {
+			isa = PBXGroup;
+			children = (
+				A1141FD12371D8AB003E7E4B /* 998. Maximum Binary Tree II.h */,
+			);
+			path = "998. Maximum Binary Tree II";
 			sourceTree = "<group>";
 		};
 		A11B547C235A23F800A04D02 /* 1161. Maximum Level Sum of a Binary Tree */ = {
@@ -312,6 +321,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1141FD02371D8A4003E7E4B /* 998. Maximum Binary Tree II */,
 				A1141FCE23709243003E7E4B /* 973. K Closest Points to Origin */,
 				A1141FCC2370862D003E7E4B /* 841. Keys and Rooms  */,
 				A1EA249E236EB29A009BAE43 /* 1026. Maximum Difference Between Node and Ancestor */,
