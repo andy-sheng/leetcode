@@ -24,7 +24,7 @@ namespace N_aryTreeLevelOrderTraversal {
             int nodeInNextLevel = 0;
             while (!que.empty()) {
                 vector<int> levelPrint;
-                for (int i = 0; i < nodeInNextLevel; ++i) {
+                for (int i = 0; i < nodeInThisLevel; ++i) {
                     Node *node = que.front();
                     que.pop_front();
                     levelPrint.push_back(node->val);
