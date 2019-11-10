@@ -7,8 +7,7 @@
 //
 
 #include <iostream>
-#include "513. Find Bottom Left Tree Value.h"
-#include "1140. Stone Game II.h"
+#include "695. Max Area of Island.h"
 
 int main(int argc, const char * argv[]) {
 
