@@ -33,6 +33,8 @@
 		A1141FDB2375C4AB003E7E4B /* 513. Find Bottom Left Tree Value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "513. Find Bottom Left Tree Value.h"; sourceTree = "<group>"; };
 		A1141FDD23785425003E7E4B /* 931. Minimum Falling Path Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "931. Minimum Falling Path Sum.h"; sourceTree = "<group>"; };
 		A1141FDF2378604A003E7E4B /* 695. Max Area of Island.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "695. Max Area of Island.h"; sourceTree = "<group>"; };
+		A1141FE12379BCF0003E7E4B /* 1072. Flip Columns For Maximum Number of Equal Rows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1072. Flip Columns For Maximum Number of Equal Rows.h"; sourceTree = "<group>"; };
+		A1141FE32379CB7F003E7E4B /* 1254. Number of Closed Islands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1254. Number of Closed Islands.h"; sourceTree = "<group>"; };
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
 		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
@@ -186,6 +188,22 @@
 				A1141FDF2378604A003E7E4B /* 695. Max Area of Island.h */,
 			);
 			path = "695. Max Area of Island";
+			sourceTree = "<group>";
+		};
+		A1141FE02379BCEA003E7E4B /* 1072. Flip Columns For Maximum Number of Equal Rows */ = {
+			isa = PBXGroup;
+			children = (
+				A1141FE12379BCF0003E7E4B /* 1072. Flip Columns For Maximum Number of Equal Rows.h */,
+			);
+			path = "1072. Flip Columns For Maximum Number of Equal Rows";
+			sourceTree = "<group>";
+		};
+		A1141FE22379CB7A003E7E4B /* 1254. Number of Closed Islands */ = {
+			isa = PBXGroup;
+			children = (
+				A1141FE32379CB7F003E7E4B /* 1254. Number of Closed Islands.h */,
+			);
+			path = "1254. Number of Closed Islands";
 			sourceTree = "<group>";
 		};
 		A11B547C235A23F800A04D02 /* 1161. Maximum Level Sum of a Binary Tree */ = {
@@ -384,6 +402,8 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1141FE22379CB7A003E7E4B /* 1254. Number of Closed Islands */,
+				A1141FE02379BCEA003E7E4B /* 1072. Flip Columns For Maximum Number of Equal Rows */,
 				A1141FDE23786044003E7E4B /* 695. Max Area of Island */,
 				A1141FDC23785415003E7E4B /* 931. Minimum Falling Path Sum */,
 				A1141FDA2375C49F003E7E4B /* 513. Find Bottom Left Tree Value */,

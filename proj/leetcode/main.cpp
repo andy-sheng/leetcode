@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "695. Max Area of Island.h"
+#include "1254. Number of Closed Islands.h"
 
 int main(int argc, const char * argv[]) {
 
