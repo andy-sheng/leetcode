@@ -7,9 +7,10 @@
 //
 
 #include <iostream>
-#include "1254. Number of Closed Islands.h"
+#include "1219. Path with Maximum Gold.h"
 
 int main(int argc, const char * argv[]) {
-
+    vector<vector<int>> input {{0,6,0},{5,8,7},{0,9,0}};
+    cout << PathWithMaximumGold::Solution().getMaximumGold(input) <<endl;
     return 0;
 }
