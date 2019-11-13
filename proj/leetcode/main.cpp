@@ -7,10 +7,18 @@
 //
 
 #include <iostream>
-#include "1219. Path with Maximum Gold.h"
+#include "427. Construct Quad Tree.h"
 
 int main(int argc, const char * argv[]) {
-    vector<vector<int>> input {{0,6,0},{5,8,7},{0,9,0}};
-    cout << PathWithMaximumGold::Solution().getMaximumGold(input) <<endl;
+    vector<vector<int>> input = {
+        {1,1,1,1,0,0,0,0},
+        {1,1,1,1,0,0,0,0},
+        {1,1,1,1,1,1,1,1},
+        {1,1,1,1,1,1,1,1},
+        {1,1,1,1,0,0,0,0},
+        {1,1,1,1,0,0,0,0},
+        {1,1,1,1,0,0,0,0},
+        {1,1,1,1,0,0,0,0}};
+    ConstructQuadTree::Solution().construct(input);
     return 0;
 }
