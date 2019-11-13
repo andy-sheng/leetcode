@@ -37,7 +37,7 @@ namespace ConstructQuadTree {
         return to_string(row) + '_' + to_string(col) + '_' + to_string(r);
     }
 
-    class Solution {
+    class Solution2 {
     public:
         Node* construct(vector<vector<int>>& grid) {
             unordered_map<string, int> sums;
@@ -81,6 +81,39 @@ namespace ConstructQuadTree {
             return root;
         }
         
+    };
+
+
+
+    class Solution {
+    public:
+        Node* construct(vector<vector<int>>& grid) {
+            return construct(grid, 0, 0, grid.size());
+        }
+        
+        Node* construct(vector<vector<int>>& grid, int row, int col, int r) {
+            if (r == 1)
+            {
+                return new Node(grid[row][col], true, NULL, NULL, NULL, NULL);
+            }
+            int nextR = r >> 1;
+            Node *topLeft = construct(grid, row, col, nextR);
+            Node *topRight = construct(grid, row, col + nextR, nextR);
+            Node *bottomLeft = construct(grid, row + nextR, col, nextR);
+            Node *bottomRight = construct(grid, row + nextR, col + nextR, nextR);
+                                          
+            if (topLeft->isLeaf
+                && topRight->isLeaf
+                && bottomLeft->isLeaf
+                && bottomRight->isLeaf
+                && topLeft->val == topRight->val
+                && topRight->val == bottomLeft->val
+                && bottomLeft->val == bottomRight->val) {
+                return new Node(bottomLeft->val, true, NULL, NULL, NULL, NULL);
+            } else {
+                return new Node(false, false, topLeft, topRight, bottomLeft, bottomRight);
+            }
+        }
     };
 }
 #endif /* _27__Construct_Quad_Tree_h */
