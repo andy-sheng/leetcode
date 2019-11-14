@@ -7,9 +7,9 @@
 //
 
 #include <iostream>
-#include "1016. Binary String With Substrings Representing 1 To N.h"
+#include "1249. Minimum Remove to Make Valid Parentheses.h"
 
 int main(int argc, const char * argv[]) {
-    cout << BinaryStringWithSubstringsRepresenting1ToN::Solution().queryString("0110", 4)<<endl;
+    cout << MinimumRemoveToMakeValidParentheses::Solution().minRemoveToMakeValid("))((") << endl;
     return 0;
 }

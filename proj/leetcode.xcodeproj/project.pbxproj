@@ -38,6 +38,7 @@
 		A1141FE5237B1235003E7E4B /* 1219. Path with Maximum Gold.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1219. Path with Maximum Gold.h"; sourceTree = "<group>"; };
 		A1141FE7237C66BA003E7E4B /* 427. Construct Quad Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "427. Construct Quad Tree.h"; sourceTree = "<group>"; };
 		A1141FE9237DB722003E7E4B /* 1016. Binary String With Substrings Representing 1 To N.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1016. Binary String With Substrings Representing 1 To N.h"; sourceTree = "<group>"; };
+		A1141FEB237DBA93003E7E4B /* 1249. Minimum Remove to Make Valid Parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1249. Minimum Remove to Make Valid Parentheses.h"; sourceTree = "<group>"; };
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
 		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
@@ -231,6 +232,14 @@
 				A1141FE9237DB722003E7E4B /* 1016. Binary String With Substrings Representing 1 To N.h */,
 			);
 			path = "1016. Binary String With Substrings Representing 1 To N";
+			sourceTree = "<group>";
+		};
+		A1141FEA237DBA8C003E7E4B /* 1249. Minimum Remove to Make Valid Parentheses */ = {
+			isa = PBXGroup;
+			children = (
+				A1141FEB237DBA93003E7E4B /* 1249. Minimum Remove to Make Valid Parentheses.h */,
+			);
+			path = "1249. Minimum Remove to Make Valid Parentheses";
 			sourceTree = "<group>";
 		};
 		A11B547C235A23F800A04D02 /* 1161. Maximum Level Sum of a Binary Tree */ = {
@@ -429,6 +438,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1141FEA237DBA8C003E7E4B /* 1249. Minimum Remove to Make Valid Parentheses */,
 				A1141FE8237DB6EE003E7E4B /* 1016. Binary String With Substrings Representing 1 To N */,
 				A1141FE6237C66B1003E7E4B /* 427. Construct Quad Tree */,
 				A1141FE4237B122C003E7E4B /* 1219. Path with Maximum Gold */,
