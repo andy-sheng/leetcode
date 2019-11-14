@@ -7,18 +7,9 @@
 //
 
 #include <iostream>
-#include "427. Construct Quad Tree.h"
+#include "1016. Binary String With Substrings Representing 1 To N.h"
 
 int main(int argc, const char * argv[]) {
-    vector<vector<int>> input = {
-        {1,1,1,1,0,0,0,0},
-        {1,1,1,1,0,0,0,0},
-        {1,1,1,1,1,1,1,1},
-        {1,1,1,1,1,1,1,1},
-        {1,1,1,1,0,0,0,0},
-        {1,1,1,1,0,0,0,0},
-        {1,1,1,1,0,0,0,0},
-        {1,1,1,1,0,0,0,0}};
-    ConstructQuadTree::Solution().construct(input);
+    cout << BinaryStringWithSubstringsRepresenting1ToN::Solution().queryString("0110", 4)<<endl;
     return 0;
 }
