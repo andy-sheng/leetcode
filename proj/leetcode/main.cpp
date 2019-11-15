@@ -7,9 +7,9 @@
 //
 
 #include <iostream>
-#include "647. Palindromic Substrings .h"
+#include "946. Validate Stack Sequences.h"
 
 int main(int argc, const char * argv[]) {
-    cout << PalindromicSubstring::Solution().countSubstrings("abc")<<endl;
+    
     return 0;
 }
