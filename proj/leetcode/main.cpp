@@ -7,9 +7,9 @@
 //
 
 #include <iostream>
-#include "1249. Minimum Remove to Make Valid Parentheses.h"
+#include "647. Palindromic Substrings .h"
 
 int main(int argc, const char * argv[]) {
-    cout << MinimumRemoveToMakeValidParentheses::Solution().minRemoveToMakeValid("))((") << endl;
+    cout << PalindromicSubstring::Solution().countSubstrings("abc")<<endl;
     return 0;
 }
