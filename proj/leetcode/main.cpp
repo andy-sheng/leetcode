@@ -7,11 +7,9 @@
 //
 
 #include <iostream>
-#include "1238. Circular Permutation in Binary Representation.h"
+#include "856. Score of Parentheses.h"
 
 int main(int argc, const char * argv[]) {
-    for (auto i : CircularPermutationInBinaryRepresentation::Solution().circularPermutation(3, 2)) {
-        cout <<  std::bitset<32>(i) << endl;
-    }
+    cout << ScoreOfParentheses::Solution().scoreOfParentheses("(()(()))")<<endl;
     return 0;
 }
