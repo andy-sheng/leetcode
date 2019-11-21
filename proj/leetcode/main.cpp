@@ -7,9 +7,10 @@
 //
 
 #include <iostream>
-#include "856. Score of Parentheses.h"
+#include "1004. Max Consecutive Ones III.h"
 
 int main(int argc, const char * argv[]) {
-    cout << ScoreOfParentheses::Solution().scoreOfParentheses("(()(()))")<<endl;
+    vector<int> input {1,1,1,0,0,0,1,1,1,1,0};
+    cout << MaxConsecutiveOnesIII::Solution().longestOnes(input, 2)<<endl;
     return 0;
 }
