@@ -7,10 +7,12 @@
 //
 
 #include <iostream>
-#include "1004. Max Consecutive Ones III.h"
+#include "983. Minimum Cost For Tickets.h"
 
 int main(int argc, const char * argv[]) {
-    vector<int> input {1,1,1,0,0,0,1,1,1,1,0};
-    cout << MaxConsecutiveOnesIII::Solution().longestOnes(input, 2)<<endl;
+    
+    vector<int> days {1,2,3,4,5,6,7,8,9,10,30,31};
+    vector<int> costs {2,7,15};
+    cout << MinimumCostForTickets::Solution().mincostTickets(days, costs)<<endl;
     return 0;
 }
