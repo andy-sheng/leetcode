@@ -7,12 +7,10 @@
 //
 
 #include <iostream>
-#include "983. Minimum Cost For Tickets.h"
+#include "1190. Reverse Substrings Between Each Pair of Parentheses.h"
 
 int main(int argc, const char * argv[]) {
+    cout << P1190::Solution().reverseParentheses("a(bcdefghijkl(mno)p)q")<<endl;
     
-    vector<int> days {1,2,3,4,5,6,7,8,9,10,30,31};
-    vector<int> costs {2,7,15};
-    cout << MinimumCostForTickets::Solution().mincostTickets(days, costs)<<endl;
     return 0;
 }

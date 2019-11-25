@@ -47,6 +47,8 @@
 		A1141FF823844C80003E7E4B /* 856. Score of Parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "856. Score of Parentheses.h"; sourceTree = "<group>"; };
 		A1141FFA2386F76A003E7E4B /* 1004. Max Consecutive Ones III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1004. Max Consecutive Ones III.h"; sourceTree = "<group>"; };
 		A1141FFC238A6C30003E7E4B /* 983. Minimum Cost For Tickets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "983. Minimum Cost For Tickets.h"; sourceTree = "<group>"; };
+		A1141FFD238A6FD1003E7E4B /* 1190. Reverse Substrings Between Each Pair of Parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1190. Reverse Substrings Between Each Pair of Parentheses.h"; sourceTree = "<group>"; };
+		A1141FFF238C32F7003E7E4B /* 1267. Count Servers that Communicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1267. Count Servers that Communicate.h"; sourceTree = "<group>"; };
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
 		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
@@ -314,6 +316,14 @@
 			path = "983. Minimum Cost For Tickets";
 			sourceTree = "<group>";
 		};
+		A1141FFE238C32DC003E7E4B /* 1267. Count Servers that Communicate */ = {
+			isa = PBXGroup;
+			children = (
+				A1141FFF238C32F7003E7E4B /* 1267. Count Servers that Communicate.h */,
+			);
+			path = "1267. Count Servers that Communicate";
+			sourceTree = "<group>";
+		};
 		A11B547C235A23F800A04D02 /* 1161. Maximum Level Sum of a Binary Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -510,6 +520,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1141FFE238C32DC003E7E4B /* 1267. Count Servers that Communicate */,
 				A1141FFB238A6C27003E7E4B /* 983. Minimum Cost For Tickets */,
 				A1141FF92386F764003E7E4B /* 1004. Max Consecutive Ones III */,
 				A1141FF723844C78003E7E4B /* 856. Score of Parentheses */,
@@ -589,6 +600,7 @@
 				A169987E22FECD1900F640E5 /* 746. Min Cost Climbing Stairs */,
 				A169987922FEC05000F640E5 /* 1025.Divisor Game */,
 				A12C8ADD234124DC000036C8 /* DataStructures.h */,
+				A1141FFD238A6FD1003E7E4B /* 1190. Reverse Substrings Between Each Pair of Parentheses.h */,
 			);
 			path = alog;
 			sourceTree = "<group>";
