@@ -7,10 +7,10 @@
 //
 
 #include <iostream>
-#include "1190. Reverse Substrings Between Each Pair of Parentheses.h"
+#include "1090. Largest Values From Labels.h"
 
 int main(int argc, const char * argv[]) {
-    cout << P1190::Solution().reverseParentheses("a(bcdefghijkl(mno)p)q")<<endl;
+    
     
     return 0;
 }
