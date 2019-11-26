@@ -50,6 +50,7 @@
 		A1141FFD238A6FD1003E7E4B /* 1190. Reverse Substrings Between Each Pair of Parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1190. Reverse Substrings Between Each Pair of Parentheses.h"; sourceTree = "<group>"; };
 		A1141FFF238C32F7003E7E4B /* 1267. Count Servers that Communicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1267. Count Servers that Communicate.h"; sourceTree = "<group>"; };
 		A1142001238C373B003E7E4B /* 1090. Largest Values From Labels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1090. Largest Values From Labels.h"; sourceTree = "<group>"; };
+		A1142003238D8A50003E7E4B /* 1115. Print FooBar Alternately.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1115. Print FooBar Alternately.h"; sourceTree = "<group>"; };
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
 		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
@@ -333,6 +334,14 @@
 			path = "1090. Largest Values From Labels";
 			sourceTree = "<group>";
 		};
+		A1142002238D8A49003E7E4B /* 1115. Print FooBar Alternately */ = {
+			isa = PBXGroup;
+			children = (
+				A1142003238D8A50003E7E4B /* 1115. Print FooBar Alternately.h */,
+			);
+			path = "1115. Print FooBar Alternately";
+			sourceTree = "<group>";
+		};
 		A11B547C235A23F800A04D02 /* 1161. Maximum Level Sum of a Binary Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -529,6 +538,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1142002238D8A49003E7E4B /* 1115. Print FooBar Alternately */,
 				A1142000238C3735003E7E4B /* 1090. Largest Values From Labels */,
 				A1141FFE238C32DC003E7E4B /* 1267. Count Servers that Communicate */,
 				A1141FFB238A6C27003E7E4B /* 983. Minimum Cost For Tickets */,
