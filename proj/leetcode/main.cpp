@@ -7,14 +7,14 @@
 //
 
 #include <iostream>
-#include "1115. Print FooBar Alternately.h"
+#include "347. Top K Frequent Elements.h"
 
-void printFoo()
-{
-    cout << "foo" <<endl;
-}
+
 int main(int argc, const char * argv[]) {
+    vector<int> input{-1,1,3,3,3,4,5,5,5,5,6,6,7,8};
     
-    P1115::FooBar(2).foo(printFoo);
+    for (int i: P347::Solution().topKFrequent(input, 3)) {
+        cout << i << endl;
+    }
     return 0;
 }

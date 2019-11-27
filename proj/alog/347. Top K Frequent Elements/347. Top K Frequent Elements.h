@@ -1,15 +1,15 @@
 //
-//  973. K Closest Points to Origin.h
+//  347. Top K Frequent Elements.h
 //  leetcode
 //
-//  Created by andysheng on 2019/11/5.
+//  Created by andysheng on 2019/11/27.
 //  Copyright © 2019 Andy. All rights reserved.
 //
 
-#ifndef _73__K_Closest_Points_to_Origin_h
-#define _73__K_Closest_Points_to_Origin_h
+#ifndef _47__Top_K_Frequent_Elements_h
+#define _47__Top_K_Frequent_Elements_h
 #include "DataStructures.h"
-namespace KClosestPointsToOrigin {
+namespace P347 {
     bool compare(pair<int, int> a, pair<int, int> b) {
         return a.second > b.second;
     }
@@ -39,7 +39,7 @@ namespace KClosestPointsToOrigin {
                     pair<int, int> p = make_pair(it->first, it->second);
                     int targetPos = 0;
                     for (int i = targetPos * 2 + 1; i < heap.size(); i = i * 2 + 1) {
-                        if (i + 1 < heap.size() && compare(heap[i], heap[i + 1])) i += 1;
+                        if (!compare(heap[i], heap[i + 1])) i += 1;
                         if (heap[i].second < p.second) {
                             heap[targetPos] = heap[i];
                             targetPos = i;
@@ -58,4 +58,4 @@ namespace KClosestPointsToOrigin {
         }
     };
 }
-#endif /* _73__K_Closest_Points_to_Origin_h */
+#endif /* _47__Top_K_Frequent_Elements_h */
