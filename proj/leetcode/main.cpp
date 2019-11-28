@@ -7,14 +7,12 @@
 //
 
 #include <iostream>
-#include "347. Top K Frequent Elements.h"
+#include "540. Single Element in a Sorted Array.h"
 
 
 int main(int argc, const char * argv[]) {
-    vector<int> input{-1,1,3,3,3,4,5,5,5,5,6,6,7,8};
-    
-    for (int i: P347::Solution().topKFrequent(input, 3)) {
-        cout << i << endl;
-    }
+    vector<int> input {1,1,2,2,3};
+//    vector<int> input {3,3,7,7,10,11,11};
+    cout << P540::Solution().singleNonDuplicate(input)<<endl;
     return 0;
 }
