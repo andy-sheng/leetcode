@@ -53,6 +53,7 @@
 		A1142003238D8A50003E7E4B /* 1115. Print FooBar Alternately.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1115. Print FooBar Alternately.h"; sourceTree = "<group>"; };
 		A1142005238ECD01003E7E4B /* 347. Top K Frequent Elements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "347. Top K Frequent Elements.h"; sourceTree = "<group>"; };
 		A1142007239029D9003E7E4B /* 540. Single Element in a Sorted Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "540. Single Element in a Sorted Array.h"; sourceTree = "<group>"; };
+		A11420092392CDC1003E7E4B /* 1143. Longest Common Subsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1143. Longest Common Subsequence.h"; sourceTree = "<group>"; };
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
 		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
@@ -360,6 +361,14 @@
 			path = "540. Single Element in a Sorted Array";
 			sourceTree = "<group>";
 		};
+		A11420082392CDBA003E7E4B /* 1143. Longest Common Subsequence */ = {
+			isa = PBXGroup;
+			children = (
+				A11420092392CDC1003E7E4B /* 1143. Longest Common Subsequence.h */,
+			);
+			path = "1143. Longest Common Subsequence";
+			sourceTree = "<group>";
+		};
 		A11B547C235A23F800A04D02 /* 1161. Maximum Level Sum of a Binary Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -556,6 +565,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A11420082392CDBA003E7E4B /* 1143. Longest Common Subsequence */,
 				A1142006239029D3003E7E4B /* 540. Single Element in a Sorted Array */,
 				A1142004238ECCF6003E7E4B /* 347. Top K Frequent Elements */,
 				A1142002238D8A49003E7E4B /* 1115. Print FooBar Alternately */,

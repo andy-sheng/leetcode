@@ -7,12 +7,10 @@
 //
 
 #include <iostream>
-#include "540. Single Element in a Sorted Array.h"
+#include "1143. Longest Common Subsequence.h"
 
 
 int main(int argc, const char * argv[]) {
-    vector<int> input {1,1,2,2,3};
-//    vector<int> input {3,3,7,7,10,11,11};
-    cout << P540::Solution().singleNonDuplicate(input)<<endl;
+    cout << P1143::Solution().longestCommonSubsequence("abc", "def")<<endl;
     return 0;
 }
