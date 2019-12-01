@@ -55,6 +55,7 @@
 		A1142007239029D9003E7E4B /* 540. Single Element in a Sorted Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "540. Single Element in a Sorted Array.h"; sourceTree = "<group>"; };
 		A11420092392CDC1003E7E4B /* 1143. Longest Common Subsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1143. Longest Common Subsequence.h"; sourceTree = "<group>"; };
 		A114200F23940AFC003E7E4B /* 1247. Minimum Swaps to Make Strings Equal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1247. Minimum Swaps to Make Strings Equal.h"; sourceTree = "<group>"; };
+		A114201023941387003E7E4B /* 1273. Delete Tree Nodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1273. Delete Tree Nodes.h"; sourceTree = "<group>"; };
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
 		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
@@ -378,6 +379,22 @@
 			path = "1247. Minimum Swaps to Make Strings Equal";
 			sourceTree = "<group>";
 		};
+		A114201123941397003E7E4B /* 1273. Delete Tree Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				A114201023941387003E7E4B /* 1273. Delete Tree Nodes.h */,
+			);
+			path = "1273. Delete Tree Nodes";
+			sourceTree = "<group>";
+		};
+		A1142012239413AC003E7E4B /* 1190. Reverse Substrings Between Each Pair of Parentheses */ = {
+			isa = PBXGroup;
+			children = (
+				A1141FFD238A6FD1003E7E4B /* 1190. Reverse Substrings Between Each Pair of Parentheses.h */,
+			);
+			path = "1190. Reverse Substrings Between Each Pair of Parentheses";
+			sourceTree = "<group>";
+		};
 		A11B547C235A23F800A04D02 /* 1161. Maximum Level Sum of a Binary Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -574,6 +591,8 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1142012239413AC003E7E4B /* 1190. Reverse Substrings Between Each Pair of Parentheses */,
+				A114201123941397003E7E4B /* 1273. Delete Tree Nodes */,
 				A114200E23940AF2003E7E4B /* 1247. Minimum Swaps to Make Strings Equal */,
 				A11420082392CDBA003E7E4B /* 1143. Longest Common Subsequence */,
 				A1142006239029D3003E7E4B /* 540. Single Element in a Sorted Array */,
@@ -660,7 +679,6 @@
 				A169987E22FECD1900F640E5 /* 746. Min Cost Climbing Stairs */,
 				A169987922FEC05000F640E5 /* 1025.Divisor Game */,
 				A12C8ADD234124DC000036C8 /* DataStructures.h */,
-				A1141FFD238A6FD1003E7E4B /* 1190. Reverse Substrings Between Each Pair of Parentheses.h */,
 			);
 			path = alog;
 			sourceTree = "<group>";

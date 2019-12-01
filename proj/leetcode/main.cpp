@@ -7,10 +7,10 @@
 //
 
 #include <iostream>
-#include "1247. Minimum Swaps to Make Strings Equal.h"
+#include "1273. Delete Tree Nodes.h"
 
 
 int main(int argc, const char * argv[]) {
-    cout << P1247::Solution().minimumSwap("xy", "yx") << endl;
+    
     return 0;
 }
