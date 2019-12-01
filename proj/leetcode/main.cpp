@@ -7,10 +7,11 @@
 //
 
 #include <iostream>
-#include "1273. Delete Tree Nodes.h"
+#include "609. Find Duplicate File in System.h"
 
 
 int main(int argc, const char * argv[]) {
-    
+    vector<string> input {"root/a 1.txt(abcd) 2.txt(efgh)", "root/c 3.txt(abcd)", "root/c/d 4.txt(efgh)", "root 4.txt(efgh)"};
+    P609::Solution().findDuplicate(input);
     return 0;
 }
