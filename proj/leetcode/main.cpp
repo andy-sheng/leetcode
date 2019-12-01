@@ -7,10 +7,10 @@
 //
 
 #include <iostream>
-#include "1143. Longest Common Subsequence.h"
+#include "1247. Minimum Swaps to Make Strings Equal.h"
 
 
 int main(int argc, const char * argv[]) {
-    cout << P1143::Solution().longestCommonSubsequence("abc", "def")<<endl;
+    cout << P1247::Solution().minimumSwap("xy", "yx") << endl;
     return 0;
 }
