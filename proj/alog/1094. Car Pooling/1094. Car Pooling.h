@@ -12,10 +12,29 @@
 #include "DataStructures.h"
 
 namespace P1049 {
+    class Solution {
+    public:
+        bool carPooling(vector<vector<int>>& trips, int capacity) {
+            int location[1001];
+            memset(location, 0, 1001 * sizeof(int));
+            for (auto trip: trips) {
+                location[trip[1]] += trip[0];
+                location[trip[2]] -= trip[0];
+            }
+            int load = 0;
+            for (int i = 1; i < 1001; ++i) {
+                load += location[i];
+                if (load > capacity) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    };
     bool compare(pair<int, int> a, pair<int, int> b) {
         return a.first < b.first;
     }
-    class Solution {
+    class Solution2 {
     public:
         bool carPooling(vector<vector<int>>& trips, int capacity) {
             vector<pair<int, int>> locations;
