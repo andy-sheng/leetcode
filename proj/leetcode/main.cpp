@@ -7,17 +7,10 @@
 //
 
 #include <iostream>
-#include "78. Subsets.h"
+#include "236. Lowest Common Ancestor of a Binary Tree.h"
 
 
 int main(int argc, const char * argv[]) {
-    vector<int> input{1,2,3};
-  
-    for (auto tmp: P78::Solution().subsets(input)) {
-        for (auto i: tmp) {
-            cout << i << " ";
-        }
-        cout << endl;
-    }
+    v
     return 0;
 }
