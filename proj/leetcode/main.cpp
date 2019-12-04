@@ -7,11 +7,24 @@
 //
 
 #include <iostream>
-#include "1105. Filling Bookcase Shelves.h"
+#include "1019. Next Greater Node In Linked List.h"
 
 
 int main(int argc, const char * argv[]) {
-    vector<vector<int>> input {{1,1},{2,3},{2,3},{1,1},{1,1},{1,1},{1,2}};
-    cout << P1105::Solution().minHeightShelves(input, 4)<<endl;
+    ListNode *root = new ListNode(2);
+    root->next = new ListNode(1);
+    root->next->next = new ListNode(5);
+//    ListNode *root = new ListNode(1);
+//    root->next = new ListNode(7);
+//    root->next->next = new ListNode(5);
+//    root->next->next->next = new ListNode(1);
+//    root->next->next->next->next = new ListNode(9);
+//    root->next->next->next->next->next = new ListNode(2);
+//    root->next->next->next->next->next->next = new ListNode(5);
+//    root->next->next->next->next->next->next->next = new ListNode(1);
+    for (auto i: P1019::Solution().nextLargerNodes(root)) {
+        cout << i << " ";
+    }
+    cout << endl;
     return 0;
 }
