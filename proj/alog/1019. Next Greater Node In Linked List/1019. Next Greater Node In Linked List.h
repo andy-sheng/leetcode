@@ -16,7 +16,7 @@ namespace P1019 {
     class Solution {
     public:
         vector<int> nextLargerNodes(ListNode* head) {
-            vector<int> unsolvedNodeIndex; // index, val
+            vector<pair<int, int>> unsolvedNodeIndex; // index, val
             vector<int> ret;
             int index = 0;
             if (!head) return ret;
@@ -31,11 +31,7 @@ namespace P1019 {
                     ret.push_back(0);
                     unsolvedNodeIndex.push_back(make_pair(index, head->val));
                 }
-                // debug
-                for (auto item: unsolvedNodeIndex) {
-                    cout << item.first << endl;
-                }
-                cout << "------------" << endl;
+              
                 
                 ++index;
                 head = head->next;
