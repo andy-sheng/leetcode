@@ -7,10 +7,10 @@
 //
 
 #include <iostream>
-#include "236. Lowest Common Ancestor of a Binary Tree.h"
+#include "1209. Remove All Adjacent Duplicates in String II.h"
 
 
 int main(int argc, const char * argv[]) {
-    v
+    cout << P1209::Solution().removeDuplicates("abcd", 2)<<endl;
     return 0;
 }
