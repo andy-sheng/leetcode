@@ -7,10 +7,10 @@
 //
 
 #include <iostream>
-#include "1209. Remove All Adjacent Duplicates in String II.h"
+#include "712. Minimum ASCII Delete Sum for Two Strings.h"
 
 
 int main(int argc, const char * argv[]) {
-    cout << P1209::Solution().removeDuplicates("abcd", 2)<<endl;
+    cout << P712::Solution().minimumDeleteSum("delete", "leet")<<endl;
     return 0;
 }
