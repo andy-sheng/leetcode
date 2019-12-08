@@ -176,8 +176,47 @@ void kmp() {
     
 }
 
-void unionFind() {
-    
+
+class UnionFind {
+private:
+    vector<int> arr;
+    vector<int> rank;
+public:
+    UnionFind(int n);
+    int find(int x);
+    void Union(int x, int y);
+    bool isConnected(int x, int y);
+};
+
+UnionFind::UnionFind(int n) {
+    arr = vector<int>(n);
+    rank = vector<int>(n, 1);
+    for (int i = 0; i < n; ++i) {
+        arr[i] = i;
+    }
+}
+
+int UnionFind::find(int x) {
+    if (arr[x] != x) {
+        arr[x] = find(arr[x]);
+    }
+    return arr[x];
+}
+
+void UnionFind::Union(int x, int y) {
+    x = find(x);
+    y = find(y);
+    if (rank[x] > rank[y]) {
+        arr[y] = x;
+        rank[x] += rank[y];
+    } else {
+        arr[x] = y;
+        rank[y] += rank[x];
+    }
+}
+
+bool UnionFind::isConnected(int x, int y) {
+    return find(x) == find(y);
 }
 
 }
