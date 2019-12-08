@@ -158,7 +158,7 @@ void heapSort(vector<int> &arr, int begin, int end) {
 
 int binarySearch(vector<int> &arr, int target) {
     int low = 0;
-    int high = arr.size() - 1;
+    int high = (int)arr.size() - 1;
     while (low <= high) {
         int mid = (low + high) / 2;
         if (arr[mid] == target) {
@@ -172,8 +172,46 @@ int binarySearch(vector<int> &arr, int target) {
     return -1;
 }
 
-void kmp() {
-    
+void getNext(const string &p, vector<int> &next) {
+    next[0] = 0;
+    if (p.size() <= 1) return;
+    int i = 0;
+    int j = 1;
+    while (j < p.size()) {
+        if (p[j] == p[i]) {
+            next[j] += next[j - 1] + 1;
+            ++i;
+            ++j;
+        } else {
+            i = 0;
+            next[j++] = 0;
+        }
+    }
+}
+
+int kmp(const string &p, const string &s) {
+    vector<int> next(p.size(), 0);
+    getNext(p, next);
+    int i = 0;
+    int j = 0;
+    while (i < s.size() && j < p.size()) {
+        if (s[i] == p[j]) {
+            ++j;
+            ++i;
+        } else {
+            if (j == 0) {
+                ++i;
+            } else {
+                j = next[j - 1];
+            }
+        }
+        
+    }
+    if (i <= s.size() && j == p.size()) {
+        return i - p.size();
+    } else {
+        return -1;
+    }
 }
 
 

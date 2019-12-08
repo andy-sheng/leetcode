@@ -12,14 +12,14 @@
 
 
 int main(int argc, const char * argv[]) {
-    
-    Algorithm::UnionFind unionFind(10);
-    unionFind.Union(1, 2);
-    unionFind.Union(2, 3);
-    unionFind.Union(4, 5);
-    unionFind.Union(5, 6);
-    
-    cout << unionFind.isConnected(1, 2) << endl;
+    srand((unsigned)time(NULL));
+//    Algorithm::UnionFind unionFind(10);
+//    unionFind.Union(1, 2);
+//    unionFind.Union(2, 3);
+//    unionFind.Union(4, 5);
+//    unionFind.Union(5, 6);
+//
+//    cout << unionFind.isConnected(1, 2) << endl;
     
     
 //    srand((unsigned)time(NULL));
