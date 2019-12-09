@@ -10,9 +10,11 @@
 #include <time.h>
 #include "DataStructures.h"
 
+#include "526. Beautiful Arrangement.h"
 
 int main(int argc, const char * argv[]) {
-    srand((unsigned)time(NULL));
+    cout << P526::Solution().countArrangement(2) << endl;
+//    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
 //    unionFind.Union(2, 3);

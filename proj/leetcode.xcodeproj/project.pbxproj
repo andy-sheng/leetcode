@@ -66,6 +66,7 @@
 		A114202223996CB0003E7E4B /* 1209. Remove All Adjacent Duplicates in String II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1209. Remove All Adjacent Duplicates in String II.h"; sourceTree = "<group>"; };
 		A114202423997526003E7E4B /* 712. Minimum ASCII Delete Sum for Two Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "712. Minimum ASCII Delete Sum for Two Strings.h"; sourceTree = "<group>"; };
 		A1142026239DDEAC003E7E4B /* 789. Escape The Ghosts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "789. Escape The Ghosts.h"; sourceTree = "<group>"; };
+		A1142028239DE6B5003E7E4B /* 526. Beautiful Arrangement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "526. Beautiful Arrangement.h"; sourceTree = "<group>"; };
 		A11B547D235A240600A04D02 /* 1161. Maximum Level Sum of a Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1161. Maximum Level Sum of a Binary Tree.h"; sourceTree = "<group>"; };
 		A11B547F235A2B0800A04D02 /* 1104. Path In Zigzag Labelled Binary Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1104. Path In Zigzag Labelled Binary Tree.h"; sourceTree = "<group>"; };
 		A128B8B4235E0A54008674AD /* 1222. Queens That Can Attack the King.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1222. Queens That Can Attack the King.h"; sourceTree = "<group>"; };
@@ -485,6 +486,14 @@
 			path = "789. Escape The Ghosts";
 			sourceTree = "<group>";
 		};
+		A1142027239DE6AE003E7E4B /* 526. Beautiful Arrangement */ = {
+			isa = PBXGroup;
+			children = (
+				A1142028239DE6B5003E7E4B /* 526. Beautiful Arrangement.h */,
+			);
+			path = "526. Beautiful Arrangement";
+			sourceTree = "<group>";
+		};
 		A11B547C235A23F800A04D02 /* 1161. Maximum Level Sum of a Binary Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -681,6 +690,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1142027239DE6AE003E7E4B /* 526. Beautiful Arrangement */,
 				A1142025239DDEA5003E7E4B /* 789. Escape The Ghosts */,
 				A114202323997521003E7E4B /* 712. Minimum ASCII Delete Sum for Two Strings */,
 				A114202123996CAB003E7E4B /* 1209. Remove All Adjacent Duplicates in String II */,
