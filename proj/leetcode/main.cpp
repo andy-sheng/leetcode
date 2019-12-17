@@ -10,10 +10,10 @@
 #include <time.h>
 #include "DataStructures.h"
 
-#include "526. Beautiful Arrangement.h"
+#include "508. Most Frequent Subtree Sum.h"
 
 int main(int argc, const char * argv[]) {
-    cout << P526::Solution().countArrangement(2) << endl;
+    
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);

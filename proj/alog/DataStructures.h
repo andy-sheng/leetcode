@@ -244,12 +244,14 @@ int UnionFind::find(int x) {
 void UnionFind::Union(int x, int y) {
     x = find(x);
     y = find(y);
-    if (rank[x] > rank[y]) {
-        arr[y] = x;
-        rank[x] += rank[y];
-    } else {
-        arr[x] = y;
-        rank[y] += rank[x];
+    if (x != y) {
+        if (rank[x] > rank[y]) {
+            arr[y] = x;
+            rank[x] += rank[y];
+        } else {
+            arr[x] = y;
+            rank[y] += rank[x];
+        }
     }
 }
 
