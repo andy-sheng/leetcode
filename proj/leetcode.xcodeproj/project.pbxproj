@@ -101,6 +101,7 @@
 		A171BAA72363565900B5061F /* 951. Flip Equivalent Binary Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "951. Flip Equivalent Binary Trees.h"; sourceTree = "<group>"; };
 		A171BAA923635AEE00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1123. Lowest Common Ancestor of Deepest Leaves.h"; sourceTree = "<group>"; };
 		A1A7971D23A93A8600A7B758 /* 508. Most Frequent Subtree Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "508. Most Frequent Subtree Sum.h"; sourceTree = "<group>"; };
+		A1A7971F23AA8CE100A7B758 /* 817. Linked List Components.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "817. Linked List Components.h"; sourceTree = "<group>"; };
 		A1B71FEB2365913700EB34CC /* 1110. Delete Nodes And Return Forest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1110. Delete Nodes And Return Forest.h"; sourceTree = "<group>"; };
 		A1C05EA4235C91630077F738 /* 861. Score After Flipping Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "861. Score After Flipping Matrix.h"; sourceTree = "<group>"; };
 		A1C05EA6235CA1E10077F738 /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h"; sourceTree = "<group>"; };
@@ -700,6 +701,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1A7971E23AA8CD500A7B758 /* 817. Linked List Components */,
 				A1A7971C23A93A7700A7B758 /* 508. Most Frequent Subtree Sum */,
 				A1142029239DED7E003E7E4B /* 547. Friend Circles */,
 				A1142027239DE6AE003E7E4B /* 526. Beautiful Arrangement */,
@@ -863,6 +865,14 @@
 				A1A7971D23A93A8600A7B758 /* 508. Most Frequent Subtree Sum.h */,
 			);
 			path = "508. Most Frequent Subtree Sum";
+			sourceTree = "<group>";
+		};
+		A1A7971E23AA8CD500A7B758 /* 817. Linked List Components */ = {
+			isa = PBXGroup;
+			children = (
+				A1A7971F23AA8CE100A7B758 /* 817. Linked List Components.h */,
+			);
+			path = "817. Linked List Components";
 			sourceTree = "<group>";
 		};
 		A1B71FEA2365913000EB34CC /* 1110. Delete Nodes And Return Forest */ = {
