@@ -10,11 +10,11 @@
 #include <time.h>
 #include "DataStructures.h"
 
-#include "1011. Capacity To Ship Packages Within D Days.h"
+#include "553. Optimal Division.h"
 
 int main(int argc, const char * argv[]) {
     vector<int> input {1,2,3,1,1};
-    cout << P1011::Solution().shipWithinDays(input, 4) << endl;
+    cout << P553::Solution().optimalDivision(input) << endl;
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);

@@ -103,6 +103,7 @@
 		A1A7971D23A93A8600A7B758 /* 508. Most Frequent Subtree Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "508. Most Frequent Subtree Sum.h"; sourceTree = "<group>"; };
 		A1A7971F23AA8CE100A7B758 /* 817. Linked List Components.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "817. Linked List Components.h"; sourceTree = "<group>"; };
 		A1A7972123AA939700A7B758 /* 1011. Capacity To Ship Packages Within D Days.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1011. Capacity To Ship Packages Within D Days.h"; sourceTree = "<group>"; };
+		A1B3C32023ABE7CE00C0B217 /* 553. Optimal Division.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "553. Optimal Division.h"; sourceTree = "<group>"; };
 		A1B71FEB2365913700EB34CC /* 1110. Delete Nodes And Return Forest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1110. Delete Nodes And Return Forest.h"; sourceTree = "<group>"; };
 		A1C05EA4235C91630077F738 /* 861. Score After Flipping Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "861. Score After Flipping Matrix.h"; sourceTree = "<group>"; };
 		A1C05EA6235CA1E10077F738 /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h"; sourceTree = "<group>"; };
@@ -702,6 +703,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1B3C31F23ABE7C800C0B217 /* 553. Optimal Division */,
 				A1A7972023AA939100A7B758 /* 1011. Capacity To Ship Packages Within D Days */,
 				A1A7971E23AA8CD500A7B758 /* 817. Linked List Components */,
 				A1A7971C23A93A7700A7B758 /* 508. Most Frequent Subtree Sum */,
@@ -883,6 +885,14 @@
 				A1A7972123AA939700A7B758 /* 1011. Capacity To Ship Packages Within D Days.h */,
 			);
 			path = "1011. Capacity To Ship Packages Within D Days";
+			sourceTree = "<group>";
+		};
+		A1B3C31F23ABE7C800C0B217 /* 553. Optimal Division */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3C32023ABE7CE00C0B217 /* 553. Optimal Division.h */,
+			);
+			path = "553. Optimal Division";
 			sourceTree = "<group>";
 		};
 		A1B71FEA2365913000EB34CC /* 1110. Delete Nodes And Return Forest */ = {
