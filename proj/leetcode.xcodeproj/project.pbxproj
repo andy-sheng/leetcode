@@ -86,6 +86,7 @@
 		A12C8AEE234A55CC000036C8 /* 605. Can Place Flowers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "605. Can Place Flowers.h"; sourceTree = "<group>"; };
 		A12C8AF0234B927F000036C8 /* 581. Shortest Unsorted Continuous Subarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "581. Shortest Unsorted Continuous Subarray.h"; sourceTree = "<group>"; };
 		A12C8AF4234BA0FF000036C8 /* 686. Repeated String Match.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "686. Repeated String Match.h"; sourceTree = "<group>"; };
+		A13FC03E23B283C8003DAA17 /* 919. Complete Binary Tree Inserter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "919. Complete Binary Tree Inserter.h"; sourceTree = "<group>"; };
 		A141CB82235C47B1006E38C4 /* 921. Minimum Add to Make Parentheses Valid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "921. Minimum Add to Make Parentheses Valid.h"; sourceTree = "<group>"; };
 		A15842392365F74C00AA3F4A /* 986. Interval List Intersections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "986. Interval List Intersections.h"; sourceTree = "<group>"; };
 		A1607855235F6AE900BF651E /* 885. Spiral Matrix III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "885. Spiral Matrix III.h"; sourceTree = "<group>"; };
@@ -644,6 +645,14 @@
 			path = "686. Repeated String Match";
 			sourceTree = "<group>";
 		};
+		A13FC03D23B283C2003DAA17 /* 919. Complete Binary Tree Inserter */ = {
+			isa = PBXGroup;
+			children = (
+				A13FC03E23B283C8003DAA17 /* 919. Complete Binary Tree Inserter.h */,
+			);
+			path = "919. Complete Binary Tree Inserter";
+			sourceTree = "<group>";
+		};
 		A141CB81235C47A6006E38C4 /* 921. Minimum Add to Make Parentheses Valid */ = {
 			isa = PBXGroup;
 			children = (
@@ -712,6 +721,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A13FC03D23B283C2003DAA17 /* 919. Complete Binary Tree Inserter */,
 				A164FE5023B1306300155D85 /* 529. Minesweeper */,
 				A1B3C31F23ABE7C800C0B217 /* 553. Optimal Division */,
 				A1A7972023AA939100A7B758 /* 1011. Capacity To Ship Packages Within D Days */,

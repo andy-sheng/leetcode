@@ -10,11 +10,10 @@
 #include <time.h>
 #include "DataStructures.h"
 
-#include "529. Minesweeper.h"
+#include "919. Complete Binary Tree Inserter.h"
 
 int main(int argc, const char * argv[]) {
-    vector<int> input {1,2,3,1,1};
-    cout << P529::Solution() ;
+    
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
