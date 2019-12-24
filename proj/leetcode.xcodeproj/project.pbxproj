@@ -90,6 +90,7 @@
 		A15842392365F74C00AA3F4A /* 986. Interval List Intersections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "986. Interval List Intersections.h"; sourceTree = "<group>"; };
 		A1607855235F6AE900BF651E /* 885. Spiral Matrix III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "885. Spiral Matrix III.h"; sourceTree = "<group>"; };
 		A1607857235F6B6600BF651E /* 537. Complex Number Multiplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "537. Complex Number Multiplication.h"; sourceTree = "<group>"; };
+		A164FE5123B1306C00155D85 /* 529. Minesweeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "529. Minesweeper.h"; sourceTree = "<group>"; };
 		A169986E22FEBF6200F640E5 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169987122FEBF6200F640E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A169987A22FEC07C00F640E5 /* 1025. Divisor Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
@@ -675,6 +676,14 @@
 			path = "537. Complex Number Multiplication";
 			sourceTree = "<group>";
 		};
+		A164FE5023B1306300155D85 /* 529. Minesweeper */ = {
+			isa = PBXGroup;
+			children = (
+				A164FE5123B1306C00155D85 /* 529. Minesweeper.h */,
+			);
+			path = "529. Minesweeper";
+			sourceTree = "<group>";
+		};
 		A169986522FEBF6200F640E5 = {
 			isa = PBXGroup;
 			children = (
@@ -703,6 +712,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A164FE5023B1306300155D85 /* 529. Minesweeper */,
 				A1B3C31F23ABE7C800C0B217 /* 553. Optimal Division */,
 				A1A7972023AA939100A7B758 /* 1011. Capacity To Ship Packages Within D Days */,
 				A1A7971E23AA8CD500A7B758 /* 817. Linked List Components */,

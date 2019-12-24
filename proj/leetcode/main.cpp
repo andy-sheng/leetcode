@@ -10,11 +10,11 @@
 #include <time.h>
 #include "DataStructures.h"
 
-#include "553. Optimal Division.h"
+#include "529. Minesweeper.h"
 
 int main(int argc, const char * argv[]) {
     vector<int> input {1,2,3,1,1};
-    cout << P553::Solution().optimalDivision(input) << endl;
+    cout << P529::Solution() ;
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
