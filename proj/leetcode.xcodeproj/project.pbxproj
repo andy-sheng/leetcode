@@ -87,6 +87,8 @@
 		A12C8AF0234B927F000036C8 /* 581. Shortest Unsorted Continuous Subarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "581. Shortest Unsorted Continuous Subarray.h"; sourceTree = "<group>"; };
 		A12C8AF4234BA0FF000036C8 /* 686. Repeated String Match.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "686. Repeated String Match.h"; sourceTree = "<group>"; };
 		A13FC03E23B283C8003DAA17 /* 919. Complete Binary Tree Inserter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "919. Complete Binary Tree Inserter.h"; sourceTree = "<group>"; };
+		A13FC04023B3C571003DAA17 /* 932. Beautiful Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "932. Beautiful Array.h"; sourceTree = "<group>"; };
+		A13FC04223B3CBA4003DAA17 /* 1031. Maximum Sum of Two Non-Overlapping Subarrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1031. Maximum Sum of Two Non-Overlapping Subarrays.h"; sourceTree = "<group>"; };
 		A141CB82235C47B1006E38C4 /* 921. Minimum Add to Make Parentheses Valid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "921. Minimum Add to Make Parentheses Valid.h"; sourceTree = "<group>"; };
 		A15842392365F74C00AA3F4A /* 986. Interval List Intersections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "986. Interval List Intersections.h"; sourceTree = "<group>"; };
 		A1607855235F6AE900BF651E /* 885. Spiral Matrix III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "885. Spiral Matrix III.h"; sourceTree = "<group>"; };
@@ -653,6 +655,22 @@
 			path = "919. Complete Binary Tree Inserter";
 			sourceTree = "<group>";
 		};
+		A13FC03F23B3C569003DAA17 /* 932. Beautiful Array */ = {
+			isa = PBXGroup;
+			children = (
+				A13FC04023B3C571003DAA17 /* 932. Beautiful Array.h */,
+			);
+			path = "932. Beautiful Array";
+			sourceTree = "<group>";
+		};
+		A13FC04123B3CB9C003DAA17 /* 1031. Maximum Sum of Two Non-Overlapping Subarrays */ = {
+			isa = PBXGroup;
+			children = (
+				A13FC04223B3CBA4003DAA17 /* 1031. Maximum Sum of Two Non-Overlapping Subarrays.h */,
+			);
+			path = "1031. Maximum Sum of Two Non-Overlapping Subarrays";
+			sourceTree = "<group>";
+		};
 		A141CB81235C47A6006E38C4 /* 921. Minimum Add to Make Parentheses Valid */ = {
 			isa = PBXGroup;
 			children = (
@@ -721,6 +739,8 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A13FC04123B3CB9C003DAA17 /* 1031. Maximum Sum of Two Non-Overlapping Subarrays */,
+				A13FC03F23B3C569003DAA17 /* 932. Beautiful Array */,
 				A13FC03D23B283C2003DAA17 /* 919. Complete Binary Tree Inserter */,
 				A164FE5023B1306300155D85 /* 529. Minesweeper */,
 				A1B3C31F23ABE7C800C0B217 /* 553. Optimal Division */,

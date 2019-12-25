@@ -10,10 +10,12 @@
 #include <time.h>
 #include "DataStructures.h"
 
-#include "919. Complete Binary Tree Inserter.h"
+#include "1031. Maximum Sum of Two Non-Overlapping Subarrays.h"
 
 int main(int argc, const char * argv[]) {
     
+    vector<int> input {1,0,1};
+    cout << P1031::Solution().maxSumTwoNoOverlap(input, 1, 1) << endl;
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
