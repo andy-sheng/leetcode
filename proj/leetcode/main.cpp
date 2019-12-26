@@ -10,12 +10,14 @@
 #include <time.h>
 #include "DataStructures.h"
 
-#include "1031. Maximum Sum of Two Non-Overlapping Subarrays.h"
+#include "1023. Camelcase Matching.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> input {1,0,1};
-    cout << P1031::Solution().maxSumTwoNoOverlap(input, 1, 1) << endl;
+    vector<string> input {"FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"};
+    for (auto item : P1023::Solution().camelMatch(input, "FB")) {
+        cout << item << endl;
+    }
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
