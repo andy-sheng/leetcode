@@ -224,6 +224,8 @@ public:
     int find(int x);
     void Union(int x, int y);
     bool isConnected(int x, int y);
+    
+    int getRank(int x);
 };
 
 UnionFind::UnionFind(int n) {
@@ -257,6 +259,10 @@ void UnionFind::Union(int x, int y) {
 
 bool UnionFind::isConnected(int x, int y) {
     return find(x) == find(y);
+}
+
+int UnionFind::getRank(int x) {
+    return rank[x];
 }
 
 }

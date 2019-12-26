@@ -10,14 +10,13 @@
 #include <time.h>
 #include "DataStructures.h"
 
-#include "1023. Camelcase Matching.h"
+#include "1020. Number of Enclaves.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<string> input {"FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"};
-    for (auto item : P1023::Solution().camelMatch(input, "FB")) {
-        cout << item << endl;
-    }
+    vector<vector<int>> input {{0,0,0,0},{1,1,1,0},{0,1,1,0},{0,0,0,0}};
+    cout << P1020::Solution().numEnclaves(input) << endl;
+    
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
