@@ -8,13 +8,13 @@
 
 #include <iostream>
 #include <time.h>
-#include "1233. Remove Sub-Folders from the Filesystem.h"
+#include "684. Redundant Connection.h"
 
-#include "1020. Number of Enclaves.h"
+
 
 int main(int argc, const char * argv[]) {
-    vector<string> input {"/a","/a/b","/c/d","/c/d/e","/c/f"};
-    for (auto item : P1233::Solution().removeSubfolders(input)) cout << item << endl;
+    vector<vector<int>> input {{1,2}, {2,3}, {3,4}, {1,4}, {1,5}};
+    cout << P684::Solution().findRedundantConnection(input)[1] << endl;
     
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
