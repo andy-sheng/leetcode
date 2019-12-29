@@ -89,6 +89,7 @@
 		A13B50AB23B514FA00989E54 /* 1023. Camelcase Matching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1023. Camelcase Matching.h"; sourceTree = "<group>"; };
 		A13B50AD23B51A2B00989E54 /* 1020. Number of Enclaves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1020. Number of Enclaves.h"; sourceTree = "<group>"; };
 		A13B50AF23B66B7700989E54 /* 835. Image Overlap .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "835. Image Overlap .h"; sourceTree = "<group>"; };
+		A13B50B123B674E500989E54 /* 947. Most Stones Removed with Same Row or Column.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "947. Most Stones Removed with Same Row or Column.h"; sourceTree = "<group>"; };
 		A13FC03E23B283C8003DAA17 /* 919. Complete Binary Tree Inserter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "919. Complete Binary Tree Inserter.h"; sourceTree = "<group>"; };
 		A13FC04023B3C571003DAA17 /* 932. Beautiful Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "932. Beautiful Array.h"; sourceTree = "<group>"; };
 		A13FC04223B3CBA4003DAA17 /* 1031. Maximum Sum of Two Non-Overlapping Subarrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1031. Maximum Sum of Two Non-Overlapping Subarrays.h"; sourceTree = "<group>"; };
@@ -674,6 +675,14 @@
 			path = "835. Image Overlap ";
 			sourceTree = "<group>";
 		};
+		A13B50B023B674DF00989E54 /* 947. Most Stones Removed with Same Row or Column */ = {
+			isa = PBXGroup;
+			children = (
+				A13B50B123B674E500989E54 /* 947. Most Stones Removed with Same Row or Column.h */,
+			);
+			path = "947. Most Stones Removed with Same Row or Column";
+			sourceTree = "<group>";
+		};
 		A13FC03D23B283C2003DAA17 /* 919. Complete Binary Tree Inserter */ = {
 			isa = PBXGroup;
 			children = (
@@ -766,6 +775,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A13B50B023B674DF00989E54 /* 947. Most Stones Removed with Same Row or Column */,
 				A13B50AE23B66B7200989E54 /* 835. Image Overlap  */,
 				A13B50AC23B51A2400989E54 /* 1020. Number of Enclaves */,
 				A13B50AA23B514F100989E54 /* 1023. Camelcase Matching */,

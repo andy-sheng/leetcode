@@ -237,13 +237,14 @@ UnionFind::UnionFind(int n) {
 }
 
 int UnionFind::find(int x) {
-    if (arr[x] != x) {
-        arr[x] = find(arr[x]);
+    if (arr[x] == x) {
+        return x;
     }
-    return arr[x];
+    return find(arr[x]);
 }
 
 void UnionFind::Union(int x, int y) {
+    cout << "union: " << x << "  " <<y<<endl;
     x = find(x);
     y = find(y);
     if (x != y) {
