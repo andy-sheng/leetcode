@@ -8,13 +8,13 @@
 
 #include <iostream>
 #include <time.h>
-#include "947. Most Stones Removed with Same Row or Column.h"
+#include "1233. Remove Sub-Folders from the Filesystem.h"
 
 #include "1020. Number of Enclaves.h"
 
 int main(int argc, const char * argv[]) {
-    vector<vector<int>> stones {{1,2},{0,1},{7,3},{5,5},{7,1},{6,1},{0,6},{5,1},{4,2},{8,4}};
-    cout << P947::Solution().removeStones(stones)<<endl;
+    vector<string> input {"/a","/a/b","/c/d","/c/d/e","/c/f"};
+    for (auto item : P1233::Solution().removeSubfolders(input)) cout << item << endl;
     
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);

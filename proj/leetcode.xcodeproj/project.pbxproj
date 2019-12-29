@@ -108,6 +108,7 @@
 		A171BAA52363553B00B5061F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A171BAA72363565900B5061F /* 951. Flip Equivalent Binary Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "951. Flip Equivalent Binary Trees.h"; sourceTree = "<group>"; };
 		A171BAA923635AEE00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1123. Lowest Common Ancestor of Deepest Leaves.h"; sourceTree = "<group>"; };
+		A196AC4223B8FA7000A37EB8 /* 1233. Remove Sub-Folders from the Filesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1233. Remove Sub-Folders from the Filesystem.h"; sourceTree = "<group>"; };
 		A1A7971D23A93A8600A7B758 /* 508. Most Frequent Subtree Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "508. Most Frequent Subtree Sum.h"; sourceTree = "<group>"; };
 		A1A7971F23AA8CE100A7B758 /* 817. Linked List Components.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "817. Linked List Components.h"; sourceTree = "<group>"; };
 		A1A7972123AA939700A7B758 /* 1011. Capacity To Ship Packages Within D Days.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1011. Capacity To Ship Packages Within D Days.h"; sourceTree = "<group>"; };
@@ -775,6 +776,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A196AC4123B8FA6900A37EB8 /* 1233. Remove Sub-Folders from the Filesystem */,
 				A13B50B023B674DF00989E54 /* 947. Most Stones Removed with Same Row or Column */,
 				A13B50AE23B66B7200989E54 /* 835. Image Overlap  */,
 				A13B50AC23B51A2400989E54 /* 1020. Number of Enclaves */,
@@ -941,6 +943,14 @@
 				A171BAA923635AEE00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves.h */,
 			);
 			path = "1123. Lowest Common Ancestor of Deepest Leaves";
+			sourceTree = "<group>";
+		};
+		A196AC4123B8FA6900A37EB8 /* 1233. Remove Sub-Folders from the Filesystem */ = {
+			isa = PBXGroup;
+			children = (
+				A196AC4223B8FA7000A37EB8 /* 1233. Remove Sub-Folders from the Filesystem.h */,
+			);
+			path = "1233. Remove Sub-Folders from the Filesystem";
 			sourceTree = "<group>";
 		};
 		A1A7971C23A93A7700A7B758 /* 508. Most Frequent Subtree Sum */ = {
