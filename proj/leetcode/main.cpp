@@ -8,13 +8,13 @@
 
 #include <iostream>
 #include <time.h>
-#include "684. Redundant Connection.h"
+#include "648. Replace Words.h"
 
 
 
 int main(int argc, const char * argv[]) {
-    vector<vector<int>> input {{1,2}, {2,3}, {3,4}, {1,4}, {1,5}};
-    cout << P684::Solution().findRedundantConnection(input)[1] << endl;
+    vector<string> dict {"cat", "bat", "rat"};
+    cout << P648::Solution().replaceWords(dict, "the cattle was rattled by the battery") << endl;
     
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
