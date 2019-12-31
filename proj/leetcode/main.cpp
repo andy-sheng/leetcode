@@ -8,13 +8,18 @@
 
 #include <iostream>
 #include <time.h>
-#include "648. Replace Words.h"
+#include "1268. Search Suggestions System.h"
 
 
 
 int main(int argc, const char * argv[]) {
-    vector<string> dict {"cat", "bat", "rat"};
-    cout << P648::Solution().replaceWords(dict, "the cattle was rattled by the battery") << endl;
+    vector<string> dict {"havana"};
+    for (auto ret : P1268::Solution().suggestedProducts(dict, "tatiana")) {
+        for (auto item : ret) {
+            cout << item << "  ";
+        }
+        cout << endl;
+    }
     
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
