@@ -8,18 +8,14 @@
 
 #include <iostream>
 #include <time.h>
-#include "1268. Search Suggestions System.h"
+#include "1052. Grumpy Bookstore Owner.h"
 
 
 
 int main(int argc, const char * argv[]) {
-    vector<string> dict {"havana"};
-    for (auto ret : P1268::Solution().suggestedProducts(dict, "tatiana")) {
-        for (auto item : ret) {
-            cout << item << "  ";
-        }
-        cout << endl;
-    }
+    vector<int> customers {1,0,1,2,1,1,7,5};
+    vector<int> grumpy {0,1,0,1,0,1,0,1};
+    cout << P1052::Solution().maxSatisfied(customers, grumpy, 3)<<endl;
     
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
