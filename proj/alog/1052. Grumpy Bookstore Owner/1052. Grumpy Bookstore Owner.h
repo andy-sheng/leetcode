@@ -15,6 +15,23 @@ namespace P1052 {
     class Solution {
     public:
         int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int X) {
+            int total = 0;
+            for (int i = 0; i < customers.size(); ++i) {
+                if (!grumpy[i]) total += customers[i];
+            }
+            int maxCustomers = 0;
+            int customersWhenGrumpy = 0;
+            for (int i = 0; i < X; ++i) if (grumpy[i]) customersWhenGrumpy += customers[i];
+            maxCustomers = customersWhenGrumpy;
+            for (int i = X; i < customers.size(); ++i) {
+                if (grumpy[i]) customersWhenGrumpy += customers[i];
+                if (grumpy[i - X]) customersWhenGrumpy -= customers[i - X];
+                maxCustomers = max(maxCustomers, customersWhenGrumpy);
+            }
+            
+            return total + maxCustomers;
+        }
+        int maxSatisfied_dp(vector<int>& customers, vector<int>& grumpy, int X) {
             int noneGrumpCustomerCnt = 0;
             vector<int> dp(customers.size());
             for (int i = 0; i < X; ++i) {
