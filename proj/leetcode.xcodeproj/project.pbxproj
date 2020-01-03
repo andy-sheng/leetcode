@@ -103,6 +103,7 @@
 		A169987A22FEC07C00F640E5 /* 1025. Divisor Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
 		A169987B22FEC18700F640E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A169987F22FECD1900F640E5 /* 746. Min Cost Climbing Stairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "746. Min Cost Climbing Stairs.h"; sourceTree = "<group>"; };
+		A16B580C23BFAA5B00BC7028 /* 1003. Check If Word Is Valid After Substitutions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1003. Check If Word Is Valid After Substitutions.h"; sourceTree = "<group>"; };
 		A171BAA32363552900B5061F /* 746. Min Cost Climbing Stairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "746. Min Cost Climbing Stairs.h"; sourceTree = "<group>"; };
 		A171BAA42363553400B5061F /* 1025. Divisor Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
 		A171BAA52363553B00B5061F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -782,6 +783,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A16B580B23BFAA5300BC7028 /* 1003. Check If Word Is Valid After Substitutions */,
 				A196AC4D23BE560000A37EB8 /* 1052. Grumpy Bookstore Owner */,
 				A196AC4B23BBB27700A37EB8 /* 1268. Search Suggestions System */,
 				A196AC4923BBAD9B00A37EB8 /* 1116. Print Zero Even Odd */,
@@ -922,6 +924,14 @@
 			);
 			name = "746. Min Cost Climbing Stairs";
 			path = "../../746. Min Cost Climbing Stairs";
+			sourceTree = "<group>";
+		};
+		A16B580B23BFAA5300BC7028 /* 1003. Check If Word Is Valid After Substitutions */ = {
+			isa = PBXGroup;
+			children = (
+				A16B580C23BFAA5B00BC7028 /* 1003. Check If Word Is Valid After Substitutions.h */,
+			);
+			path = "1003. Check If Word Is Valid After Substitutions";
 			sourceTree = "<group>";
 		};
 		A171BAA1236354FA00B5061F /* 746. Min Cost Climbing Stairs */ = {

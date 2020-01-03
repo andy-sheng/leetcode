@@ -8,14 +8,12 @@
 
 #include <iostream>
 #include <time.h>
-#include "1052. Grumpy Bookstore Owner.h"
+#include "1003. Check If Word Is Valid After Substitutions.h"
 
 
 
 int main(int argc, const char * argv[]) {
-    vector<int> customers {1,0,1,2,1,1,7,5};
-    vector<int> grumpy {0,1,0,1,0,1,0,1};
-    cout << P1052::Solution().maxSatisfied(customers, grumpy, 3)<<endl;
+    cout << P1003::Solution().isValid("aabcbc") << endl;;
     
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
