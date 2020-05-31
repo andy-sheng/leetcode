@@ -8,15 +8,12 @@
 
 #include <iostream>
 #include <time.h>
-#include "1002. Find Common Characters.h"
+#include "1315. Sum of Nodes with Even-Valued Grandparent.h"
 
 
 
 int main(int argc, const char * argv[]) {
-    vector<string> input {"bella","label","roller"};
-    for (auto str: P1002::Solution().commonChars(input)) {
-        cout << str << endl;
-    }
+    
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);

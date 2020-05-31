@@ -122,6 +122,7 @@
 		A1A7971F23AA8CE100A7B758 /* 817. Linked List Components.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "817. Linked List Components.h"; sourceTree = "<group>"; };
 		A1A7972123AA939700A7B758 /* 1011. Capacity To Ship Packages Within D Days.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1011. Capacity To Ship Packages Within D Days.h"; sourceTree = "<group>"; };
 		A1A81B132483B18000C83603 /* 1002. Find Common Characters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1002. Find Common Characters.h"; sourceTree = "<group>"; };
+		A1A81B152483DB3F00C83603 /* 1315. Sum of Nodes with Even-Valued Grandparent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1315. Sum of Nodes with Even-Valued Grandparent.h"; sourceTree = "<group>"; };
 		A1B3C32023ABE7CE00C0B217 /* 553. Optimal Division.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "553. Optimal Division.h"; sourceTree = "<group>"; };
 		A1B71FEB2365913700EB34CC /* 1110. Delete Nodes And Return Forest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1110. Delete Nodes And Return Forest.h"; sourceTree = "<group>"; };
 		A1C05EA4235C91630077F738 /* 861. Score After Flipping Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "861. Score After Flipping Matrix.h"; sourceTree = "<group>"; };
@@ -786,6 +787,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1A81B142483DB3200C83603 /* 1315. Sum of Nodes with Even-Valued Grandparent */,
 				A1A81B122483B17A00C83603 /* 1002. Find Common Characters */,
 				A1816F19248398E200F4C1DF /* 443. String Compression */,
 				A16B580E23C2522800BC7028 /* 85. Maximal Rectangle */,
@@ -1075,6 +1077,14 @@
 				A1A81B132483B18000C83603 /* 1002. Find Common Characters.h */,
 			);
 			path = "1002. Find Common Characters";
+			sourceTree = "<group>";
+		};
+		A1A81B142483DB3200C83603 /* 1315. Sum of Nodes with Even-Valued Grandparent */ = {
+			isa = PBXGroup;
+			children = (
+				A1A81B152483DB3F00C83603 /* 1315. Sum of Nodes with Even-Valued Grandparent.h */,
+			);
+			path = "1315. Sum of Nodes with Even-Valued Grandparent";
 			sourceTree = "<group>";
 		};
 		A1B3C31F23ABE7C800C0B217 /* 553. Optimal Division */ = {
