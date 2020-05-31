@@ -104,11 +104,13 @@
 		A169987B22FEC18700F640E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A169987F22FECD1900F640E5 /* 746. Min Cost Climbing Stairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "746. Min Cost Climbing Stairs.h"; sourceTree = "<group>"; };
 		A16B580C23BFAA5B00BC7028 /* 1003. Check If Word Is Valid After Substitutions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1003. Check If Word Is Valid After Substitutions.h"; sourceTree = "<group>"; };
+		A16B580F23C2522F00BC7028 /* 85. Maximal Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "85. Maximal Rectangle.h"; sourceTree = "<group>"; };
 		A171BAA32363552900B5061F /* 746. Min Cost Climbing Stairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "746. Min Cost Climbing Stairs.h"; sourceTree = "<group>"; };
 		A171BAA42363553400B5061F /* 1025. Divisor Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "1025. Divisor Game.h"; sourceTree = "<group>"; };
 		A171BAA52363553B00B5061F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A171BAA72363565900B5061F /* 951. Flip Equivalent Binary Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "951. Flip Equivalent Binary Trees.h"; sourceTree = "<group>"; };
 		A171BAA923635AEE00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1123. Lowest Common Ancestor of Deepest Leaves.h"; sourceTree = "<group>"; };
+		A1816F1A2483994000F4C1DF /* 443. String Compression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "443. String Compression.h"; sourceTree = "<group>"; };
 		A196AC4223B8FA7000A37EB8 /* 1233. Remove Sub-Folders from the Filesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1233. Remove Sub-Folders from the Filesystem.h"; sourceTree = "<group>"; };
 		A196AC4423B9077800A37EB8 /* 684. Redundant Connection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "684. Redundant Connection.h"; sourceTree = "<group>"; };
 		A196AC4623BA5C0E00A37EB8 /* 565. Array Nesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "565. Array Nesting.h"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		A1A7971D23A93A8600A7B758 /* 508. Most Frequent Subtree Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "508. Most Frequent Subtree Sum.h"; sourceTree = "<group>"; };
 		A1A7971F23AA8CE100A7B758 /* 817. Linked List Components.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "817. Linked List Components.h"; sourceTree = "<group>"; };
 		A1A7972123AA939700A7B758 /* 1011. Capacity To Ship Packages Within D Days.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1011. Capacity To Ship Packages Within D Days.h"; sourceTree = "<group>"; };
+		A1A81B132483B18000C83603 /* 1002. Find Common Characters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1002. Find Common Characters.h"; sourceTree = "<group>"; };
 		A1B3C32023ABE7CE00C0B217 /* 553. Optimal Division.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "553. Optimal Division.h"; sourceTree = "<group>"; };
 		A1B71FEB2365913700EB34CC /* 1110. Delete Nodes And Return Forest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1110. Delete Nodes And Return Forest.h"; sourceTree = "<group>"; };
 		A1C05EA4235C91630077F738 /* 861. Score After Flipping Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "861. Score After Flipping Matrix.h"; sourceTree = "<group>"; };
@@ -783,6 +786,9 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1A81B122483B17A00C83603 /* 1002. Find Common Characters */,
+				A1816F19248398E200F4C1DF /* 443. String Compression */,
+				A16B580E23C2522800BC7028 /* 85. Maximal Rectangle */,
 				A16B580B23BFAA5300BC7028 /* 1003. Check If Word Is Valid After Substitutions */,
 				A196AC4D23BE560000A37EB8 /* 1052. Grumpy Bookstore Owner */,
 				A196AC4B23BBB27700A37EB8 /* 1268. Search Suggestions System */,
@@ -934,6 +940,14 @@
 			path = "1003. Check If Word Is Valid After Substitutions";
 			sourceTree = "<group>";
 		};
+		A16B580E23C2522800BC7028 /* 85. Maximal Rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				A16B580F23C2522F00BC7028 /* 85. Maximal Rectangle.h */,
+			);
+			path = "85. Maximal Rectangle";
+			sourceTree = "<group>";
+		};
 		A171BAA1236354FA00B5061F /* 746. Min Cost Climbing Stairs */ = {
 			isa = PBXGroup;
 			children = (
@@ -965,6 +979,14 @@
 				A171BAA923635AEE00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves.h */,
 			);
 			path = "1123. Lowest Common Ancestor of Deepest Leaves";
+			sourceTree = "<group>";
+		};
+		A1816F19248398E200F4C1DF /* 443. String Compression */ = {
+			isa = PBXGroup;
+			children = (
+				A1816F1A2483994000F4C1DF /* 443. String Compression.h */,
+			);
+			path = "443. String Compression";
 			sourceTree = "<group>";
 		};
 		A196AC4123B8FA6900A37EB8 /* 1233. Remove Sub-Folders from the Filesystem */ = {
@@ -1045,6 +1067,14 @@
 				A1A7972123AA939700A7B758 /* 1011. Capacity To Ship Packages Within D Days.h */,
 			);
 			path = "1011. Capacity To Ship Packages Within D Days";
+			sourceTree = "<group>";
+		};
+		A1A81B122483B17A00C83603 /* 1002. Find Common Characters */ = {
+			isa = PBXGroup;
+			children = (
+				A1A81B132483B18000C83603 /* 1002. Find Common Characters.h */,
+			);
+			path = "1002. Find Common Characters";
 			sourceTree = "<group>";
 		};
 		A1B3C31F23ABE7C800C0B217 /* 553. Optimal Division */ = {
