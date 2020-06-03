@@ -127,6 +127,7 @@
 		A1A81B19248551D100C83603 /* 1290. Convert Binary Number in a Linked List to Integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1290. Convert Binary Number in a Linked List to Integer.h"; sourceTree = "<group>"; };
 		A1A81B1B2485531500C83603 /* 876. Middle of the Linked List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "876. Middle of the Linked List.h"; sourceTree = "<group>"; };
 		A1A81B1D24856BA700C83603 /* 1263. Minimum Moves to Move a Box to Their Target Location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1263. Minimum Moves to Move a Box to Their Target Location.h"; sourceTree = "<group>"; };
+		A1A81B1F248805EB00C83603 /* 1325. Delete Leaves With a Given Value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1325. Delete Leaves With a Given Value.h"; sourceTree = "<group>"; };
 		A1B3C32023ABE7CE00C0B217 /* 553. Optimal Division.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "553. Optimal Division.h"; sourceTree = "<group>"; };
 		A1B71FEB2365913700EB34CC /* 1110. Delete Nodes And Return Forest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1110. Delete Nodes And Return Forest.h"; sourceTree = "<group>"; };
 		A1C05EA4235C91630077F738 /* 861. Score After Flipping Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "861. Score After Flipping Matrix.h"; sourceTree = "<group>"; };
@@ -791,6 +792,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1A81B1E248805E200C83603 /* 1325. Delete Leaves With a Given Value */,
 				A1A81B1C24856B9E00C83603 /* 1263. Minimum Moves to Move a Box to Their Target Location */,
 				A1A81B1A2485530600C83603 /* 876. Middle of the Linked List */,
 				A1A81B18248551CB00C83603 /* 1290. Convert Binary Number in a Linked List to Integer */,
@@ -1125,6 +1127,14 @@
 				A1A81B1D24856BA700C83603 /* 1263. Minimum Moves to Move a Box to Their Target Location.h */,
 			);
 			path = "1263. Minimum Moves to Move a Box to Their Target Location";
+			sourceTree = "<group>";
+		};
+		A1A81B1E248805E200C83603 /* 1325. Delete Leaves With a Given Value */ = {
+			isa = PBXGroup;
+			children = (
+				A1A81B1F248805EB00C83603 /* 1325. Delete Leaves With a Given Value.h */,
+			);
+			path = "1325. Delete Leaves With a Given Value";
 			sourceTree = "<group>";
 		};
 		A1B3C31F23ABE7C800C0B217 /* 553. Optimal Division */ = {
