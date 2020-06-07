@@ -8,25 +8,13 @@
 
 #include <iostream>
 #include <time.h>
-#include "445. Add Two Numbers II.h"
+#include "430. Flatten a Multilevel Doubly Linked List.h"
 
 
 
 int main(int argc, const char * argv[]) {
-    ListNode *l1 = new ListNode(0);
-//    l1->next = new ListNode(2);
-//    l1->next->next = new ListNode(4);
-//    l1->next->next->next = new ListNode(3);
+
     
-    ListNode *l2 = new ListNode(7);
-    l2->next = new ListNode(3);
-//    l2->next->next = new ListNode(4);
-    
-    ListNode *ret = P445::Solution().addTwoNumbers(l1, l2);
-    while (ret) {
-        cout << ret->val << endl;
-        ret = ret->next;
-    }
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
