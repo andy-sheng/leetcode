@@ -135,6 +135,9 @@
 		A1C05EA4235C91630077F738 /* 861. Score After Flipping Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "861. Score After Flipping Matrix.h"; sourceTree = "<group>"; };
 		A1C05EA6235CA1E10077F738 /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h"; sourceTree = "<group>"; };
 		A1C38D3F248D22DE0090D3C3 /* 430. Flatten a Multilevel Doubly Linked List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "430. Flatten a Multilevel Doubly Linked List.h"; sourceTree = "<group>"; };
+		A1C38D41248E97B90090D3C3 /* 725. Split Linked List in Parts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "725. Split Linked List in Parts.h"; sourceTree = "<group>"; };
+		A1C38D43248EAB430090D3C3 /* 109. Convert Sorted List to Binary Search Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "109. Convert Sorted List to Binary Search Tree.h"; sourceTree = "<group>"; };
+		A1C38D4524913ED90090D3C3 /* 142. Linked List Cycle II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "142. Linked List Cycle II.h"; sourceTree = "<group>"; };
 		A1DD7195234CEC5B003E8052 /* 69. Sqrt(x).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "69. Sqrt(x).h"; sourceTree = "<group>"; };
 		A1DD7197234CF61E003E8052 /* 633. Sum of Square Numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "633. Sum of Square Numbers.h"; sourceTree = "<group>"; };
 		A1DD7199234CFBF2003E8052 /* 874. Walking Robot Simulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "874. Walking Robot Simulation.h"; sourceTree = "<group>"; };
@@ -795,6 +798,9 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1C38D4424913ED20090D3C3 /* 142. Linked List Cycle II */,
+				A1C38D42248EAB3C0090D3C3 /* 109. Convert Sorted List to Binary Search Tree */,
+				A1C38D40248E97B30090D3C3 /* 725. Split Linked List in Parts */,
 				A1C38D3E248D22D40090D3C3 /* 430. Flatten a Multilevel Doubly Linked List */,
 				A1A81B25248D15E700C83603 /* 445. Add Two Numbers II */,
 				A1A81B2024880C1D00C83603 /* 1415. The k-th Lexicographical String of All Happy Strings of Length n */,
@@ -1197,6 +1203,30 @@
 				A1C38D3F248D22DE0090D3C3 /* 430. Flatten a Multilevel Doubly Linked List.h */,
 			);
 			path = "430. Flatten a Multilevel Doubly Linked List";
+			sourceTree = "<group>";
+		};
+		A1C38D40248E97B30090D3C3 /* 725. Split Linked List in Parts */ = {
+			isa = PBXGroup;
+			children = (
+				A1C38D41248E97B90090D3C3 /* 725. Split Linked List in Parts.h */,
+			);
+			path = "725. Split Linked List in Parts";
+			sourceTree = "<group>";
+		};
+		A1C38D42248EAB3C0090D3C3 /* 109. Convert Sorted List to Binary Search Tree */ = {
+			isa = PBXGroup;
+			children = (
+				A1C38D43248EAB430090D3C3 /* 109. Convert Sorted List to Binary Search Tree.h */,
+			);
+			path = "109. Convert Sorted List to Binary Search Tree";
+			sourceTree = "<group>";
+		};
+		A1C38D4424913ED20090D3C3 /* 142. Linked List Cycle II */ = {
+			isa = PBXGroup;
+			children = (
+				A1C38D4524913ED90090D3C3 /* 142. Linked List Cycle II.h */,
+			);
+			path = "142. Linked List Cycle II";
 			sourceTree = "<group>";
 		};
 		A1DD7194234CEC50003E8052 /* 69. Sqrt(x) */ = {
