@@ -8,12 +8,18 @@
 
 #include <iostream>
 #include <time.h>
-#include "430. Flatten a Multilevel Doubly Linked List.h"
+#include "109. Convert Sorted List to Binary Search Tree.h"
 
 
 
 int main(int argc, const char * argv[]) {
-
+    ListNode *head = new ListNode(-10);
+    head->next = new ListNode(-3);
+    head->next->next = new ListNode(0);
+    head->next->next->next = new ListNode(5);
+    head->next->next->next->next = new ListNode(9);
+    TreeNode*root = P109::Solution().sortedListToBST(head);
+    
     
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
