@@ -30,28 +30,14 @@ namespace P109 {
                 midPtr = midPtr->next;
             }
             TreeNode *rootNode = new TreeNode(midPtr->val);
-            
-            if (head != midPtr) {
-                
-                cout << "left " << head->val;
-            }
-            cout << " mid " << midPtr->val;
-            if (midPtr != tail) {
-                
-                cout << " right " << (tail ? tail->val : -111);
-            }
-            cout << endl;
-                
             if (head != midPtr) {
                 rootNode->left = sortedListToBST(head, midPtr);
                 
             }
-            
             if (midPtr->next != tail) {
                 rootNode->right = sortedListToBST(midPtr->next, tail);
                 
             }
-            
             return rootNode;
         }
     };
