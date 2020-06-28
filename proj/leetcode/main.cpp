@@ -8,17 +8,15 @@
 
 #include <iostream>
 #include <time.h>
-#include "109. Convert Sorted List to Binary Search Tree.h"
+#include "96. Unique Binary Search Trees.h"
 
 
 
 int main(int argc, const char * argv[]) {
-    ListNode *head = new ListNode(-10);
-    head->next = new ListNode(-3);
-    head->next->next = new ListNode(0);
-    head->next->next->next = new ListNode(5);
-    head->next->next->next->next = new ListNode(9);
-    TreeNode*root = P109::Solution().sortedListToBST(head);
+    vector<TreeNode *>ret = P96::Solution().generateTrees(3);
+    for (TreeNode *root: ret) {
+        cout << root << endl;
+    }
     
     
 //    srand((unsigned)time(NULL));
