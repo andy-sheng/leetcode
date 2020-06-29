@@ -139,6 +139,7 @@
 		A1C38D43248EAB430090D3C3 /* 109. Convert Sorted List to Binary Search Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "109. Convert Sorted List to Binary Search Tree.h"; sourceTree = "<group>"; };
 		A1C38D4524913ED90090D3C3 /* 142. Linked List Cycle II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "142. Linked List Cycle II.h"; sourceTree = "<group>"; };
 		A1DD0DA224A9025F00588495 /* 96. Unique Binary Search Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "96. Unique Binary Search Trees.h"; sourceTree = "<group>"; };
+		A1DD0DA424AA460A00588495 /* 61. Rotate List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "61. Rotate List.h"; sourceTree = "<group>"; };
 		A1DD7195234CEC5B003E8052 /* 69. Sqrt(x).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "69. Sqrt(x).h"; sourceTree = "<group>"; };
 		A1DD7197234CF61E003E8052 /* 633. Sum of Square Numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "633. Sum of Square Numbers.h"; sourceTree = "<group>"; };
 		A1DD7199234CFBF2003E8052 /* 874. Walking Robot Simulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "874. Walking Robot Simulation.h"; sourceTree = "<group>"; };
@@ -800,6 +801,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1DD0DA324AA460300588495 /* 61. Rotate List */,
 				A1DD0DA124A9025500588495 /* 96. Unique Binary Search Trees */,
 				A1DF72142497CB570078909E /* 617. Merge Two Binary Trees */,
 				A1C38D4424913ED20090D3C3 /* 142. Linked List Cycle II */,
@@ -1239,6 +1241,14 @@
 				A1DD0DA224A9025F00588495 /* 96. Unique Binary Search Trees.h */,
 			);
 			path = "96. Unique Binary Search Trees";
+			sourceTree = "<group>";
+		};
+		A1DD0DA324AA460300588495 /* 61. Rotate List */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD0DA424AA460A00588495 /* 61. Rotate List.h */,
+			);
+			path = "61. Rotate List";
 			sourceTree = "<group>";
 		};
 		A1DD7194234CEC50003E8052 /* 69. Sqrt(x) */ = {
