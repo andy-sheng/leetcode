@@ -8,15 +8,23 @@
 
 #include <iostream>
 #include <time.h>
-#include "96. Unique Binary Search Trees.h"
+#include "103. Binary Tree Zigzag Level Order Traversal.h"
 
 
 
 int main(int argc, const char * argv[]) {
-    vector<TreeNode *>ret = P96::Solution().generateTrees(3);
-    for (TreeNode *root: ret) {
-        cout << root << endl;
+    TreeNode *root = new TreeNode(3);
+    root->left = new TreeNode(9);
+    root->right = new TreeNode(20);
+    root->right->left = new TreeNode(15);
+    root->right->right = new TreeNode(7);
+    for (auto line : P103::Solution().zigzagLevelOrder(root)) {
+        for (auto item: line) {
+            cout << item << "  ";
+        }
+        cout << endl;
     }
+    
     
     
 //    srand((unsigned)time(NULL));
