@@ -8,14 +8,15 @@
 
 #include <iostream>
 #include <time.h>
-#include "105. Construct Binary Tree from Preorder and Inorder Traversal.h"
+#include "99. Recover Binary Search Tree.h"
 
 
 
 int main(int argc, const char * argv[]) {
-    vector<int> preorder {3,9,20,15,7};
-    vector<int> inorder {9,3,15,20,7};
-    P105::Solution().buildTree(preorder, inorder);
+    TreeNode *root = new TreeNode(1);
+    root->left = new TreeNode(3);
+    root->left->right = new TreeNode(2);
+    P99::Solution().findNode(root);
     
     
 //    srand((unsigned)time(NULL));

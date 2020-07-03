@@ -11,23 +11,15 @@
 
 namespace P98 {
     class Solution {
+    private:
+        TreeNode *lastNode = NULL;
     public:
         bool isValidBST(TreeNode* root) {
-            long lastNodeValue = LONG_MIN;
-            return isValidBST(root, lastNodeValue);
-        }
-        
-        bool isValidBST(TreeNode* root, long &lastNodeValue) {
-
             if (!root) { return true; }
-            if (root->left && !isValidBST(root->left, lastNodeValue)) { return false; }
-
-            if (root->val <= lastNodeValue) { return false; }
-            lastNodeValue = root->val;
-            if (!root->right) {
-                return true;
-            }
-            return isValidBST(root->right, lastNodeValue);
+            if (root->left && !isValidBST(root->left)) { return false; }
+            if (lastNode && root->val <= lastNode->val) { return false; }
+            lastNode = root;
+            return isValidBST(root->right);
         }
     };
 }

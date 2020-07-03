@@ -143,6 +143,7 @@
 		A1DD0DA624ACF23C00588495 /* 103. Binary Tree Zigzag Level Order Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "103. Binary Tree Zigzag Level Order Traversal.h"; sourceTree = "<group>"; };
 		A1DD0DA824AE3E6E00588495 /* 105. Construct Binary Tree from Preorder and Inorder Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "105. Construct Binary Tree from Preorder and Inorder Traversal.h"; sourceTree = "<group>"; };
 		A1DD0DAA24AF8E3800588495 /* 98. Validate Binary Search Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "98. Validate Binary Search Tree.h"; sourceTree = "<group>"; };
+		A1DD0DAC24AF94C900588495 /* 99. Recover Binary Search Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "99. Recover Binary Search Tree.h"; sourceTree = "<group>"; };
 		A1DD7195234CEC5B003E8052 /* 69. Sqrt(x).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "69. Sqrt(x).h"; sourceTree = "<group>"; };
 		A1DD7197234CF61E003E8052 /* 633. Sum of Square Numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "633. Sum of Square Numbers.h"; sourceTree = "<group>"; };
 		A1DD7199234CFBF2003E8052 /* 874. Walking Robot Simulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "874. Walking Robot Simulation.h"; sourceTree = "<group>"; };
@@ -804,6 +805,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1DD0DAB24AF94C400588495 /* 99. Recover Binary Search Tree */,
 				A1DD0DA924AF8E2600588495 /* 98. Validate Binary Search Tree */,
 				A1DD0DA724AE3DCC00588495 /* 105. Construct Binary Tree from Preorder and Inorder Traversal */,
 				A1DD0DA524ACF23300588495 /* 103. Binary Tree Zigzag Level Order Traversal */,
@@ -1279,6 +1281,14 @@
 				A1DD0DAA24AF8E3800588495 /* 98. Validate Binary Search Tree.h */,
 			);
 			path = "98. Validate Binary Search Tree";
+			sourceTree = "<group>";
+		};
+		A1DD0DAB24AF94C400588495 /* 99. Recover Binary Search Tree */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD0DAC24AF94C900588495 /* 99. Recover Binary Search Tree.h */,
+			);
+			path = "99. Recover Binary Search Tree";
 			sourceTree = "<group>";
 		};
 		A1DD7194234CEC50003E8052 /* 69. Sqrt(x) */ = {
