@@ -51,7 +51,7 @@ public:
     
     int getValue(int row, int col) {
         for (int idx = updates.size() - 1; idx > -1; --idx) {
-            vector<int> update = updates[i];
+            vector<int> update = updates[idx];
             if (row >= update[0]
                 && col >= update[1]
                 && row <= update[2]
