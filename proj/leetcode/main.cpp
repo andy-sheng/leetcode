@@ -8,11 +8,11 @@
 
 #include <iostream>
 #include <time.h>
-#include "1689. Partitioning Into Minimum Number Of Deci-Binary Numbers.h"
+#include "1476. Subrectangle Queries.h"
 
 int main(int argc, const char * argv[]) {
     
-    std::cout << P1689::Solution().minPartitions("27346209830709182346") << std::endl;
+    
     
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
