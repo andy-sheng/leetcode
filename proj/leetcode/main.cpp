@@ -8,16 +8,11 @@
 
 #include <iostream>
 #include <time.h>
-#include "99. Recover Binary Search Tree.h"
-
-
+#include "1689. Partitioning Into Minimum Number Of Deci-Binary Numbers.h"
 
 int main(int argc, const char * argv[]) {
-    TreeNode *root = new TreeNode(1);
-    root->left = new TreeNode(3);
-    root->left->right = new TreeNode(2);
-    P99::Solution().findNode(root);
     
+    std::cout << P1689::Solution().minPartitions("27346209830709182346") << std::endl;
     
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);

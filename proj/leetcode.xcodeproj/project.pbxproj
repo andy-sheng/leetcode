@@ -111,6 +111,7 @@
 		A171BAA72363565900B5061F /* 951. Flip Equivalent Binary Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "951. Flip Equivalent Binary Trees.h"; sourceTree = "<group>"; };
 		A171BAA923635AEE00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1123. Lowest Common Ancestor of Deepest Leaves.h"; sourceTree = "<group>"; };
 		A1816F1A2483994000F4C1DF /* 443. String Compression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "443. String Compression.h"; sourceTree = "<group>"; };
+		A18F21AF26A49810009EB007 /* 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1689. Partitioning Into Minimum Number Of Deci-Binary Numbers.h"; sourceTree = "<group>"; };
 		A196AC4223B8FA7000A37EB8 /* 1233. Remove Sub-Folders from the Filesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1233. Remove Sub-Folders from the Filesystem.h"; sourceTree = "<group>"; };
 		A196AC4423B9077800A37EB8 /* 684. Redundant Connection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "684. Redundant Connection.h"; sourceTree = "<group>"; };
 		A196AC4623BA5C0E00A37EB8 /* 565. Array Nesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "565. Array Nesting.h"; sourceTree = "<group>"; };
@@ -805,6 +806,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A18F21AE26A497FA009EB007 /* 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers */,
 				A1DD0DAB24AF94C400588495 /* 99. Recover Binary Search Tree */,
 				A1DD0DA924AF8E2600588495 /* 98. Validate Binary Search Tree */,
 				A1DD0DA724AE3DCC00588495 /* 105. Construct Binary Tree from Preorder and Inorder Traversal */,
@@ -1025,6 +1027,14 @@
 				A1816F1A2483994000F4C1DF /* 443. String Compression.h */,
 			);
 			path = "443. String Compression";
+			sourceTree = "<group>";
+		};
+		A18F21AE26A497FA009EB007 /* 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				A18F21AF26A49810009EB007 /* 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers.h */,
+			);
+			path = "1689. Partitioning Into Minimum Number Of Deci-Binary Numbers";
 			sourceTree = "<group>";
 		};
 		A196AC4123B8FA6900A37EB8 /* 1233. Remove Sub-Folders from the Filesystem */ = {
@@ -1672,7 +1682,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9E9C2ZNYDA;
+				DEVELOPMENT_TEAM = 6JV8VTV77T;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andysheng.leetcode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1681,7 +1692,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9E9C2ZNYDA;
+				DEVELOPMENT_TEAM = 6JV8VTV77T;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.andysheng.leetcode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
