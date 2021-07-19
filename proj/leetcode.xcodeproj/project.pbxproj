@@ -113,6 +113,7 @@
 		A1816F1A2483994000F4C1DF /* 443. String Compression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "443. String Compression.h"; sourceTree = "<group>"; };
 		A18F21AF26A49810009EB007 /* 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1689. Partitioning Into Minimum Number Of Deci-Binary Numbers.h"; sourceTree = "<group>"; };
 		A18F21B126A49C8B009EB007 /* 1476. Subrectangle Queries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1476. Subrectangle Queries.h"; sourceTree = "<group>"; };
+		A18F21B326A5EA47009EB007 /* 1828. Queries on Number of Points Inside a Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1828. Queries on Number of Points Inside a Circle.h"; sourceTree = "<group>"; };
 		A196AC4223B8FA7000A37EB8 /* 1233. Remove Sub-Folders from the Filesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1233. Remove Sub-Folders from the Filesystem.h"; sourceTree = "<group>"; };
 		A196AC4423B9077800A37EB8 /* 684. Redundant Connection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "684. Redundant Connection.h"; sourceTree = "<group>"; };
 		A196AC4623BA5C0E00A37EB8 /* 565. Array Nesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "565. Array Nesting.h"; sourceTree = "<group>"; };
@@ -807,6 +808,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A18F21B226A5EA3F009EB007 /* 1828. Queries on Number of Points Inside a Circle */,
 				A18F21B026A49C79009EB007 /* 1476. Subrectangle Queries */,
 				A18F21AE26A497FA009EB007 /* 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers */,
 				A1DD0DAB24AF94C400588495 /* 99. Recover Binary Search Tree */,
@@ -1045,6 +1047,14 @@
 				A18F21B126A49C8B009EB007 /* 1476. Subrectangle Queries.h */,
 			);
 			path = "1476. Subrectangle Queries";
+			sourceTree = "<group>";
+		};
+		A18F21B226A5EA3F009EB007 /* 1828. Queries on Number of Points Inside a Circle */ = {
+			isa = PBXGroup;
+			children = (
+				A18F21B326A5EA47009EB007 /* 1828. Queries on Number of Points Inside a Circle.h */,
+			);
+			path = "1828. Queries on Number of Points Inside a Circle";
 			sourceTree = "<group>";
 		};
 		A196AC4123B8FA6900A37EB8 /* 1233. Remove Sub-Folders from the Filesystem */ = {
