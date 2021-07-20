@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <time.h>
-#include "1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.h"
+#include "1282. Group the People Given the Group Size They Belong To.h"
 
 int main(int argc, const char * argv[]) {
     
