@@ -8,14 +8,12 @@
 
 #include <iostream>
 #include <time.h>
-#include "1769. Minimum Number of Operations to Move All Balls to Each Box.h"
+#include "1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.h"
 
 int main(int argc, const char * argv[]) {
     
     
-    for (int i : P1769::Solution().minOperations("001011")) {
-        std::cout << i << std::endl;
-    }
+ 
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
