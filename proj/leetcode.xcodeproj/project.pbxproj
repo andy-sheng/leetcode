@@ -117,6 +117,7 @@
 		A18F21B526A5F117009EB007 /* 1769. Minimum Number of Operations to Move All Balls to Each Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1769. Minimum Number of Operations to Move All Balls to Each Box.h"; sourceTree = "<group>"; };
 		A18F21B726A73CD5009EB007 /* 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.h"; sourceTree = "<group>"; };
 		A18F21B926A73EB1009EB007 /* 1282. Group the People Given the Group Size They Belong To.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1282. Group the People Given the Group Size They Belong To.h"; sourceTree = "<group>"; };
+		A18F21BB26A74219009EB007 /* 1637. Widest Vertical Area Between Two Points Containing No Points.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1637. Widest Vertical Area Between Two Points Containing No Points.h"; sourceTree = "<group>"; };
 		A196AC4223B8FA7000A37EB8 /* 1233. Remove Sub-Folders from the Filesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1233. Remove Sub-Folders from the Filesystem.h"; sourceTree = "<group>"; };
 		A196AC4423B9077800A37EB8 /* 684. Redundant Connection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "684. Redundant Connection.h"; sourceTree = "<group>"; };
 		A196AC4623BA5C0E00A37EB8 /* 565. Array Nesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "565. Array Nesting.h"; sourceTree = "<group>"; };
@@ -811,6 +812,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A18F21BA26A74212009EB007 /* 1637. Widest Vertical Area Between Two Points Containing No Points */,
 				A18F21B826A73EAA009EB007 /* 1282. Group the People Given the Group Size They Belong To */,
 				A18F21B626A73CC7009EB007 /* 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree */,
 				A18F21B426A5F110009EB007 /* 1769. Minimum Number of Operations to Move All Balls to Each Box */,
@@ -1085,6 +1087,14 @@
 				A18F21B926A73EB1009EB007 /* 1282. Group the People Given the Group Size They Belong To.h */,
 			);
 			path = "1282. Group the People Given the Group Size They Belong To";
+			sourceTree = "<group>";
+		};
+		A18F21BA26A74212009EB007 /* 1637. Widest Vertical Area Between Two Points Containing No Points */ = {
+			isa = PBXGroup;
+			children = (
+				A18F21BB26A74219009EB007 /* 1637. Widest Vertical Area Between Two Points Containing No Points.h */,
+			);
+			path = "1637. Widest Vertical Area Between Two Points Containing No Points";
 			sourceTree = "<group>";
 		};
 		A196AC4123B8FA6900A37EB8 /* 1233. Remove Sub-Folders from the Filesystem */ = {
