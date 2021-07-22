@@ -8,13 +8,12 @@
 
 #include <iostream>
 #include <time.h>
-#include "1329. Sort the Matrix Diagonally.h"
+#include "1817. Finding the Users Active Minutes.h"
 
 int main(int argc, const char * argv[]) {
     
     
-    vector<vector<int>> mat = {{3,3,1,1},{2,2,1,2},{1,1,1,2}};
-    P1329::Solution().diagonalSort(mat);
+
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
