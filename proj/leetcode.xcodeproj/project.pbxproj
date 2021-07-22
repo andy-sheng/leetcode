@@ -120,6 +120,7 @@
 		A18F21BB26A74219009EB007 /* 1637. Widest Vertical Area Between Two Points Containing No Points.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1637. Widest Vertical Area Between Two Points Containing No Points.h"; sourceTree = "<group>"; };
 		A18F21BD26A8892F009EB007 /* 1409. Queries on a Permutation With Key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1409. Queries on a Permutation With Key.h"; sourceTree = "<group>"; };
 		A18F21BF26A88E5A009EB007 /* 1329. Sort the Matrix Diagonally.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1329. Sort the Matrix Diagonally.h"; sourceTree = "<group>"; };
+		A18F21C126A9D35F009EB007 /* 1551. Minimum Operations to Make Array Equal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1551. Minimum Operations to Make Array Equal.h"; sourceTree = "<group>"; };
 		A196AC4223B8FA7000A37EB8 /* 1233. Remove Sub-Folders from the Filesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1233. Remove Sub-Folders from the Filesystem.h"; sourceTree = "<group>"; };
 		A196AC4423B9077800A37EB8 /* 684. Redundant Connection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "684. Redundant Connection.h"; sourceTree = "<group>"; };
 		A196AC4623BA5C0E00A37EB8 /* 565. Array Nesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "565. Array Nesting.h"; sourceTree = "<group>"; };
@@ -814,6 +815,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A18F21C026A9D358009EB007 /* 1551. Minimum Operations to Make Array Equal */,
 				A18F21BE26A88E55009EB007 /* 1329. Sort the Matrix Diagonally */,
 				A18F21BC26A88928009EB007 /* 1409. Queries on a Permutation With Key */,
 				A18F21BA26A74212009EB007 /* 1637. Widest Vertical Area Between Two Points Containing No Points */,
@@ -1115,6 +1117,14 @@
 				A18F21BF26A88E5A009EB007 /* 1329. Sort the Matrix Diagonally.h */,
 			);
 			path = "1329. Sort the Matrix Diagonally";
+			sourceTree = "<group>";
+		};
+		A18F21C026A9D358009EB007 /* 1551. Minimum Operations to Make Array Equal */ = {
+			isa = PBXGroup;
+			children = (
+				A18F21C126A9D35F009EB007 /* 1551. Minimum Operations to Make Array Equal.h */,
+			);
+			path = "1551. Minimum Operations to Make Array Equal";
 			sourceTree = "<group>";
 		};
 		A196AC4123B8FA6900A37EB8 /* 1233. Remove Sub-Folders from the Filesystem */ = {
