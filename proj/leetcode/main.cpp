@@ -8,11 +8,11 @@
 
 #include <iostream>
 #include <time.h>
-#include "3. Longest Substring Without Repeating Characters.h"
+#include "5. Longest Palindromic Substring.h"
 
 int main(int argc, const char * argv[]) {
     
-    cout << P3::Solution().lengthOfLongestSubstring(" ") << endl;
+    cout << P5::Solution().longestPalindrome("ac") << endl;
 
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
