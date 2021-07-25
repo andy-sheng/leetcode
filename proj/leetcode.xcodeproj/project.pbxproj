@@ -152,6 +152,7 @@
 		A1C38D4524913ED90090D3C3 /* 142. Linked List Cycle II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "142. Linked List Cycle II.h"; sourceTree = "<group>"; };
 		A1CE719D26A9E51A00D78675 /* 3. Longest Substring Without Repeating Characters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3. Longest Substring Without Repeating Characters.h"; sourceTree = "<group>"; };
 		A1CE719F26AC3BA900D78675 /* 5. Longest Palindromic Substring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5. Longest Palindromic Substring.h"; sourceTree = "<group>"; };
+		A1CE71A126AC8E1B00D78675 /* 1605. Find Valid Matrix Given Row and Column Sums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1605. Find Valid Matrix Given Row and Column Sums.h"; sourceTree = "<group>"; };
 		A1DD0DA224A9025F00588495 /* 96. Unique Binary Search Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "96. Unique Binary Search Trees.h"; sourceTree = "<group>"; };
 		A1DD0DA424AA460A00588495 /* 61. Rotate List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "61. Rotate List.h"; sourceTree = "<group>"; };
 		A1DD0DA624ACF23C00588495 /* 103. Binary Tree Zigzag Level Order Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "103. Binary Tree Zigzag Level Order Traversal.h"; sourceTree = "<group>"; };
@@ -819,6 +820,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1CE71A026AC8E1500D78675 /* 1605. Find Valid Matrix Given Row and Column Sums */,
 				A1CE719E26AC3BA300D78675 /* 5. Longest Palindromic Substring */,
 				A1CE719C26A9E51500D78675 /* 3. Longest Substring Without Repeating Characters */,
 				A18F21C426A9DBB7009EB007 /* 1817. Finding the Users Active Minutes */,
@@ -1381,6 +1383,14 @@
 				A1CE719F26AC3BA900D78675 /* 5. Longest Palindromic Substring.h */,
 			);
 			path = "5. Longest Palindromic Substring";
+			sourceTree = "<group>";
+		};
+		A1CE71A026AC8E1500D78675 /* 1605. Find Valid Matrix Given Row and Column Sums */ = {
+			isa = PBXGroup;
+			children = (
+				A1CE71A126AC8E1B00D78675 /* 1605. Find Valid Matrix Given Row and Column Sums.h */,
+			);
+			path = "1605. Find Valid Matrix Given Row and Column Sums";
 			sourceTree = "<group>";
 		};
 		A1DD0DA124A9025500588495 /* 96. Unique Binary Search Trees */ = {

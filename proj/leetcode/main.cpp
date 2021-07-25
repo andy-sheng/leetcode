@@ -8,12 +8,18 @@
 
 #include <iostream>
 #include <time.h>
-#include "5. Longest Palindromic Substring.h"
+#include "1605. Find Valid Matrix Given Row and Column Sums.h"
 
 int main(int argc, const char * argv[]) {
-    
-    cout << P5::Solution().longestPalindrome("ac") << endl;
 
+    vector<int> rowSum = {1,0};
+    vector<int> colSum = {1};
+    for (auto row: P1605::Solution().restoreMatrix(rowSum, colSum)) {
+        for (auto item: row) {
+            cout << item << " ";
+        }
+        cout << endl;
+    }
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
