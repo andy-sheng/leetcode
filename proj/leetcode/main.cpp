@@ -8,12 +8,12 @@
 
 #include <iostream>
 #include <time.h>
-#include "1605. Find Valid Matrix Given Row and Column Sums.h"
+#include "1305. All Elements in Two Binary Search Trees.h"
 
 int main(int argc, const char * argv[]) {
 
-    vector<int> rowSum = {1,0};
-    vector<int> colSum = {1};
+    vector<int> rowSum = {5,7,10};
+    vector<int> colSum = {8,6,8};
     for (auto row: P1605::Solution().restoreMatrix(rowSum, colSum)) {
         for (auto item: row) {
             cout << item << " ";
