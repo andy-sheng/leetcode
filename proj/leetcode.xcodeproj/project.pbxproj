@@ -157,6 +157,7 @@
 		A1CE71A526AD483700D78675 /* 1630. Arithmetic Subarrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1630. Arithmetic Subarrays.h"; sourceTree = "<group>"; };
 		A1CE71A726AF2C2600D78675 /* LRU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRU.h; sourceTree = "<group>"; };
 		A1CE71A926B1AE9D00D78675 /* 33. Search in Rotated Sorted Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "33. Search in Rotated Sorted Array.h"; sourceTree = "<group>"; };
+		A1CE71AB26B1D7E200D78675 /* 25. Reverse Nodes in k-Group.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "25. Reverse Nodes in k-Group.h"; sourceTree = "<group>"; };
 		A1DD0DA224A9025F00588495 /* 96. Unique Binary Search Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "96. Unique Binary Search Trees.h"; sourceTree = "<group>"; };
 		A1DD0DA424AA460A00588495 /* 61. Rotate List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "61. Rotate List.h"; sourceTree = "<group>"; };
 		A1DD0DA624ACF23C00588495 /* 103. Binary Tree Zigzag Level Order Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "103. Binary Tree Zigzag Level Order Traversal.h"; sourceTree = "<group>"; };
@@ -824,6 +825,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1CE71AA26B1D7DC00D78675 /* 25. Reverse Nodes in k-Group */,
 				A1CE71A826B1AE9700D78675 /* 33. Search in Rotated Sorted Array */,
 				A1CE71A626AF2C1C00D78675 /* LRU */,
 				A1CE71A426AD483200D78675 /* 1630. Arithmetic Subarrays */,
@@ -1431,6 +1433,14 @@
 				A1CE71A926B1AE9D00D78675 /* 33. Search in Rotated Sorted Array.h */,
 			);
 			path = "33. Search in Rotated Sorted Array";
+			sourceTree = "<group>";
+		};
+		A1CE71AA26B1D7DC00D78675 /* 25. Reverse Nodes in k-Group */ = {
+			isa = PBXGroup;
+			children = (
+				A1CE71AB26B1D7E200D78675 /* 25. Reverse Nodes in k-Group.h */,
+			);
+			path = "25. Reverse Nodes in k-Group";
 			sourceTree = "<group>";
 		};
 		A1DD0DA124A9025500588495 /* 96. Unique Binary Search Trees */ = {
