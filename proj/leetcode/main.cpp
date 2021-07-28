@@ -8,17 +8,12 @@
 
 #include <iostream>
 #include <time.h>
-#include "LRU.h"
+#include "33. Search in Rotated Sorted Array.h"
 
 int main(int argc, const char * argv[]) {
 
-    LRU::Cache cache(3);
-    cache.set(1, 1);
-    cache.set(2, 2);
-    cache.set(3, 2);
-    cout << cache.get(1) << endl;
-    cache.set(4,4);
-    cout << cache.get(2) << endl;
+    vector<int> input{5,1,3};
+    cout << P33::Solution().search(input, 5) << endl;
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
