@@ -8,12 +8,15 @@
 
 #include <iostream>
 #include <time.h>
-#include "33. Search in Rotated Sorted Array.h"
+#include "15. 3Sum.h"
 
 int main(int argc, const char * argv[]) {
 
-    vector<int> input{5,1,3};
-    cout << P33::Solution().search(input, 5) << endl;
+    vector<int> input = {};
+    vector<vector<int>> ret = P15::Solution().threeSum(input);
+    for (auto xyz: ret) {
+        cout << xyz[0] << " " << xyz[1] << " " << xyz[2] << endl;
+    }
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
