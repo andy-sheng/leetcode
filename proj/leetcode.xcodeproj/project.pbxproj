@@ -161,6 +161,7 @@
 		A1CE71AD26B3177900D78675 /* 15. 3Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15. 3Sum.h"; sourceTree = "<group>"; };
 		A1CE71AF26B685D600D78675 /* 121. Best Time to Buy and Sell Stock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "121. Best Time to Buy and Sell Stock.h"; sourceTree = "<group>"; };
 		A1CE71B126B689BD00D78675 /* 42. Trapping Rain Water.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "42. Trapping Rain Water.h"; sourceTree = "<group>"; };
+		A1CE71B326B6961A00D78675 /* 53. Maximum Subarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "53. Maximum Subarray.h"; sourceTree = "<group>"; };
 		A1DD0DA224A9025F00588495 /* 96. Unique Binary Search Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "96. Unique Binary Search Trees.h"; sourceTree = "<group>"; };
 		A1DD0DA424AA460A00588495 /* 61. Rotate List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "61. Rotate List.h"; sourceTree = "<group>"; };
 		A1DD0DA624ACF23C00588495 /* 103. Binary Tree Zigzag Level Order Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "103. Binary Tree Zigzag Level Order Traversal.h"; sourceTree = "<group>"; };
@@ -828,6 +829,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1CE71B226B6961300D78675 /* 53. Maximum Subarray */,
 				A1CE71B026B689AF00D78675 /* 42. Trapping Rain Water */,
 				A1CE71AE26B685D000D78675 /* 121. Best Time to Buy and Sell Stock */,
 				A1CE71AC26B3176F00D78675 /* 15. 3Sum */,
@@ -1471,6 +1473,14 @@
 				A1CE71B126B689BD00D78675 /* 42. Trapping Rain Water.h */,
 			);
 			path = "42. Trapping Rain Water";
+			sourceTree = "<group>";
+		};
+		A1CE71B226B6961300D78675 /* 53. Maximum Subarray */ = {
+			isa = PBXGroup;
+			children = (
+				A1CE71B326B6961A00D78675 /* 53. Maximum Subarray.h */,
+			);
+			path = "53. Maximum Subarray";
 			sourceTree = "<group>";
 		};
 		A1DD0DA124A9025500588495 /* 96. Unique Binary Search Trees */ = {
