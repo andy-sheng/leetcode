@@ -155,7 +155,7 @@
 		A1CE71A126AC8E1B00D78675 /* 1605. Find Valid Matrix Given Row and Column Sums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1605. Find Valid Matrix Given Row and Column Sums.h"; sourceTree = "<group>"; };
 		A1CE71A326AD431100D78675 /* 1305. All Elements in Two Binary Search Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1305. All Elements in Two Binary Search Trees.h"; sourceTree = "<group>"; };
 		A1CE71A526AD483700D78675 /* 1630. Arithmetic Subarrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1630. Arithmetic Subarrays.h"; sourceTree = "<group>"; };
-		A1CE71A726AF2C2600D78675 /* LRU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRU.h; sourceTree = "<group>"; };
+		A1CE71A726AF2C2600D78675 /* 146. LRU Cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "146. LRU Cache.h"; sourceTree = "<group>"; };
 		A1CE71A926B1AE9D00D78675 /* 33. Search in Rotated Sorted Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "33. Search in Rotated Sorted Array.h"; sourceTree = "<group>"; };
 		A1CE71AB26B1D7E200D78675 /* 25. Reverse Nodes in k-Group.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "25. Reverse Nodes in k-Group.h"; sourceTree = "<group>"; };
 		A1CE71AD26B3177900D78675 /* 15. 3Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15. 3Sum.h"; sourceTree = "<group>"; };
@@ -841,7 +841,7 @@
 				A1CE71AC26B3176F00D78675 /* 15. 3Sum */,
 				A1CE71AA26B1D7DC00D78675 /* 25. Reverse Nodes in k-Group */,
 				A1CE71A826B1AE9700D78675 /* 33. Search in Rotated Sorted Array */,
-				A1CE71A626AF2C1C00D78675 /* LRU */,
+				A1CE71A626AF2C1C00D78675 /* 146. LRU Cache */,
 				A1CE71A426AD483200D78675 /* 1630. Arithmetic Subarrays */,
 				A1CE71A226AD430700D78675 /* 1305. All Elements in Two Binary Search Trees */,
 				A1CE71A026AC8E1500D78675 /* 1605. Find Valid Matrix Given Row and Column Sums */,
@@ -1433,12 +1433,12 @@
 			path = "1630. Arithmetic Subarrays";
 			sourceTree = "<group>";
 		};
-		A1CE71A626AF2C1C00D78675 /* LRU */ = {
+		A1CE71A626AF2C1C00D78675 /* 146. LRU Cache */ = {
 			isa = PBXGroup;
 			children = (
-				A1CE71A726AF2C2600D78675 /* LRU.h */,
+				A1CE71A726AF2C2600D78675 /* 146. LRU Cache.h */,
 			);
-			path = LRU;
+			path = "146. LRU Cache";
 			sourceTree = "<group>";
 		};
 		A1CE71A826B1AE9700D78675 /* 33. Search in Rotated Sorted Array */ = {
