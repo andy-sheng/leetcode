@@ -8,15 +8,11 @@
 
 #include <iostream>
 #include <time.h>
-#include "15. 3Sum.h"
+#include "97. Interleaving String.h"
 
 int main(int argc, const char * argv[]) {
 
-    vector<int> input = {};
-    vector<vector<int>> ret = P15::Solution().threeSum(input);
-    for (auto xyz: ret) {
-        cout << xyz[0] << " " << xyz[1] << " " << xyz[2] << endl;
-    }
+    cout << P97::Solution().isInterleave("bbbbbabbbbabaababaaaabbababbaaabbabbaaabaaaaababbbababbbbbabbbbababbabaabababbbaabababababbbaaababaa", "babaaaabbababbbabbbbaabaabbaabbbbaabaaabaababaaaabaaabbaaabaaaabaabaabbbbbbbbbbbabaaabbababbabbabaab", "babbbabbbaaabbababbbbababaabbabaabaaabbbbabbbaaabbbaaaaabbbbaabbaaabababbaaaaaabababbababaababbababbbababbbbaaaabaabbabbaaaaabbabbaaaabbbaabaaabaababaababbaaabbbbbabbbbaabbabaabbbbabaaabbababbabbabbab") << endl;
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
