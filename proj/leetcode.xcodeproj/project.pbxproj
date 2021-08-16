@@ -87,6 +87,7 @@
 		A12C8AF0234B927F000036C8 /* 581. Shortest Unsorted Continuous Subarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "581. Shortest Unsorted Continuous Subarray.h"; sourceTree = "<group>"; };
 		A12C8AF4234BA0FF000036C8 /* 686. Repeated String Match.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "686. Repeated String Match.h"; sourceTree = "<group>"; };
 		A12EFCAD26C9809200E04EE1 /* 97. Interleaving String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "97. Interleaving String.h"; sourceTree = "<group>"; };
+		A12EFCAF26CAD41C00E04EE1 /* 92. Reverse Linked List II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "92. Reverse Linked List II.h"; sourceTree = "<group>"; };
 		A13B50AB23B514FA00989E54 /* 1023. Camelcase Matching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1023. Camelcase Matching.h"; sourceTree = "<group>"; };
 		A13B50AD23B51A2B00989E54 /* 1020. Number of Enclaves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1020. Number of Enclaves.h"; sourceTree = "<group>"; };
 		A13B50AF23B66B7700989E54 /* 835. Image Overlap .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "835. Image Overlap .h"; sourceTree = "<group>"; };
@@ -717,6 +718,14 @@
 			path = "97. Interleaving String";
 			sourceTree = "<group>";
 		};
+		A12EFCAE26CAD41300E04EE1 /* 92. Reverse Linked List II */ = {
+			isa = PBXGroup;
+			children = (
+				A12EFCAF26CAD41C00E04EE1 /* 92. Reverse Linked List II.h */,
+			);
+			path = "92. Reverse Linked List II";
+			sourceTree = "<group>";
+		};
 		A13B50AA23B514F100989E54 /* 1023. Camelcase Matching */ = {
 			isa = PBXGroup;
 			children = (
@@ -841,6 +850,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A12EFCAE26CAD41300E04EE1 /* 92. Reverse Linked List II */,
 				A12EFCAC26C9808D00E04EE1 /* 97. Interleaving String */,
 				A1CE71B826B7092B00D78675 /* 199. Binary Tree Right Side View */,
 				A1CE71B626B69F3400D78675 /* 200. Number of Islands */,
