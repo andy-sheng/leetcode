@@ -8,10 +8,12 @@
 
 #include <iostream>
 #include <time.h>
-#include "92. Reverse Linked List II.h"
+#include "93. Restore IP Addresses.h"
 
 int main(int argc, const char * argv[]) {
-
+    for (auto addr: P93::Solution().restoreIpAddresses("0000")) {
+        cout << addr << endl;
+    }
 
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
