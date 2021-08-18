@@ -16,18 +16,21 @@ class Solution {
 public:
     int numDecodings(string s) {
         vector<int> dp(s.size() + 1, 0);
-        dp[s.size()] = 1;
-        dp[s.size() - 1] = s.back() != '0';
+        int n_2 = 1;
+        int n_1 = s.back() != '0';
         for (int i = (int)s.size() - 2; i > -1; --i) {
+            int tmp = 0;
             if (s[i] != '0') {
-                dp[i] = dp[i + 1];
+                tmp = n_1;
                 int val = (s[i] - '0') * 10 + s[i + 1] - '0';
                 if (val <= 26) {
-                    dp[i] += dp[i + 2];
+                    tmp += n_2;
                 }
             }
+            n_2 = n_1;
+            n_1 = tmp;
         }
-        return dp[0];
+        return n_1;
     }
 };
 
