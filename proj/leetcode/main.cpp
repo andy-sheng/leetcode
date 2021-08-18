@@ -8,13 +8,14 @@
 
 #include <iostream>
 #include <time.h>
-#include "93. Restore IP Addresses.h"
+#include "91. Decode Ways .h"
 
 int main(int argc, const char * argv[]) {
-    for (auto addr: P93::Solution().restoreIpAddresses("0000")) {
-        cout << addr << endl;
-    }
 
+    cout << P91::Solution().numDecodings("226") <<endl;
+    cout << P91::Solution().numDecodings("12") <<endl;
+    cout << P91::Solution().numDecodings("0") <<endl;
+    cout << P91::Solution().numDecodings("06") <<endl;
 //    srand((unsigned)time(NULL));
 //    Algorithm::UnionFind unionFind(10);
 //    unionFind.Union(1, 2);
