@@ -98,6 +98,7 @@
 		A13FC04223B3CBA4003DAA17 /* 1031. Maximum Sum of Two Non-Overlapping Subarrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1031. Maximum Sum of Two Non-Overlapping Subarrays.h"; sourceTree = "<group>"; };
 		A141CB82235C47B1006E38C4 /* 921. Minimum Add to Make Parentheses Valid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "921. Minimum Add to Make Parentheses Valid.h"; sourceTree = "<group>"; };
 		A14F44F426CD74EA00953CC3 /* 91. Decode Ways .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "91. Decode Ways .h"; sourceTree = "<group>"; };
+		A14F44F626CD7B2100953CC3 /* 639. Decode Ways II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "639. Decode Ways II.h"; sourceTree = "<group>"; };
 		A15842392365F74C00AA3F4A /* 986. Interval List Intersections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "986. Interval List Intersections.h"; sourceTree = "<group>"; };
 		A1607855235F6AE900BF651E /* 885. Spiral Matrix III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "885. Spiral Matrix III.h"; sourceTree = "<group>"; };
 		A1607857235F6B6600BF651E /* 537. Complex Number Multiplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "537. Complex Number Multiplication.h"; sourceTree = "<group>"; };
@@ -808,6 +809,14 @@
 			path = "91. Decode Ways";
 			sourceTree = "<group>";
 		};
+		A14F44F526CD7B1600953CC3 /* 639. Decode Ways II */ = {
+			isa = PBXGroup;
+			children = (
+				A14F44F626CD7B2100953CC3 /* 639. Decode Ways II.h */,
+			);
+			path = "639. Decode Ways II";
+			sourceTree = "<group>";
+		};
 		A15842382365F74500AA3F4A /* 986. Interval List Intersections */ = {
 			isa = PBXGroup;
 			children = (
@@ -868,6 +877,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A14F44F526CD7B1600953CC3 /* 639. Decode Ways II */,
 				A14F44F326CD74D800953CC3 /* 91. Decode Ways */,
 				A12EFCB026CC261800E04EE1 /* 93. Restore IP Addresses */,
 				A12EFCAE26CAD41300E04EE1 /* 92. Reverse Linked List II */,
