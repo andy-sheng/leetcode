@@ -147,6 +147,7 @@
 		A1A81B1F248805EB00C83603 /* 1325. Delete Leaves With a Given Value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1325. Delete Leaves With a Given Value.h"; sourceTree = "<group>"; };
 		A1A81B2124880C2300C83603 /* 1415. The k-th Lexicographical String of All Happy Strings of Length n.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1415. The k-th Lexicographical String of All Happy Strings of Length n.h"; sourceTree = "<group>"; };
 		A1A81B26248D15F800C83603 /* 445. Add Two Numbers II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "445. Add Two Numbers II.h"; sourceTree = "<group>"; };
+		A1A8E28C26CEC344008233E8 /* 90. Subsets II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "90. Subsets II.h"; sourceTree = "<group>"; };
 		A1B3C32023ABE7CE00C0B217 /* 553. Optimal Division.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "553. Optimal Division.h"; sourceTree = "<group>"; };
 		A1B71FEB2365913700EB34CC /* 1110. Delete Nodes And Return Forest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1110. Delete Nodes And Return Forest.h"; sourceTree = "<group>"; };
 		A1C05EA4235C91630077F738 /* 861. Score After Flipping Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "861. Score After Flipping Matrix.h"; sourceTree = "<group>"; };
@@ -877,6 +878,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1A8E28B26CEC0AE008233E8 /* 90. Subsets II */,
 				A14F44F526CD7B1600953CC3 /* 639. Decode Ways II */,
 				A14F44F326CD74D800953CC3 /* 91. Decode Ways */,
 				A12EFCB026CC261800E04EE1 /* 93. Restore IP Addresses */,
@@ -1377,6 +1379,14 @@
 				A1A81B26248D15F800C83603 /* 445. Add Two Numbers II.h */,
 			);
 			path = "445. Add Two Numbers II";
+			sourceTree = "<group>";
+		};
+		A1A8E28B26CEC0AE008233E8 /* 90. Subsets II */ = {
+			isa = PBXGroup;
+			children = (
+				A1A8E28C26CEC344008233E8 /* 90. Subsets II.h */,
+			);
+			path = "90. Subsets II";
 			sourceTree = "<group>";
 		};
 		A1B3C31F23ABE7C800C0B217 /* 553. Optimal Division */ = {

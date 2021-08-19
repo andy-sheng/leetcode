@@ -8,18 +8,18 @@
 
 #include <iostream>
 #include <time.h>
-#include "639. Decode Ways II.h"
+#include "90. Subsets II.h"
 
 int main(int argc, const char * argv[]) {
-
-    cout << P639::Solution().numDecodings("226") <<endl;
-    cout << P639::Solution().numDecodings("12") <<endl;
-    cout << P639::Solution().numDecodings("0") <<endl;
-    cout << P639::Solution().numDecodings("06") <<endl;
-    cout << P639::Solution().numDecodings("*") <<endl;
-    cout << P639::Solution().numDecodings("1*") <<endl;
-    cout << P639::Solution().numDecodings("2*") <<endl;
-    cout << P639::Solution().numDecodings("*********") <<endl;
+    
+    vector<int> input = {1,1};
+    for (auto subset: P90::Solution().subsetsWithDup(input)) {
+        cout << "sub set: ";
+        for (auto item: subset) {
+            cout << item << " ";
+        }
+        cout << endl;
+    }
     
     return 0;
 }
