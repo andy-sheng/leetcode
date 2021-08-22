@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A10FC9C626D0E9FA0026A39E /* 86. Partition List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "86. Partition List.h"; sourceTree = "<group>"; };
+		A10FC9C826D0EEDC0026A39E /* 16. 3Sum Closest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "16. 3Sum Closest.h"; sourceTree = "<group>"; };
 		A1141FCD2370863A003E7E4B /* 841. Keys and Rooms .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "841. Keys and Rooms .h"; sourceTree = "<group>"; };
 		A1141FCF23709262003E7E4B /* 973. K Closest Points to Origin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "973. K Closest Points to Origin.h"; sourceTree = "<group>"; };
 		A1141FD12371D8AB003E7E4B /* 998. Maximum Binary Tree II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "998. Maximum Binary Tree II.h"; sourceTree = "<group>"; };
@@ -220,6 +222,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10FC9C526D0E9F40026A39E /* 86. Partition List */ = {
+			isa = PBXGroup;
+			children = (
+				A10FC9C626D0E9FA0026A39E /* 86. Partition List.h */,
+			);
+			path = "86. Partition List";
+			sourceTree = "<group>";
+		};
+		A10FC9C726D0EED70026A39E /* 16. 3Sum Closest */ = {
+			isa = PBXGroup;
+			children = (
+				A10FC9C826D0EEDC0026A39E /* 16. 3Sum Closest.h */,
+			);
+			path = "16. 3Sum Closest";
+			sourceTree = "<group>";
+		};
 		A1141FCC2370862D003E7E4B /* 841. Keys and Rooms  */ = {
 			isa = PBXGroup;
 			children = (
@@ -898,6 +916,8 @@
 			children = (
 				A117650826D2B14E008AC339 /* 57. Insert Interval */,
 				A117650626D2A720008AC339 /* 56. Merge Intervals */,
+				A10FC9C726D0EED70026A39E /* 16. 3Sum Closest */,
+				A10FC9C526D0E9F40026A39E /* 86. Partition List */,
 				A1A8E28B26CEC0AE008233E8 /* 90. Subsets II */,
 				A14F44F526CD7B1600953CC3 /* 639. Decode Ways II */,
 				A14F44F326CD74D800953CC3 /* 91. Decode Ways */,
