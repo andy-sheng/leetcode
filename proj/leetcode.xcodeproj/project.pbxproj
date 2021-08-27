@@ -211,6 +211,7 @@
 		A1EA249F236EB2A6009BAE43 /* 1026. Maximum Difference Between Node and Ancestor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1026. Maximum Difference Between Node and Ancestor.h"; sourceTree = "<group>"; };
 		A1FFD64626D8D3CC0006B1DF /* 59. Spiral Matrix II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "59. Spiral Matrix II.h"; sourceTree = "<group>"; };
 		A1FFD64826D8D6970006B1DF /* 64. Minimum Path Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "64. Minimum Path Sum.h"; sourceTree = "<group>"; };
+		A1FFD64A26D8D8E30006B1DF /* 73. Set Matrix Zeroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "73. Set Matrix Zeroes.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -916,6 +917,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1FFD64926D8D8DE0006B1DF /* 73. Set Matrix Zeroes */,
 				A1FFD64726D8D6920006B1DF /* 64. Minimum Path Sum */,
 				A1FFD64526D8D3C80006B1DF /* 59. Spiral Matrix II */,
 				A117650826D2B14E008AC339 /* 57. Insert Interval */,
@@ -1882,6 +1884,14 @@
 				A1FFD64826D8D6970006B1DF /* 64. Minimum Path Sum.h */,
 			);
 			path = "64. Minimum Path Sum";
+			sourceTree = "<group>";
+		};
+		A1FFD64926D8D8DE0006B1DF /* 73. Set Matrix Zeroes */ = {
+			isa = PBXGroup;
+			children = (
+				A1FFD64A26D8D8E30006B1DF /* 73. Set Matrix Zeroes.h */,
+			);
+			path = "73. Set Matrix Zeroes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
