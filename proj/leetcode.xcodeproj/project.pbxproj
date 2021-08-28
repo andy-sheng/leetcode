@@ -214,6 +214,7 @@
 		A1FFD64A26D8D8E30006B1DF /* 73. Set Matrix Zeroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "73. Set Matrix Zeroes.h"; sourceTree = "<group>"; };
 		A1FFD64C26D8E14D0006B1DF /* 75. Sort Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "75. Sort Colors.h"; sourceTree = "<group>"; };
 		A1FFD64E26DA19E80006B1DF /* 82. Remove Duplicates from Sorted List II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "82. Remove Duplicates from Sorted List II.h"; sourceTree = "<group>"; };
+		A1FFD65026DA1D130006B1DF /* 80. Remove Duplicates from Sorted Array II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "80. Remove Duplicates from Sorted Array II.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -919,6 +920,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1FFD64F26DA1D090006B1DF /* 80. Remove Duplicates from Sorted Array II */,
 				A1FFD64D26DA19E40006B1DF /* 82. Remove Duplicates from Sorted List II */,
 				A1FFD64B26D8E1480006B1DF /* 75. Sort Colors */,
 				A1FFD64926D8D8DE0006B1DF /* 73. Set Matrix Zeroes */,
@@ -1912,6 +1914,14 @@
 				A1FFD64E26DA19E80006B1DF /* 82. Remove Duplicates from Sorted List II.h */,
 			);
 			path = "82. Remove Duplicates from Sorted List II";
+			sourceTree = "<group>";
+		};
+		A1FFD64F26DA1D090006B1DF /* 80. Remove Duplicates from Sorted Array II */ = {
+			isa = PBXGroup;
+			children = (
+				A1FFD65026DA1D130006B1DF /* 80. Remove Duplicates from Sorted Array II.h */,
+			);
+			path = "80. Remove Duplicates from Sorted Array II";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
