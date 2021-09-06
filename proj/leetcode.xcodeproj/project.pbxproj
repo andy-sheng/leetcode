@@ -100,6 +100,7 @@
 		A13FC03E23B283C8003DAA17 /* 919. Complete Binary Tree Inserter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "919. Complete Binary Tree Inserter.h"; sourceTree = "<group>"; };
 		A13FC04023B3C571003DAA17 /* 932. Beautiful Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "932. Beautiful Array.h"; sourceTree = "<group>"; };
 		A13FC04223B3CBA4003DAA17 /* 1031. Maximum Sum of Two Non-Overlapping Subarrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1031. Maximum Sum of Two Non-Overlapping Subarrays.h"; sourceTree = "<group>"; };
+		A141C4DC26E6798A0038BFC4 /* 71. Simplify Path.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "71. Simplify Path.h"; sourceTree = "<group>"; };
 		A141CB82235C47B1006E38C4 /* 921. Minimum Add to Make Parentheses Valid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "921. Minimum Add to Make Parentheses Valid.h"; sourceTree = "<group>"; };
 		A14F44F426CD74EA00953CC3 /* 91. Decode Ways .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "91. Decode Ways .h"; sourceTree = "<group>"; };
 		A14F44F626CD7B2100953CC3 /* 639. Decode Ways II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "639. Decode Ways II.h"; sourceTree = "<group>"; };
@@ -837,6 +838,14 @@
 			path = "1031. Maximum Sum of Two Non-Overlapping Subarrays";
 			sourceTree = "<group>";
 		};
+		A141C4DB26E679820038BFC4 /* 71. Simplify Path */ = {
+			isa = PBXGroup;
+			children = (
+				A141C4DC26E6798A0038BFC4 /* 71. Simplify Path.h */,
+			);
+			path = "71. Simplify Path";
+			sourceTree = "<group>";
+		};
 		A141CB81235C47A6006E38C4 /* 921. Minimum Add to Make Parentheses Valid */ = {
 			isa = PBXGroup;
 			children = (
@@ -921,6 +930,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A141C4DB26E679820038BFC4 /* 71. Simplify Path */,
 				A1B4B0A526E52E0A00C6D7FB /* 77. Combinations */,
 				A1FFD64F26DA1D090006B1DF /* 80. Remove Duplicates from Sorted Array II */,
 				A1FFD64D26DA19E40006B1DF /* 82. Remove Duplicates from Sorted List II */,
