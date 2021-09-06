@@ -153,6 +153,7 @@
 		A1A81B26248D15F800C83603 /* 445. Add Two Numbers II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "445. Add Two Numbers II.h"; sourceTree = "<group>"; };
 		A1A8E28C26CEC344008233E8 /* 90. Subsets II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "90. Subsets II.h"; sourceTree = "<group>"; };
 		A1B3C32023ABE7CE00C0B217 /* 553. Optimal Division.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "553. Optimal Division.h"; sourceTree = "<group>"; };
+		A1B4B0A626E52E1800C6D7FB /* 77. Combinations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "77. Combinations.h"; sourceTree = "<group>"; };
 		A1B71FEB2365913700EB34CC /* 1110. Delete Nodes And Return Forest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1110. Delete Nodes And Return Forest.h"; sourceTree = "<group>"; };
 		A1C05EA4235C91630077F738 /* 861. Score After Flipping Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "861. Score After Flipping Matrix.h"; sourceTree = "<group>"; };
 		A1C05EA6235CA1E10077F738 /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1111. Maximum Nesting Depth of Two Valid Parentheses Strings.h"; sourceTree = "<group>"; };
@@ -920,6 +921,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1B4B0A526E52E0A00C6D7FB /* 77. Combinations */,
 				A1FFD64F26DA1D090006B1DF /* 80. Remove Duplicates from Sorted Array II */,
 				A1FFD64D26DA19E40006B1DF /* 82. Remove Duplicates from Sorted List II */,
 				A1FFD64B26D8E1480006B1DF /* 75. Sort Colors */,
@@ -1447,6 +1449,14 @@
 				A1B3C32023ABE7CE00C0B217 /* 553. Optimal Division.h */,
 			);
 			path = "553. Optimal Division";
+			sourceTree = "<group>";
+		};
+		A1B4B0A526E52E0A00C6D7FB /* 77. Combinations */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4B0A626E52E1800C6D7FB /* 77. Combinations.h */,
+			);
+			path = "77. Combinations";
 			sourceTree = "<group>";
 		};
 		A1B71FEA2365913000EB34CC /* 1110. Delete Nodes And Return Forest */ = {

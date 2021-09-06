@@ -8,15 +8,14 @@
 
 #include <iostream>
 #include <time.h>
-#include "90. Subsets II.h"
+#include "77. Combinations.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> input = {1,1};
-    for (auto subset: P90::Solution().subsetsWithDup(input)) {
-        cout << "sub set: ";
-        for (auto item: subset) {
-            cout << item << " ";
+    vector<vector<int>> combinations = P77::Solution().combine(1,1);
+    for (auto combination: combinations) {
+        for (auto item: combination) {
+            cout << item <<" ";
         }
         cout << endl;
     }
