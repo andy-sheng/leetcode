@@ -120,6 +120,7 @@
 		A171BAA52363553B00B5061F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A171BAA72363565900B5061F /* 951. Flip Equivalent Binary Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "951. Flip Equivalent Binary Trees.h"; sourceTree = "<group>"; };
 		A171BAA923635AEE00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1123. Lowest Common Ancestor of Deepest Leaves.h"; sourceTree = "<group>"; };
+		A17F71A626EBC83400E51168 /* 63. Unique Paths II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "63. Unique Paths II.h"; sourceTree = "<group>"; };
 		A1816F1A2483994000F4C1DF /* 443. String Compression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "443. String Compression.h"; sourceTree = "<group>"; };
 		A18F21AF26A49810009EB007 /* 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1689. Partitioning Into Minimum Number Of Deci-Binary Numbers.h"; sourceTree = "<group>"; };
 		A18F21B126A49C8B009EB007 /* 1476. Subrectangle Queries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1476. Subrectangle Queries.h"; sourceTree = "<group>"; };
@@ -930,6 +931,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A17F71A526EBC82A00E51168 /* 63. Unique Paths II */,
 				A141C4DB26E679820038BFC4 /* 71. Simplify Path */,
 				A1B4B0A526E52E0A00C6D7FB /* 77. Combinations */,
 				A1FFD64F26DA1D090006B1DF /* 80. Remove Duplicates from Sorted Array II */,
@@ -1187,6 +1189,14 @@
 				A171BAA923635AEE00B5061F /* 1123. Lowest Common Ancestor of Deepest Leaves.h */,
 			);
 			path = "1123. Lowest Common Ancestor of Deepest Leaves";
+			sourceTree = "<group>";
+		};
+		A17F71A526EBC82A00E51168 /* 63. Unique Paths II */ = {
+			isa = PBXGroup;
+			children = (
+				A17F71A626EBC83400E51168 /* 63. Unique Paths II.h */,
+			);
+			path = "63. Unique Paths II";
 			sourceTree = "<group>";
 		};
 		A1816F19248398E200F4C1DF /* 443. String Compression */ = {
