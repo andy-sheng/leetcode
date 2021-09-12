@@ -23,6 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A10BA33026EDEAB2007B5C66 /* 74. Search a 2D Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "74. Search a 2D Matrix.h"; sourceTree = "<group>"; };
+		A10BA33226EDF0F2007B5C66 /* 79. Word Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "79. Word Search.h"; sourceTree = "<group>"; };
+		A10BA33426EE046F007B5C66 /* 11. Container With Most Water.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "11. Container With Most Water.h"; sourceTree = "<group>"; };
 		A10FC9C626D0E9FA0026A39E /* 86. Partition List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "86. Partition List.h"; sourceTree = "<group>"; };
 		A10FC9C826D0EEDC0026A39E /* 16. 3Sum Closest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "16. 3Sum Closest.h"; sourceTree = "<group>"; };
 		A1141FCD2370863A003E7E4B /* 841. Keys and Rooms .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "841. Keys and Rooms .h"; sourceTree = "<group>"; };
@@ -231,6 +234,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10BA32F26EDEAAB007B5C66 /* 74. Search a 2D Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				A10BA33026EDEAB2007B5C66 /* 74. Search a 2D Matrix.h */,
+			);
+			path = "74. Search a 2D Matrix";
+			sourceTree = "<group>";
+		};
+		A10BA33126EDF0ED007B5C66 /* 79. Word Search */ = {
+			isa = PBXGroup;
+			children = (
+				A10BA33226EDF0F2007B5C66 /* 79. Word Search.h */,
+			);
+			path = "79. Word Search";
+			sourceTree = "<group>";
+		};
+		A10BA33326EE0469007B5C66 /* 11. Container With Most Water */ = {
+			isa = PBXGroup;
+			children = (
+				A10BA33426EE046F007B5C66 /* 11. Container With Most Water.h */,
+			);
+			path = "11. Container With Most Water";
+			sourceTree = "<group>";
+		};
 		A10FC9C526D0E9F40026A39E /* 86. Partition List */ = {
 			isa = PBXGroup;
 			children = (
@@ -931,6 +958,9 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A10BA33326EE0469007B5C66 /* 11. Container With Most Water */,
+				A10BA33126EDF0ED007B5C66 /* 79. Word Search */,
+				A10BA32F26EDEAAB007B5C66 /* 74. Search a 2D Matrix */,
 				A17F71A526EBC82A00E51168 /* 63. Unique Paths II */,
 				A141C4DB26E679820038BFC4 /* 71. Simplify Path */,
 				A1B4B0A526E52E0A00C6D7FB /* 77. Combinations */,

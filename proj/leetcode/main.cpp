@@ -8,17 +8,20 @@
 
 #include <iostream>
 #include <time.h>
-#include "77. Combinations.h"
+#include "79. Word Search.h"
 
 int main(int argc, const char * argv[]) {
     
-    vector<vector<int>> combinations = P77::Solution().combine(1,1);
-    for (auto combination: combinations) {
-        for (auto item: combination) {
-            cout << item <<" ";
-        }
-        cout << endl;
-    }
+    vector<vector<char>> input = {
+        {'A','A','A','A','A','A'},
+        {'A','A','A','A','A','A'},
+        {'A','A','A','A','A','A'},
+        {'A','A','A','A','A','A'},
+        {'A','A','A','A','A','A'},
+        {'A','A','A','A','A','A'}
+    };
+    cout << P79::Solution().exist(input, "AAAAAAAAAAAAAAB") <<endl;
+    
     
     return 0;
 }
