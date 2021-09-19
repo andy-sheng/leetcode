@@ -181,6 +181,7 @@
 		A1CE71B526B6980100D78675 /* 54. Spiral Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "54. Spiral Matrix.h"; sourceTree = "<group>"; };
 		A1CE71B726B69F3A00D78675 /* 200. Number of Islands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "200. Number of Islands.h"; sourceTree = "<group>"; };
 		A1CE71B926B7093100D78675 /* 199. Binary Tree Right Side View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "199. Binary Tree Right Side View.h"; sourceTree = "<group>"; };
+		A1D18D9C26F74D4100C33AD6 /* 55. Jump Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "55. Jump Game.h"; sourceTree = "<group>"; };
 		A1DD0DA224A9025F00588495 /* 96. Unique Binary Search Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "96. Unique Binary Search Trees.h"; sourceTree = "<group>"; };
 		A1DD0DA424AA460A00588495 /* 61. Rotate List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "61. Rotate List.h"; sourceTree = "<group>"; };
 		A1DD0DA624ACF23C00588495 /* 103. Binary Tree Zigzag Level Order Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "103. Binary Tree Zigzag Level Order Traversal.h"; sourceTree = "<group>"; };
@@ -958,6 +959,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1D18D9B26F74D3B00C33AD6 /* 55. Jump Game */,
 				A10BA33326EE0469007B5C66 /* 11. Container With Most Water */,
 				A10BA33126EDF0ED007B5C66 /* 79. Word Search */,
 				A10BA32F26EDEAAB007B5C66 /* 74. Search a 2D Matrix */,
@@ -1683,6 +1685,14 @@
 				A1CE71B926B7093100D78675 /* 199. Binary Tree Right Side View.h */,
 			);
 			path = "199. Binary Tree Right Side View";
+			sourceTree = "<group>";
+		};
+		A1D18D9B26F74D3B00C33AD6 /* 55. Jump Game */ = {
+			isa = PBXGroup;
+			children = (
+				A1D18D9C26F74D4100C33AD6 /* 55. Jump Game.h */,
+			);
+			path = "55. Jump Game";
 			sourceTree = "<group>";
 		};
 		A1DD0DA124A9025500588495 /* 96. Unique Binary Search Trees */ = {
