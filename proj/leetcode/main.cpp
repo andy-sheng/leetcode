@@ -7,21 +7,16 @@
 //
 
 #include <iostream>
-#include <time.h>
-#include "79. Word Search.h"
+#include "39. Combination Sum.h"
 
 int main(int argc, const char * argv[]) {
-    
-    vector<vector<char>> input = {
-        {'A','A','A','A','A','A'},
-        {'A','A','A','A','A','A'},
-        {'A','A','A','A','A','A'},
-        {'A','A','A','A','A','A'},
-        {'A','A','A','A','A','A'},
-        {'A','A','A','A','A','A'}
-    };
-    cout << P79::Solution().exist(input, "AAAAAAAAAAAAAAB") <<endl;
-    
-    
+
+    vector<int> input = {2,3,6,7};
+    for (vector<int> ret: P39::Solution().combinationSum(input, 7)) {
+        for (auto i: ret) {
+            cout << i << " ";
+        }
+        cout << endl;
+    }
     return 0;
 }
