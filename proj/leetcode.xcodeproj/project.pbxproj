@@ -212,6 +212,7 @@
 		A1DF72152497CB600078909E /* 617. Merge Two Binary Trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "617. Merge Two Binary Trees.h"; sourceTree = "<group>"; };
 		A1E3FEFF276A4F6600AC595D /* 39. Combination Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "39. Combination Sum.h"; sourceTree = "<group>"; };
 		A1E3FF01276B8D3B00AC595D /* 40. Combination Sum II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "40. Combination Sum II.h"; sourceTree = "<group>"; };
+		A1E3FF03276B99D700AC595D /* 49. Group Anagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "49. Group Anagrams.h"; sourceTree = "<group>"; };
 		A1EA24912369F182009BAE43 /* 959. Regions Cut By Slashes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "959. Regions Cut By Slashes.h"; sourceTree = "<group>"; };
 		A1EA2493236B43AE009BAE43 /* 791. Custom Sort String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "791. Custom Sort String.h"; sourceTree = "<group>"; };
 		A1EA2495236C9DC6009BAE43 /* 912. Sort an Array .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "912. Sort an Array .h"; sourceTree = "<group>"; };
@@ -979,6 +980,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1E3FF02276B99D300AC595D /* 49. Group Anagrams */,
 				A1E3FF00276B8D3600AC595D /* 40. Combination Sum II */,
 				A1E3FEFE276A4F5400AC595D /* 39. Combination Sum */,
 				A155BF7426F9CFBC00BD8463 /* 17. Letter Combinations of a Phone Number */,
@@ -1920,6 +1922,14 @@
 				A1E3FF01276B8D3B00AC595D /* 40. Combination Sum II.h */,
 			);
 			path = "40. Combination Sum II";
+			sourceTree = "<group>";
+		};
+		A1E3FF02276B99D300AC595D /* 49. Group Anagrams */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3FF03276B99D700AC595D /* 49. Group Anagrams.h */,
+			);
+			path = "49. Group Anagrams";
 			sourceTree = "<group>";
 		};
 		A1EA24902369F17A009BAE43 /* 959. Regions Cut By Slashes */ = {
