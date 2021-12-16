@@ -7,10 +7,16 @@
 //
 
 #include <iostream>
-#include "49. Group Anagrams.h"
+#include "48. Rotate Image.h"
 
 int main(int argc, const char * argv[]) {
-    vector<string> input = {"eat","tea","tan","ate","nat","bat"};
-    P49::Solution().groupAnagrams(input);
+    vector<vector<int>> input = {{1,2},{3,4}};
+    P48::Solution().rotate(input);
+    for (auto row: input) {
+        for (auto item: row) {
+            cout << item <<" ";
+        }
+        cout << endl;
+    }
     return 0;
 }
