@@ -7,13 +7,15 @@
 //
 
 #include <iostream>
-#include "34. Find First and Last Position of Element in Sorted Array.h"
+#include "47. Permutations II.h"
 
 int main(int argc, const char * argv[]) {
-    vector<int> input = {1};
-    
-    for (auto item: P34::Solution().searchRange(input, 1)) {
-        cout << item <<" ";
+    vector<int> input {1,1,3};
+    for (auto i: P47::Solution().permuteUnique(input)) {
+        for (auto j: i) {
+            cout << j <<" ";
+        }
+        cout << endl;
     }
     return 0;
 }
