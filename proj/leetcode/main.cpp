@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "31. Next Permutation.h"
+#include "34. Find First and Last Position of Element in Sorted Array.h"
 
 int main(int argc, const char * argv[]) {
     vector<int> input = {1};
-    P31::Solution().nextPermutation(input);
-    for (auto item: input) {
+    
+    for (auto item: P34::Solution().searchRange(input, 1)) {
         cout << item <<" ";
     }
     return 0;
