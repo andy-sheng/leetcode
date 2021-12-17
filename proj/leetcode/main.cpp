@@ -7,16 +7,13 @@
 //
 
 #include <iostream>
-#include "48. Rotate Image.h"
+#include "31. Next Permutation.h"
 
 int main(int argc, const char * argv[]) {
-    vector<vector<int>> input = {{1,2},{3,4}};
-    P48::Solution().rotate(input);
-    for (auto row: input) {
-        for (auto item: row) {
-            cout << item <<" ";
-        }
-        cout << endl;
+    vector<int> input = {1};
+    P31::Solution().nextPermutation(input);
+    for (auto item: input) {
+        cout << item <<" ";
     }
     return 0;
 }
