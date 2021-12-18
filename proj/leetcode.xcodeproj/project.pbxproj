@@ -221,6 +221,7 @@
 		A1E3FF0F276DB2C700AC595D /* 45. Jump Game II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "45. Jump Game II.h"; sourceTree = "<group>"; };
 		A1E3FF11276DBC2B00AC595D /* 18. 4Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "18. 4Sum.h"; sourceTree = "<group>"; };
 		A1E3FF14276DD24500AC595D /* 50. Pow(x, n).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "50. Pow(x, n).h"; sourceTree = "<group>"; };
+		A1E3FF16276DD81600AC595D /* 29. Divide Two Integers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "29. Divide Two Integers.h"; sourceTree = "<group>"; };
 		A1EA24912369F182009BAE43 /* 959. Regions Cut By Slashes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "959. Regions Cut By Slashes.h"; sourceTree = "<group>"; };
 		A1EA2493236B43AE009BAE43 /* 791. Custom Sort String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "791. Custom Sort String.h"; sourceTree = "<group>"; };
 		A1EA2495236C9DC6009BAE43 /* 912. Sort an Array .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "912. Sort an Array .h"; sourceTree = "<group>"; };
@@ -988,6 +989,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1E3FF15276DD81100AC595D /* 29. Divide Two Integers */,
 				A1E3FF13276DD23B00AC595D /* 50. Pow(x, n) */,
 				A1E3FF10276DBC2400AC595D /* 18. 4Sum */,
 				A1E3FF0E276DB2C300AC595D /* 45. Jump Game II */,
@@ -2010,6 +2012,14 @@
 				A1E3FF14276DD24500AC595D /* 50. Pow(x, n).h */,
 			);
 			path = "50. Pow(x, n)";
+			sourceTree = "<group>";
+		};
+		A1E3FF15276DD81100AC595D /* 29. Divide Two Integers */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3FF16276DD81600AC595D /* 29. Divide Two Integers.h */,
+			);
+			path = "29. Divide Two Integers";
 			sourceTree = "<group>";
 		};
 		A1EA24902369F17A009BAE43 /* 959. Regions Cut By Slashes */ = {
