@@ -217,6 +217,7 @@
 		A1E3FF07276CDEB700AC595D /* 31. Next Permutation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "31. Next Permutation.h"; sourceTree = "<group>"; };
 		A1E3FF09276CED5600AC595D /* 34. Find First and Last Position of Element in Sorted Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "34. Find First and Last Position of Element in Sorted Array.h"; sourceTree = "<group>"; };
 		A1E3FF0B276CF62200AC595D /* 47. Permutations II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "47. Permutations II.h"; sourceTree = "<group>"; };
+		A1E3FF0D276DA6E100AC595D /* 43. Multiply Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "43. Multiply Strings.h"; sourceTree = "<group>"; };
 		A1EA24912369F182009BAE43 /* 959. Regions Cut By Slashes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "959. Regions Cut By Slashes.h"; sourceTree = "<group>"; };
 		A1EA2493236B43AE009BAE43 /* 791. Custom Sort String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "791. Custom Sort String.h"; sourceTree = "<group>"; };
 		A1EA2495236C9DC6009BAE43 /* 912. Sort an Array .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "912. Sort an Array .h"; sourceTree = "<group>"; };
@@ -984,6 +985,7 @@
 		A169987822FEBF7300F640E5 /* alog */ = {
 			isa = PBXGroup;
 			children = (
+				A1E3FF0C276DA6D900AC595D /* 43. Multiply Strings */,
 				A1E3FF0A276CF61C00AC595D /* 47. Permutations II */,
 				A1E3FF08276CED5200AC595D /* 34. Find First and Last Position of Element in Sorted Array */,
 				A1E3FF06276CDEB100AC595D /* 31. Next Permutation */,
@@ -1970,6 +1972,14 @@
 				A1E3FF0B276CF62200AC595D /* 47. Permutations II.h */,
 			);
 			path = "47. Permutations II";
+			sourceTree = "<group>";
+		};
+		A1E3FF0C276DA6D900AC595D /* 43. Multiply Strings */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3FF0D276DA6E100AC595D /* 43. Multiply Strings.h */,
+			);
+			path = "43. Multiply Strings";
 			sourceTree = "<group>";
 		};
 		A1EA24902369F17A009BAE43 /* 959. Regions Cut By Slashes */ = {

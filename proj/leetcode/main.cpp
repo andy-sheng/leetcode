@@ -7,15 +7,10 @@
 //
 
 #include <iostream>
-#include "47. Permutations II.h"
+#include "43. Multiply Strings.h"
 
 int main(int argc, const char * argv[]) {
-    vector<int> input {1,1,3};
-    for (auto i: P47::Solution().permuteUnique(input)) {
-        for (auto j: i) {
-            cout << j <<" ";
-        }
-        cout << endl;
-    }
+    string ret = P43::Solution().multiply("2", "3");
+    cout << ret << endl;
     return 0;
 }
