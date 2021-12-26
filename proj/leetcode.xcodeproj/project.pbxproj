@@ -117,6 +117,8 @@
 		A1E300AE276DEBC500AC595D /* 2. Add Two Numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2. Add Two Numbers.h"; sourceTree = "<group>"; };
 		A1E300B0276DEBC500AC595D /* 49. Group Anagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "49. Group Anagrams.h"; sourceTree = "<group>"; };
 		A1E300B2276E00B700AC595D /* 106. Construct Binary Tree from Inorder and Postorder Traversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "106. Construct Binary Tree from Inorder and Postorder Traversal.h"; sourceTree = "<group>"; };
+		A1E301362778751700AC595D /* 23. Merge k Sorted Lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "23. Merge k Sorted Lists.h"; sourceTree = "<group>"; };
+		A1E301372778755500AC595D /* Common.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.pch; sourceTree = "<group>"; };
 		A1E3FF18276DEBBB00AC595D /* 950. Reveal Cards In Increasing Order.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "950. Reveal Cards In Increasing Order.h"; sourceTree = "<group>"; };
 		A1E3FF1A276DEBBB00AC595D /* 947. Most Stones Removed with Same Row or Column.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "947. Most Stones Removed with Same Row or Column.h"; sourceTree = "<group>"; };
 		A1E3FF1C276DEBBB00AC595D /* 1140. Stone Game II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1140. Stone Game II.h"; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 				A1E30055276DEBC200AC595D /* 16. 3Sum Closest */,
 				A1E3FFE0276DEBC000AC595D /* 17. Letter Combinations of a Phone Number */,
 				A1E3FFC2276DEBBF00AC595D /* 18. 4Sum */,
+				A1E301352778750900AC595D /* 23. Merge k Sorted Lists */,
 				A1E3FF74276DEBBD00AC595D /* 25. Reverse Nodes in k-Group */,
 				A1E3FF23276DEBBB00AC595D /* 29. Divide Two Integers */,
 				A1E3FFFF276DEBC100AC595D /* 31. Next Permutation */,
@@ -480,6 +483,7 @@
 				A1E3FFAA276DEBBF00AC595D /* 1828. Queries on Number of Points Inside a Circle */,
 				A1E3FFB2276DEBBF00AC595D /* 1877. Minimize Maximum Pair Sum in Array */,
 				A12C8ADD234124DC000036C8 /* DataStructures.h */,
+				A1E301372778755500AC595D /* Common.pch */,
 			);
 			path = alog;
 			sourceTree = "<group>";
@@ -1188,6 +1192,14 @@
 				A1E300B2276E00B700AC595D /* 106. Construct Binary Tree from Inorder and Postorder Traversal.h */,
 			);
 			path = "106. Construct Binary Tree from Inorder and Postorder Traversal";
+			sourceTree = "<group>";
+		};
+		A1E301352778750900AC595D /* 23. Merge k Sorted Lists */ = {
+			isa = PBXGroup;
+			children = (
+				A1E301362778751700AC595D /* 23. Merge k Sorted Lists.h */,
+			);
+			path = "23. Merge k Sorted Lists";
 			sourceTree = "<group>";
 		};
 		A1E3FF17276DEBBB00AC595D /* 950. Reveal Cards In Increasing Order */ = {

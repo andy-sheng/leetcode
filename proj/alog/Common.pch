@@ -1,0 +1,14 @@
+//
+//  Common.pch
+//  leetcode
+//
+//  Created by andysheng on 2021/12/26.
+//  Copyright © 2021 Andy. All rights reserved.
+//
+
+#ifndef Common_pch
+#define Common_pch
+
+#include "DataStructures.h"
+
+#endif /* Common_pch */
